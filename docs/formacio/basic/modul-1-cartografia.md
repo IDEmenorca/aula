@@ -31,8 +31,8 @@ Qualsevol projecció implica necessàriament una deformació o distorsió d'algu
 
 ### 1.2. Sistemes de Referència Espacial (CRS) i Datums
 Per situar un punt a la Terra necessitem un **Sistema de Referència Espacial** (*Spatial Reference System* - SRS/CRS):
-*   **Coordenades Geogràfiques:** Expressades en graus de **Latitud** ($\phi$) i **Longitud** ($\lambda$).
-*   **Coordenades Projectades / Cartesianes:** Expressades en metres sobre un pla ($X, Y$ o *Easting, Northing*).
+*   **Coordenades Geogràfiques:** Expressades en graus de **latitud** (φ) i **longitud** (λ).
+*   **Coordenades Projectades / Cartesianes:** Expressades en metres sobre un pla (X, Y, o *easting* i *northing*).
 *   **Datum:** Paràmetre de referència que defineix la posició de l'el·lipsoide respecte al centre de la Terra. Canviar de datum implica un canvi significatiu en les coordenades d'un mateix punt.
 
 ---
@@ -105,7 +105,9 @@ Una **ortofoto** (o ortofotografia) és una imatge aèria rectificada mètricame
 
 A diferència d'una fotografia aèria convencional (on existeixen deformacions causades per la perspectiva de la càmera i les diferències d'elevació del terreny), en una ortofoto **tots els punts tenen la mateixa escala** i la mateixa validesa mètrica que un mapa topogràfic.
 
-$$	ext{Ortofoto} = 	ext{Fotografia Aèria} + 	ext{Ortorectificació (eliminació de la perspectiva i efecte del relleu)}$$
+!!! abstract "En una frase"
+    **Ortofoto = fotografia aèria + ortorectificació**, és a dir, eliminar-hi
+    la deformació de la perspectiva i l'efecte del relleu.
 
 *   En una ortofoto es poden **mesurar distàncies, àrees i angles directament** sobre la imatge amb total precisió.
 
@@ -126,7 +128,7 @@ La creació d'una ortofoto d'alta resolució (per exemple, les ortofotos del pro
     *   Equips de topògrafs mesuren amb GPS/GNSS de alta precisió punts clarament identificables a terra (creus pintades, cantonades de murs de pedra seca, fites).
     *   Aquests punts serveixen per a ancorar les imatges a les coordenades reals en el sistema **ETRS89 UTM 31N**.
 3.  **Aerotriangulació i Ajust de Bloc:**
-    *   Mitjançant càlculs matemàtics, es determinen exactament la posició ($X, Y, Z$) i l'orientació de la càmera en el moment de cada dispar.
+    *   Mitjançant càlculs matemàtics, es determinen exactament la posició (X, Y, Z) i l'orientació de la càmera en el moment de cada dispar.
 4.  **Generació del Model Digital de l'Elevació (MDE / MDT):**
     *   A partir del parell d'imatges estereoscòpiques (o mitjançant sensors LiDAR aerotransportats), es genera un model 3D del terreny (MDT) que recull les altituds i pendents del territori.
 5.  **Ortorectificació:**
