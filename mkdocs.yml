@@ -88,6 +88,7 @@ markdown_extensions:
       permalink: true
       permalink_title: Enllaç permanent a aquesta secció
   - pymdownx.details           # admonitions plegables
+  - pymdownx.keys              # tecles del teclat: ++esc++ → Esc
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -142,4 +143,19 @@ nav:
       - Curs intermedi:
           - Presentació del curs intermedi: formacio/intermedi/index.md
   - Manuals d'usuari:
-      - Índex de manuals: guies/index.md
+      - Presentació dels manuals: manuals/index.md
+      - Manual del visor genèric:
+          - Presentació del manual: manuals/visor-generic/index.md
+          - "1. Interfície i navegació": manuals/visor-generic/01-interficie.md
+          - "2. Panell de capes": manuals/visor-generic/02-panell-capes.md
+          - "3. Panell d'eines":
+              - Presentació del panell d'eines: manuals/visor-generic/03-eines/index.md
+              - "3.1. Dibuixar i mesurar": manuals/visor-generic/03-eines/01-dibuixar-mesurar.md
+              - "3.2. Imprimir": manuals/visor-generic/03-eines/02-imprimir.md
+              - "3.3. Descarregar": manuals/visor-generic/03-eines/03-descarregar.md
+              - "3.4. Compartir": manuals/visor-generic/03-eines/04-compartir.md
+          - "4. Selecció gràfica d'elements": manuals/visor-generic/04-seleccio-grafica.md
+          - "5. Consultes": manuals/visor-generic/05-consultes.md
+          - "6. Google Street View": manuals/visor-generic/06-street-view.md
+      - Manual del visor restringit:
+          - Presentació del manual: manuals/visor-restringit/index.md
