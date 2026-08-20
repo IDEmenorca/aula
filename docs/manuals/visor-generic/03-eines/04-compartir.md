@@ -4,8 +4,9 @@ Genera un enllaç a la vista actual del visor, o el codi per incrustar-la en una
 web. L'enllaç conserva l'estat complet: escala, extensió, mapes de fons, capes
 carregades, objectes seleccionats, dibuixos, cerques i fitxers afegits.
 
-!!! note "Captura pendent — `img/50-compartir-panell.png`"
-    Panell Compartir amb les icones de correu, QR, Facebook, X i marcador, i les pestanyes Compartir enllaç i Insertar mapa.
+<figure markdown>
+  ![Panell Compartir amb les icones de correu, QR, Facebook, X i marcador, i les pestanyes Compartir enllaç i Insertar mapa](img/50-compartir-panell.png){ .captura }
+</figure>
 
 ## Compartir enllaç
 
@@ -34,8 +35,9 @@ carregades, objectes seleccionats, dibuixos, cerques i fitxers afegits.
 La pestanya **Insertar mapa** genera el codi HTML d'una etiqueta `<iframe>` per
 incrustar el visor en una pàgina web, amb la mida que indiquis.
 
-!!! note "Captura pendent — `img/51-insertar-mapa.png`"
-    Pestanya Insertar mapa amb el codi de l'etiqueta iframe i el botó de copiar.
+<figure markdown>
+  ![Pestanya Insertar mapa amb el codi de l'etiqueta iframe i el botó de copiar](img/51-insertar-mapa.png){ .captura }
+</figure>
 
 !!! tip "Incrustar el visor en aquest lloc web"
     Si vols posar un visor dins d'una pàgina d'aquest portal, no enganxis el codi tal

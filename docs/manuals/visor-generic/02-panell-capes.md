@@ -8,8 +8,9 @@ amb el botó de panell de capes.
 
 ## 2.1. Capçalera del panell
 
-!!! note "Captura pendent — `img/10-capcalera-panell.png`"
-    Capçalera del panell amb l'enllaç d'ajuda i els selectors d'idioma ca, es i en.
+<figure markdown>
+  ![Capçalera del panell amb l'enllaç d'ajuda i els selectors d'idioma ca, es i en](img/10-capcalera-panell.png){ .captura }
+</figure>
 
 Conté l'enllaç **ajuda** i els selectors d'idioma. Es descriuen a
 [Ajuda i idioma](01-interficie.md#17-ajuda-i-idioma).
@@ -24,10 +25,10 @@ En obrir el visor es carreguen **dos** mapes de fons alhora: el mapa base de l'I
 Menorca i l'ortofoto de 2021. Només se'n veu un perquè el control lliscant està
 desplaçat del tot cap a un costat.
 
-!!! note "Captura pendent — `img/11-control-lliscant.png`"
-    Control lliscant entre l'ortofoto de 2021 i el mapa base de l'IDE Menorca.
-
-    Peu de foto previst: *El control lliscant alterna la transparència entre els dos mapes de fons.*
+<figure markdown>
+  ![Control lliscant entre l'ortofoto de 2021 i el mapa base de l'IDE Menorca](img/11-control-lliscant.png){ .captura }
+  <figcaption>El control lliscant alterna la transparència entre els dos mapes de fons.</figcaption>
+</figure>
 
 Per canviar-ne un:
 
@@ -47,13 +48,15 @@ Si el visor està en un sistema de coordenades diferent del que fa servir un map
 fons, a la miniatura d'aquell mapa hi apareix un símbol amb una fletxa. En seleccionar-lo,
 el visor canvia automàticament al sistema de referència compatible.
 
-!!! note "Captura pendent — `img/12-avis-crs.png`"
-    Miniatura d'un mapa de fons amb el símbol de fletxa que indica un CRS diferent.
+<figure markdown>
+  ![Miniatura d'un mapa de fons amb el símbol de fletxa que indica un CRS diferent](img/12-avis-crs.png){ .captura }
+</figure>
 
 ### Mapes de fons disponibles
 
-!!! note "Captura pendent — `img/13-graella-mapes-fons.png`"
-    Graella de miniatures amb tots els mapes de fons disponibles.
+<figure markdown>
+  ![Graella de miniatures amb tots els mapes de fons disponibles](img/13-graella-mapes-fons.png){ .captura }
+</figure>
 
 !!! warning "A revisar: el llistat ha quedat endarrerit"
     L'ortofoto més recent d'aquesta llista és la de **2021**, que era la darrera quan es
@@ -120,8 +123,9 @@ serveis de cartografia (IDEIB, IGN, Cadastre i altres). Hi ha dues maneres d'afe
 L'arbre presenta la informació organitzada per temàtiques. S'obre desplegat i es navega
 amb els botons d'expandir i contreure nodes.
 
-!!! note "Captura pendent — `img/14-arbre-capes.png`"
-    Arbre de capes amb un node desplegat i el cursor en forma de mà sobre una capa.
+<figure markdown>
+  ![Arbre de capes amb un node desplegat i el cursor en forma de mà sobre una capa](img/14-arbre-capes.png){ .captura }
+</figure>
 
 La forma del cursor indica què pots fer:
 
@@ -136,8 +140,9 @@ Si una capa ja està afegida al mapa, el seu nom apareix **ressaltat en verd**.
 
 L'altra manera és prémer la icona de la lupa, que obre una caixa de cerca.
 
-!!! note "Captura pendent — `img/15-cercador-capes.png`"
-    Cercador de capes amb resultats agrupats per servei.
+<figure markdown>
+  ![Cercador de capes amb resultats agrupats per servei](img/15-cercador-capes.png){ .captura }
+</figure>
 
 A partir del **tercer caràcter** comencen a sortir resultats. La cerca mira tant el
 títol com la descripció de cada capa. La llista mostra el nom de les capes trobades i
@@ -152,8 +157,9 @@ El panell permet canviar el **tema** del visor: refresca l'aplicació amb un arb
 capes diferent. Cada tema pot canviar quines capes hi ha disponibles, com estan
 organitzades, quines eines s'ofereixen i quins mapes de fons hi ha.
 
-!!! note "Captura pendent — `img/16-canviar-tema.png`"
-    Finestra de canvi de tema amb les icones dels temes disponibles.
+<figure markdown>
+  ![Finestra de canvi de tema amb les icones dels temes disponibles](img/16-canviar-tema.png){ .captura }
+</figure>
 
 Prem l'enllaç **Canviar tema** i tria'n un de la finestra que s'obre. En seleccionar-lo,
 el visor es refresca amb la configuració nova.
@@ -178,10 +184,10 @@ Aquest menú gestiona les capes que ja has afegit al mapa. Per defecte apareix b
 Quan el menú està plegat i hi ha capes carregades, un **cercle verd** n'indica el
 nombre. Al seu costat, una creu permet eliminar-les totes de cop, amb confirmació prèvia.
 
-!!! note "Captura pendent — `img/17-capes-carregades.png`"
-    Llista de capes carregades amb les icones de cada capa.
-
-    Peu de foto previst: *Cada capa carregada mostra el seu títol i les eines per interactuar-hi.*
+<figure markdown>
+  ![Llista de capes carregades amb les icones de cada capa](img/17-capes-carregades.png){ .captura }
+  <figcaption>Cada capa carregada mostra el seu títol i les eines per interactuar-hi.</figcaption>
+</figure>
 
 !!! tip "Capes en gris"
     Si el títol d'una capa apareix en gris clar, és que a l'escala actual no es dibuixa.

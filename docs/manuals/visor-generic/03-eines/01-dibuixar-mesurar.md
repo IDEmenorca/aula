@@ -4,10 +4,10 @@ Aquesta eina permet dibuixar punts, línies i polígons sobre el mapa. Els eleme
 dibuixats porten associada la seva informació geogràfica: coordenades, longitud o
 superfície. També es poden descarregar.
 
-!!! note "Captura pendent — `img/20-dibuixar-panell.png`"
-    Panell Dibuixar i medir amb les pestanyes de punts, línies i polígons.
-
-    Peu de foto previst: *L'eina s'organitza en tres pestanyes, una per tipus de geometria.*
+<figure markdown>
+  ![Panell Dibuixar i medir amb les pestanyes de punts, línies i polígons](img/20-dibuixar-panell.png){ .captura }
+  <figcaption>L'eina s'organitza en tres pestanyes, una per tipus de geometria.</figcaption>
+</figure>
 
 ## Pestanya de punts
 
@@ -19,8 +19,9 @@ canviar el color del traç, el color del farciment, l'opacitat i el gruix.
 | Llapis | Començar l'edició |
 | Creu | Cancel·lar l'edició |
 
-!!! note "Captura pendent — `img/21-punts.png`"
-    Pestanya de punts amb els controls de color, gruix i les coordenades del punt.
+<figure markdown>
+  ![Pestanya de punts amb els controls de color, gruix i les coordenades del punt](img/21-punts.png){ .captura }
+</figure>
 
 ## Pestanya de línies
 
@@ -40,10 +41,10 @@ i desfer o refer trams mentre dibuixes.
 En dibuixar una línia apareix el seu **perfil d'elevació**, amb el desnivell acumulat
 positiu i negatiu.
 
-!!! note "Captura pendent — `img/22-perfil-elevacio.png`"
-    Panell de perfil d'elevació amb la corba del terreny i el desnivell.
-
-    Peu de foto previst: *El perfil mostra el desnivell al llarg de la línia dibuixada.*
+<figure markdown>
+  ![Panell de perfil d'elevació amb la corba del terreny i el desnivell](img/22-perfil-elevacio.png){ .captura }
+  <figcaption>El perfil mostra el desnivell al llarg de la línia dibuixada.</figcaption>
+</figure>
 
 El botó amb la icona de muntanyes activa i desactiva el panell del perfil. L'alçada i
 l'amplada del panell s'ajusten amb els controls del lateral dret, de la part inferior i
@@ -56,8 +57,9 @@ color i el gruix del traç, el color i l'opacitat del farciment, i desfer o refe
 
 Els botons són els mateixos que a la pestanya de línies.
 
-!!! note "Captura pendent — `img/23-poligons.png`"
-    Pestanya de polígons mostrant àrea i perímetre del polígon dibuixat.
+<figure markdown>
+  ![Pestanya de polígons mostrant àrea i perímetre del polígon dibuixat](img/23-poligons.png){ .captura }
+</figure>
 
 ## Eines comunes als tres tipus
 
@@ -77,13 +79,15 @@ Aquestes eines estan disponibles en tot moment, sigui quina sigui la pestanya ac
 Un cop seleccionada una entitat, se'n pot canviar la forma: prem i arrossega un vèrtex
 per moure'l, o arrossega un punt intermedi per crear-ne un de nou.
 
-!!! note "Captura pendent — `img/24-modificar-geometria.png`"
-    Polígon abans i després de moure un vèrtex per modificar-ne la forma.
+<figure markdown>
+  ![Polígon abans i després de moure un vèrtex per modificar-ne la forma](img/24-modificar-geometria.png){ .captura }
+</figure>
 
 ### Descarregar el que has dibuixat
 
-!!! note "Captura pendent — `img/25-descarregar-dibuix.png`"
-    Diàleg de descàrrega del dibuix amb l'opció d'incloure elevacions i els formats disponibles.
+<figure markdown>
+  ![Diàleg de descàrrega del dibuix amb l'opció d'incloure elevacions i els formats disponibles](img/25-descarregar-dibuix.png){ .captura }
+</figure>
 
 El diàleg permet **incloure les elevacions**. En línies i polígons hi ha, a més, l'opció
 d'interpolar coordenades per obtenir l'elevació dels punts intermedis, no només dels

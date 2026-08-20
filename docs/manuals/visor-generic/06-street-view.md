@@ -9,8 +9,9 @@ carrer. El visor hi dóna accés directe.
    mapa que vulguis.
 2. S'obre un requadre amb les imatges a peu de carrer d'aquell punt.
 
-!!! note "Captura pendent — `img/80-icona-street-view.png`"
-    Icona de Google Street View a la columna d'eines del visor.
+<figure markdown>
+  ![Icona de Google Street View a la columna d'eines del visor](img/80-icona-street-view.png){ .captura }
+</figure>
 
 ## El mapa de situació
 

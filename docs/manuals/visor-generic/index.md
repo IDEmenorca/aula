@@ -29,7 +29,14 @@ completa de l'illa.
     són a la capçalera del panell de capes. En canviar d'idioma, el visor es refresca.
 
 !!! warning "A revisar abans de publicar"
-    Aquest manual s'ha redactat a partir del document *Manual d'usuari visor genèric IDE
-    Menorca*. Cal contrastar-lo amb la versió actual del visor: hi ha apartats on el
-    document original estava incomplet o havia quedat desfasat. Els punts concrets estan
-    marcats amb avisos «A verificar» dins de cada pàgina.
+    Aquest manual s'ha redactat a partir del document intern *Manual d'usuari visor
+    genèric IDE Menorca*, i **les captures són les d'aquell document**. Van quedar
+    endarrerides: hi surt l'ocellet de Twitter al panell de compartir i l'ortofoto de
+    2021 com la més recent de la graella de mapes de fons.
+
+    Cal contrastar el manual amb la versió actual del visor i anar refent les captures.
+    Els punts concrets que s'han de verificar estan marcats amb avisos «A verificar»
+    dins de cada pàgina.
+
+    Per substituir una captura: desa la nova amb el mateix nom a la carpeta `img/` del
+    costat. No cal tocar el text.

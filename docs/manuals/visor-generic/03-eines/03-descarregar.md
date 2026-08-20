@@ -3,8 +3,9 @@
 Aquesta eina ofereix dues descàrregues diferents: una **imatge** del mapa o les **dades
 vectorials** de les capes carregades.
 
-!!! note "Captura pendent — `img/40-descarregar-panell.png`"
-    Panell Descarregar amb les pestanyes Imatge del mapa i Capes vectorials.
+<figure markdown>
+  ![Panell Descarregar amb les pestanyes Imatge del mapa i Capes vectorials](img/40-descarregar-panell.png){ .captura }
+</figure>
 
 ## Imatge del mapa
 
@@ -14,8 +15,9 @@ mapes de fons, serveis WMS i fitxers carregats.
 Permet incloure un **codi QR** que enllaça amb la vista del mapa que ha generat la
 imatge.
 
-!!! note "Captura pendent — `img/41-descarregar-imatge.png`"
-    Pestanya d'imatge del mapa amb el selector de format i la casella del codi QR.
+<figure markdown>
+  ![Pestanya d'imatge del mapa amb el selector de format i la casella del codi QR](img/41-descarregar-imatge.png){ .captura }
+</figure>
 
 ## Capes vectorials
 
@@ -27,8 +29,9 @@ Descarrega les entitats que intersequen amb l'àrea que estàs visualitzant.
     sencera, només els elements visibles a l'extensió actual: per obtenir-la tota, fes
     servir el botó d'informació **i** de la capa al panell de capes carregades.
 
-!!! note "Captura pendent — `img/42-descarregar-vectorial.png`"
-    Pestanya de capes vectorials amb el selector de format.
+<figure markdown>
+  ![Pestanya de capes vectorials amb el selector de format](img/42-descarregar-vectorial.png){ .captura }
+</figure>
 
 ### Què no es pot descarregar
 

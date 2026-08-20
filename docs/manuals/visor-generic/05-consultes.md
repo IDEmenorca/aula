@@ -12,8 +12,9 @@ mostra els atributs en una taula.
 S'accedeix des del panell de **capes carregades**, amb el botó de la lupa de la capa
 que vulguis consultar.
 
-!!! note "Captura pendent — `img/70-boto-consultes.png`"
-    Botó de consultes ressaltat a la fila d'una capa carregada.
+<figure markdown>
+  ![Botó de consultes ressaltat a la fila d'una capa carregada](img/70-boto-consultes.png){ .captura }
+</figure>
 
 Si la capa és en realitat un **grup de capes**, el visor et demanarà primer sobre quina
 capa concreta vols consultar.
@@ -24,8 +25,9 @@ capa concreta vols consultar.
 2. **Tria el criteri.** Les opcions depenen del tipus d'atribut.
 3. **Indica el valor**, prem **Afegir** i després **Cercar**.
 
-!!! note "Captura pendent — `img/71-consulta-dialeg.png`"
-    Diàleg de consulta alfanumèrica amb el desplegable d'atributs, els criteris i la caixa de valor.
+<figure markdown>
+  ![Diàleg de consulta alfanumèrica amb el desplegable d'atributs, els criteris i la caixa de valor](img/71-consulta-dialeg.png){ .captura }
+</figure>
 
 ### Criteris segons el tipus d'atribut
 
@@ -82,10 +84,10 @@ potencia_watios   major que  200
 
 ## 5.3. Els resultats
 
-!!! note "Captura pendent — `img/72-resultats-consulta.png`"
-    Taula de resultats d'una consulta amb els elements ressaltats en vermell sobre el mapa.
-
-    Peu de foto previst: *Els elements que compleixen els criteris queden ressaltats en vermell.*
+<figure markdown>
+  ![Taula de resultats d'una consulta amb els elements ressaltats en vermell sobre el mapa](img/72-resultats-consulta.png){ .captura }
+  <figcaption>Els elements que compleixen els criteris queden ressaltats en vermell.</figcaption>
+</figure>
 
 Els resultats surten en una taula, centrats al mapa i ressaltats en vermell. En prémer
 una fila de la taula, el mapa se situa sobre aquell element.
@@ -105,8 +107,9 @@ tipus lineal.
 A la consulta per atributs s'hi pot afegir un criteri espacial. Per fer-ho, tria
 l'atribut **`the_geom` (geometry)** del llistat d'atributs.
 
-!!! note "Captura pendent — `img/73-filtre-espacial.png`"
-    Diàleg de consulta amb l'atribut the_geom seleccionat i els criteris interseca i dins.
+<figure markdown>
+  ![Diàleg de consulta amb l'atribut the_geom seleccionat i els criteris interseca i dins](img/73-filtre-espacial.png){ .captura }
+</figure>
 
 | Criteri | Què selecciona |
 |---|---|

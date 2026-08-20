@@ -5,14 +5,10 @@ l'illa. Aquest apartat descriu què hi ha a la pantalla i com moure-s'hi.
 
 ## 1.1. Les parts de la pantalla
 
-!!! note "Captura pendent — `img/01-interficie-general.png`"
-    El visor acabat d'obrir, amb tota l'illa visible i els **quinze elements numerats**
-    amb globus sobre la imatge, en el mateix ordre de la taula de sota.
-
-    És la captura més important del manual: convé fer-la a pantalla ampla i que s'hi
-    llegeixin bé els números.
-
-    Peu de foto previst: *Interfície per defecte del visor genèric.*
+<figure markdown>
+  ![El visor amb tota l'illa de Menorca visible i els quinze elements de la interfície numerats amb globus grocs sobre la imatge](img/01-interficie-general.png){ .captura }
+  <figcaption>Interfície per defecte del visor genèric.</figcaption>
+</figure>
 
 | # | Element | Ubicació |
 |---|---|---|
@@ -52,17 +48,18 @@ També es pot navegar amb els botons de zoom, descrits a continuació.
 
 Els botons **+** i **−** de la columna esquerra apropen i allunyen el mapa.
 
-!!! note "Captura pendent — `img/02-botons-zoom.png`"
-    Detall retallat dels botons de zoom: dos botons quadrats negres, **+** i **−**,
-    apilats verticalment.
+<figure markdown>
+  ![Els dos botons de zoom, quadrats i negres, amb els signes més i menys, apilats verticalment](img/02-botons-zoom.png){ .captura }
+</figure>
 
 ## 1.4. Tornar a l'extensió inicial
 
 El botó d'**extensió inicial**, amb la icona d'una casa, torna el mapa a la vista de
 partida, on es veu tota l'illa de Menorca.
 
-!!! note "Captura pendent — `img/03-extensio-inicial.png`"
-    Botó d'extensió inicial amb icona de casa.
+<figure markdown>
+  ![Botó d'extensió inicial amb icona de casa](img/03-extensio-inicial.png){ .captura }
+</figure>
 
 !!! warning "Compte amb els límits d'escala"
     Si tens capes carregades amb un límit de visualització, en tornar a l'extensió
@@ -77,19 +74,19 @@ El botó de **pantalla completa** maximitza el visor i n'amaga la resta de la p�
 
 Per sortir-ne, torna a prémer el botó o la tecla ++esc++.
 
-!!! note "Captura pendent — `img/04-pantalla-completa.png`"
-    Els dos estats del botó de pantalla completa: negre quan s'hi entra, vermell quan
-    ja s'hi és a dins.
+<figure markdown>
+  ![Els dos estats del botó de pantalla completa: negre quan s'hi entra, vermell quan ja s'hi és a dins](img/04-pantalla-completa.png){ .captura }
+</figure>
 
 ## 1.6. Sistema de coordenades i coordenades del cursor
 
 Al cantó inferior esquerre, un indicador mostra en tot moment el sistema de referència
 de coordenades (CRS) actiu i les coordenades del punt on hi ha el cursor.
 
-!!! note "Captura pendent — `img/05-indicador-crs.png`"
-    Indicador de CRS mostrant EPSG:25831 i les coordenades x i y del cursor.
-
-    Peu de foto previst: *L'indicador mostra el CRS actiu i les coordenades del cursor.*
+<figure markdown>
+  ![Indicador de CRS mostrant EPSG:25831 i les coordenades x i y del cursor](img/05-indicador-crs.png){ .captura }
+  <figcaption>L'indicador mostra el CRS actiu i les coordenades del cursor.</figcaption>
+</figure>
 
 En prémer el botó del sistema de referència s'obre un quadre que indica la projecció
 actual del mapa i quins altres sistemes hi són compatibles. La projecció per defecte és

@@ -2,8 +2,9 @@
 
 Genera un PDF del mapa que estàs veient en aquell moment.
 
-!!! note "Captura pendent — `img/30-imprimir-panell.png`"
-    Panell Imprimir amb els camps de títol, disseny, mida i la casella del codi QR.
+<figure markdown>
+  ![Panell Imprimir amb els camps de títol, disseny, mida i la casella del codi QR](img/30-imprimir-panell.png){ .captura }
+</figure>
 
 ## Opcions
 
