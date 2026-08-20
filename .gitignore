@@ -30,3 +30,8 @@ ENV/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# --- Documents d'origen ---
+# Documents interns de treball. Vegeu _origen/README.md.
+_origen/*
+!_origen/README.md
