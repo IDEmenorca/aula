@@ -1,0 +1,32 @@
+# --- MkDocs ---
+site/
+.cache/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# --- Entorns virtuals ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Fitxers d'entorn i secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Eines i editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema operatiu ---
+.DS_Store
+Thumbs.db
+desktop.ini

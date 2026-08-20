@@ -1,0 +1,7 @@
+# Aula IDE Menorca — dependències de construcció del lloc
+# Versions fixades a propòsit: la mateixa construcció en local i a CI.
+# Per actualitzar: pujar la versió aquí, provar-ho en local i obrir un PR.
+
+mkdocs-material==9.7.7
+mkdocs-glightbox==0.5.2
+mkdocs-git-revision-date-localized-plugin==1.5.3

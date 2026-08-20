@@ -1,0 +1,85 @@
+/* =========================================================================
+   Aula IDE Menorca — estils propis
+   ========================================================================= */
+
+/* -------------------------------------------------------------------------
+   Contenidors responsius per a iframes (visors cartogràfics i vídeos).
+
+   Ús:
+     <div class="iframe-wrap">
+       <iframe src="..." allowfullscreen loading="lazy"></iframe>
+     </div>
+
+   Per a vídeo, afegiu la classe modificadora .iframe-wrap--video (16:9).
+   Per defecte s'usa 4:3, que s'ajusta millor a un visor cartogràfic.
+   ------------------------------------------------------------------------- */
+.iframe-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  margin: 1.2rem 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  overflow: hidden;
+  background-color: var(--md-default-bg-color);
+}
+
+.iframe-wrap--video {
+  aspect-ratio: 16 / 9;
+}
+
+/* Limita l'alçada en pantalles molt amples perquè el visor no domini la pàgina */
+.iframe-wrap {
+  max-height: 70vh;
+}
+
+.iframe-wrap > iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* En pantalles petites, un visor massa baix és inservible: donem-li més alçada */
+@media screen and (max-width: 44.9375em) {
+  .iframe-wrap {
+    aspect-ratio: 3 / 4;
+    max-height: 80vh;
+  }
+  .iframe-wrap--video {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Captures de pantalla
+   Les captures d'aplicacions solen ser molt amples; les limitem perquè no
+   trenquin el ritme de lectura i les marquem visualment com a captura.
+   ------------------------------------------------------------------------- */
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+  max-height: 32rem;      /* evita captures verticals desmesurades */
+  border-radius: 0.2rem;
+}
+
+/* Captura amb marc: ![...](img/x.png){ .captura } */
+.md-typeset .captura {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Peu de foto quan la imatge va dins d'un <figure> */
+.md-typeset figure figcaption {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+}
+
+/* -------------------------------------------------------------------------
+   Targetes de la portada (graella de Material)
+   ------------------------------------------------------------------------- */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 0.3rem;
+}

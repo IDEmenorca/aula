@@ -1,0 +1,145 @@
+# =============================================================================
+# Aula IDE Menorca — configuració de MkDocs
+# Consell Insular de Menorca · Departament de Cartografia
+# =============================================================================
+
+site_name: Aula IDE Menorca
+site_description: >-
+  Portal de formació en Infraestructures de Dades Espacials del Consell Insular
+  de Menorca. Cursos i guies sobre la IDE Menorca i el seu visor cartogràfic.
+site_author: Consell Insular de Menorca · Departament de Cartografia
+copyright: >-
+  © Consell Insular de Menorca · Departament de Cartografia
+
+# -----------------------------------------------------------------------------
+# <PENDENT: confirmar> — subdomini definitiu del lloc publicat.
+# S'hi ha posat el valor assumit (formacio.ide.cime.es) perquè MkDocs valida
+# site_url com una URL real i un marcador de text faria fallar la construcció.
+# Si canvia el subdomini, cal actualitzar-lo AQUÍ i a docs/CNAME. Vegeu DEPLOY.md.
+# -----------------------------------------------------------------------------
+site_url: https://formacio.ide.cime.es/
+
+repo_url: https://github.com/IDEmenorca/aula
+repo_name: IDEmenorca/aula
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: ca
+
+  # Logotip de la capçalera i icona de pestanya (l'original de cartografia.cime.es).
+  # Excepció a la regla d'imatges: docs/assets/ és per a elements del lloc
+  # (logotip, icones), no per a captures de contingut, que van a l'img/ de cada secció.
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  palette:
+    # Mode clar
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      # L'accent tenyeix enllaços i elements interactius. Sobre fons blanc, el
+      # verd llima del logotip no arriba al contrast mínim exigible a una web
+      # pública, per això aquí s'usa un verd fosc i el llima es reserva al mode fosc.
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Canvia al mode fosc
+    # Mode fosc
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Canvia al mode clar
+  features:
+    - navigation.sections      # agrupa les seccions al menú lateral
+    - navigation.top           # botó "torna a dalt"
+    - navigation.instant       # navegació sense recàrrega de pàgina
+    - content.action.edit      # botó "edita aquesta pàgina" (usa edit_uri)
+    - content.code.copy        # botó de còpia als blocs de codi
+    - search.suggest           # suggeriments mentre s'escriu al cercador
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://ide.cime.es
+      name: IDE Menorca
+
+# -----------------------------------------------------------------------------
+# Extensions de Markdown
+# -----------------------------------------------------------------------------
+markdown_extensions:
+  - admonition                 # blocs !!! note, !!! warning, etc.
+  - attr_list                  # atributs {: .classe } — necessari per a les graelles
+  - md_in_html                 # Markdown dins de blocs HTML (iframes, targetes)
+  - footnotes
+  - toc:
+      permalink: true
+      permalink_title: Enllaç permanent a aquesta secció
+  - pymdownx.details           # admonitions plegables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# -----------------------------------------------------------------------------
+# Connectors
+# -----------------------------------------------------------------------------
+plugins:
+  - search:
+      # lunr.js no té stemmer per al català. El castellà comparteix prou
+      # morfologia (plurals -s/-es, sufixos verbals) per donar millors resultats
+      # que l'anglès sobre text català.
+      # <A REVISAR> si algun dia apareix suport de català a lunr-languages.
+      lang: es
+  - glightbox                  # ampliació de les captures de pantalla
+  - git-revision-date-localized:
+      locale: ca
+      type: date
+      enable_creation_date: true
+      # Evita que la construcció falli en clons superficials o fora de Git.
+      # A CI el checkout fa fetch-depth: 0, per tant s'hi usen dates reals.
+      fallback_to_build_date: true
+
+# -----------------------------------------------------------------------------
+# Navegació — definida explícitament; no depèn de l'ordre alfabètic dels fitxers
+# -----------------------------------------------------------------------------
+nav:
+  - Inici: index.md
+  - Formació:
+      - Com funciona la formació: formacio/index.md
+      - Curs bàsic:
+          - Presentació del curs bàsic: formacio/basic/index.md
+          - "Mòdul 1. Conceptes bàsics de cartografia i dades geogràfiques": formacio/basic/modul-1-cartografia.md
+          - "Mòdul 2. Introducció a les Infraestructures de Dades Espacials": formacio/basic/modul-2-ide.md
+          - "Mòdul 3. Característiques de la IDE Menorca": formacio/basic/modul-3-ide-menorca.md
+          - "Mòdul 4. Visor genèric de la IDE Menorca":
+              - Presentació del mòdul 4: formacio/basic/modul-4-visor/index.md
+              - "4.1. Eines de navegació sobre el mapa": formacio/basic/modul-4-visor/01-navegacio.md
+              - "4.2. Control de mapes de fons": formacio/basic/modul-4-visor/02-mapes-de-fons.md
+              - "4.3. Mesurar i dibuixar elements": formacio/basic/modul-4-visor/03-mesurar-dibuixar.md
+              - "4.4. Localitzar i obtenir coordenades": formacio/basic/modul-4-visor/04-localitzar-coordenades.md
+              - "4.5. Buscar i carregar capes temàtiques": formacio/basic/modul-4-visor/05-capes-tematiques.md
+              - "4.6. Consulta dels atributs de les capes carregades": formacio/basic/modul-4-visor/06-consulta-atributs.md
+              - "4.7. Treballar amb el cadastre": formacio/basic/modul-4-visor/07-cadastre.md
+              - "4.8. Metadades de la informació": formacio/basic/modul-4-visor/08-metadades.md
+              - "4.9. Visualitzar fitxers de cartografia al visor IDE Menorca": formacio/basic/modul-4-visor/09-fitxers-propis.md
+          - "Mòdul 5. Prova escrita d'avaluació": formacio/basic/modul-5-avaluacio.md
+      - Curs intermedi:
+          - Presentació del curs intermedi: formacio/intermedi/index.md
+  - Manuals d'usuari:
+      - Índex de manuals: guies/index.md

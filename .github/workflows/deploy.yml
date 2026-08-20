@@ -1,0 +1,72 @@
+# =============================================================================
+# Construcció i desplegament de l'Aula IDE Menorca a GitHub Pages.
+#
+# Fa servir el mètode d'artefacte d'Actions (upload-pages-artifact +
+# deploy-pages) en lloc de `mkdocs gh-deploy`. Motius:
+#   · és el mètode recomanat actualment per GitHub;
+#   · no cal branca gh-pages ni que el workflow escrigui al repositori;
+#   · el domini personalitzat es gestiona des de Settings → Pages.
+# =============================================================================
+
+name: Desplegament a GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Permisos mínims necessaris per publicar a Pages amb OIDC.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un sol desplegament alhora. No cancel·lem els que ja estan en curs perquè
+# un desplegament a mig fer deixaria el lloc en un estat indeterminat.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Construeix el lloc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descarrega el codi
+        uses: actions/checkout@v7
+        with:
+          # Historial complet: el connector git-revision-date-localized
+          # necessita els commits per calcular la data de cada pàgina.
+          fetch-depth: 0
+
+      - name: Prepara Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Instal·la les dependències
+        run: pip install -r requirements.txt
+
+      - name: Construeix amb MkDocs
+        # --strict: qualsevol avís (enllaç intern trencat, pàgina fora de la
+        # nav, referència inexistent) atura la construcció i no es publica res.
+        run: mkdocs build --strict
+
+      - name: Puja l'artefacte de Pages
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    name: Desplega a GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Desplega
+        id: deployment
+        uses: actions/deploy-pages@v5

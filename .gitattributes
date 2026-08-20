@@ -1,0 +1,13 @@
+# Normalitza els finals de línia: LF al repositori, sempre.
+# Els editors són a Windows i el runner de GitHub Actions és Linux; sense això
+# els diffs s'omplirien de canvis fantasma de CRLF.
+* text=auto eol=lf
+
+# Binaris: que Git no els toqui
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text eol=lf
+*.pdf binary
+*.ico binary
