@@ -5,7 +5,7 @@ Cursos de formació i manuals d'usuari de les eines del projecte IDE Menorca.
 Codi font del portal, mantingut pel Departament de Cartografia del
 **Consell Insular de Menorca**.
 
-El lloc publicat: <https://formacio.ide.cime.es> *(pendent de confirmar el
+TODO: *El lloc publicat: <https://formacio.ide.cime.es> (pendent de confirmar el
 subdomini definitiu — vegeu [DEPLOY.md](DEPLOY.md))*
 
 Està fet amb [MkDocs](https://www.mkdocs.org/) i el tema
