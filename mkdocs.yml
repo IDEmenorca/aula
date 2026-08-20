@@ -15,7 +15,10 @@ copyright: >-
 # <PENDENT: confirmar> — subdomini definitiu del lloc publicat.
 # S'hi ha posat el valor assumit (formacio.ide.cime.es) perquè MkDocs valida
 # site_url com una URL real i un marcador de text faria fallar la construcció.
-# Si canvia el subdomini, cal actualitzar-lo AQUÍ i a docs/CNAME. Vegeu DEPLOY.md.
+# D'aquí surten els enllaços canònics i el sitemap.xml. Mentre el domini propi
+# no estigui configurat, el lloc se serveix des d'idemenorca.github.io/aula/.
+# Si canvia el subdomini, cal actualitzar-lo aquí i a Settings → Pages del
+# repositori (no hi ha cap fitxer CNAME: vegeu DEPLOY.md).
 # -----------------------------------------------------------------------------
 site_url: https://formacio.ide.cime.es/
 
@@ -59,6 +62,8 @@ theme:
   features:
     - navigation.sections      # agrupa les seccions al menú lateral
     - navigation.top           # botó "torna a dalt"
+    - navigation.tabs          # pestanyes per a les seccions de primer nivell
+    - navigation.tracking      # l'URL segueix l'apartat que es va llegint
     - navigation.instant       # navegació sense recàrrega de pàgina
     - content.action.edit      # botó "edita aquesta pàgina" (usa edit_uri)
     - content.code.copy        # botó de còpia als blocs de codi
