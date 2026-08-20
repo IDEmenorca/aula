@@ -4,7 +4,7 @@
 
 **La Terra no és plana!!** Si algú us n'intenta convèncer aixequeu-vos i marxeu corrents sense ni dir adeu! Tampoc és una esfera perfecta. La Terra és un **geoide** irregular, lleig i deforme. Ens sap greu haver de ser noltros qui us obri els ulls a aquesta realitat.
 
-I justament com que la terra no és plana ni tampoc és una esfera perfecta, els que fem mapes tenim molts maldecaps. Però molts. Mireu aquest vídeo que ho explica molt bé.
+I justament com que la terra no és plana ni tampoc és una esfera perfecta, els que fem mapes tenim molts maldecaps. Però molts. Mireu si no aquest vídeo, que ho explica molt bé.
 
 <div class="iframe-wrap iframe-wrap--video">
   <iframe src="https://www.youtube-nocookie.com/embed/kIID5FDi2JQ"
@@ -15,7 +15,7 @@ I justament com que la terra no és plana ni tampoc és una esfera perfecta, els
           allowfullscreen></iframe>
 </div>
 
-Com heu vist, el problema apareix quan volem representar aquesta superfície tridimensional i corba que és la Terra sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Per a fer-ho hem inventat el concepte de **projecció cartogràfica**. 
+Com heu vist, el problema apareix quan volem representar aquesta superfície tridimensional i corba que és la Terra sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Idò bé, per mirar de resoldre el problema ens hem inventat el concepte de **projecció cartogràfica**, que és una manera elegant de dir que fem totes les trampes que podem hora de representar la realitat en un mapa. De projeccions cartogràfiques n'hi ha un munt, tants com trampes diferents som capaços d'imaginar. I ja sabeu que si en alguna cosa destaca l'homo sapiens es en imaginar maneres de fer trampes. 
 
 <figure markdown>
   ![Infografia sobre la forma de la Terra: el mite de la Terra plana, la simplificació de l'esfera perfecta i la realitat del geoide i l'el·lipsoide de revolució, i com es passa d'una superfície corba a un pla amb projeccions cilíndriques i còniques](img/01-forma-de-la-terra.png){ .captura }
