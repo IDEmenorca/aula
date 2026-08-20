@@ -47,9 +47,14 @@ PREVISTOS_BUITS: dict[str, str] = {
 
 # Pseudoclasses d'estat: no es poden comprovar sobre HTML estàtic, es treuen
 # del selector abans de provar-lo.
+# Compte amb l'ordre: les alternatives llargues han d'anar ABANS que les que
+# en són prefix. Amb "focus" davant de "focus-within", el guionet fa de límit
+# de paraula, es retalla només ":focus" i queda un "-within" penjant que no
+# coincideix amb res.
 ESTATS = re.compile(
-    r"::?(hover|focus|focus-visible|focus-within|active|visited|target|"
-    r"before|after|placeholder|selection|marker|first-line|first-letter)\b"
+    r"::?(hover|focus-within|focus-visible|focus|active|visited|target|"
+    r"before|after|placeholder|selection|marker|first-line|first-letter|"
+    r"-webkit-scrollbar(-thumb|-track|-corner|-button)?)\b"
 )
 
 COMENTARIS = re.compile(r"/\*.*?\*/", re.DOTALL)

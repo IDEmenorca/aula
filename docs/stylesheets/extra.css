@@ -118,6 +118,46 @@
     color: var(--md-default-fg-color);
     margin-top: 1.4rem;
     padding-bottom: 0.3rem;
-    border-bottom: 1px solid var(--md-default-fg-color--lighter);
+    /* Sense filet: amb toc.integrate el menú ja és llarg i les línies
+       horitzontals l'atapeïen. La negreta i l'aire de sobre ja separen prou. */
   }
+}
+
+/* -------------------------------------------------------------------------
+   Línia vertical de l'índex de la pàgina (toc.integrate)
+
+   Material la dibuixa amb --md-primary-fg-color:
+
+     .md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary
+       { border-left: .05rem solid var(--md-primary-fg-color) }
+
+   Amb un color primari viu queda bé, però el nostre primari és NEGRE i el
+   resultat és una barra dura enmig del menú. La deixem en un gris clar: encara
+   marca la jerarquia, però no crida.
+   ------------------------------------------------------------------------- */
+.md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary {
+  border-left-color: var(--md-default-fg-color--lightest);
+}
+
+/* Una mica d'aire entre les entrades de l'índex, que van molt juntes */
+.md-nav--integrated .md-nav--secondary .md-nav__link {
+  margin-top: 0.35rem;
+}
+
+/* -------------------------------------------------------------------------
+   Barra de desplaçament del menú lateral
+
+   Per defecte Material la pinta del color d'accent en passar-hi el ratolí o
+   en rebre el focus, cosa que amb el nostre accent la converteix en una barra
+   verda molt llampant al costat del text. La deixem grisa sempre, només un
+   punt més fosca quan s'hi interactua perquè segueixi donant resposta.
+   ------------------------------------------------------------------------- */
+.md-sidebar__scrollwrap:focus-within,
+.md-sidebar__scrollwrap:hover {
+  scrollbar-color: var(--md-default-fg-color--light) transparent;
+}
+
+.md-sidebar__scrollwrap:focus-within::-webkit-scrollbar-thumb,
+.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb {
+  background-color: var(--md-default-fg-color--light);
 }

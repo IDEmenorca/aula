@@ -39,7 +39,7 @@ Per situar un punt a la Terra necessitem un **Sistema de Referència Espacial** 
 
 ## 2. Projeccions Geogràfiques Oficials a Espanya i Menorca
 
-A l'estat espanyol i en l'àmbit de la Comunitat Autònoma de les Illes Balears, la normativa vigent (*Real Decreto 1071/2007*) estableix el sistema de referència geodesic oficial.
+A l'estat espanyol i en l'àmbit de la Comunitat Autònoma de les Illes Balears, la normativa vigent (*Real Decreto 1071/2007*) estableix el sistema de referència geodèsic oficial.
 
 ### 2.1. El Sistema ETRS89
 *   **Sistema de Referència Oficial:** **ETRS89** (*European Terrestrial Reference System 1989*).
@@ -48,9 +48,9 @@ A l'estat espanyol i en l'àmbit de la Comunitat Autònoma de les Illes Balears,
 
 ### 2.2. La Projecció UTM (Universal Transverse Mercator)
 La projecció oficial per a cartografia terrestre a Espanya és la **UTM**:
-*   És una projecció **cilíndrica, transversal i conforma**.
+*   És una projecció **cilíndrica, transversal i conforme**.
 *   Divideix la Terra en **60 husos** (zones de 6° de longitud cadascun).
-*   **L'arxipèlag balear (inclosa Menorca) es troba integrament en el Hús 31 North (31N).**
+*   **L'arxipèlag balear (inclosa Menorca) es troba íntegrament al fus 31 nord (31N).**
 
 ### 2.3. Codificació EPSG Oficial per a Menorca
 En els programes de SIG (QGIS, ArcGIS, visualitzadors web), els sistemes de referència s'identifiquen mitjançant codis del **EPSG** (*European Petroleum Survey Group*):
@@ -62,7 +62,7 @@ En els programes de SIG (QGIS, ArcGIS, visualitzadors web), els sistemes de refe
 | WGS 84 / Pseudo-Mercator | EPSG:3857 | Capes base web (Google Maps, OpenStreetMap, Carto) |
 | ED50 / UTM zone 31N | EPSG:23031 | **OBSOLET.** Només per a cartografia històrica anterior a 2007 |
 
-> **Atenció per a tècnics locals:** En carregar dades cartogràfiques als visors municipals o QGIS, comproveu sempre que la capa estigui definida en **EPSG:25831**. Barrejar EPSG:23031 (ED50) amb EPSG:25831 (ETRS89) provocat que els edificis o parcel·les apareguin "desplaçats" uns 200 metres a la mar o sobre la finca del veí.
+> **Atenció per a tècnics locals:** En carregar dades cartogràfiques als visors municipals o QGIS, comproveu sempre que la capa estigui definida en **EPSG:25831**. Barrejar EPSG:23031 (ED50) amb EPSG:25831 (ETRS89) provocarà que els edificis o parcel·les apareguin "desplaçats" uns 200 metres a la mar o sobre la finca del veí.
 
 ---
 
@@ -80,7 +80,7 @@ La cartografia bàsica és aquella que s'obté mitjançant processos directes d'
 *   **Exemples a Menorca:**
     *   **BTN100 / BTN25:** Base Topogràfica Nacional (IGN).
     *   **Mapa Topogràfic de Menorca** (1:1.000 / 1:5.000) elaborat pel Consell Insular de Menorca.
-    *   **Cartografia Cadastral Urbana i Russa** (Direcció General del Cadastre).
+    *   **Cartografia cadastral urbana i rústica** (Direcció General del Cadastre).
 
 ### 3.2. Cartografia Temàtica
 La cartografia temàtica utilitza la cartografia bàsica com a fons de referència per a representar fenòmens, dades o conceptes específics d'un tema concret (social, econòmic, mediambiental, jurídic).
@@ -111,7 +111,7 @@ A diferència d'una fotografia aèria convencional (on existeixen deformacions c
 
 *   En una ortofoto es poden **mesurar distàncies, àrees i angles directament** sobre la imatge amb total precisió.
 
-### 4.2. Com es crea una Ortofoto? El Procés Fotogramètric Passo a Passo
+### 4.2. Com es crea una Ortofoto? El procés fotogramètric pas a pas
 
 La creació d'una ortofoto d'alta resolució (per exemple, les ortofotos del projecte **PNOA** o les pròpies del Consell Insular) segueix les següents fases:
 
