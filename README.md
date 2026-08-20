@@ -55,7 +55,7 @@ en un parell de minuts.
 docs/
 ├── index.md              portada
 ├── formacio/             cursos (bàsic, intermedi)
-├── guies/                manuals d'usuari
+├── manuals/              manuals d'usuari dels visors
 ├── stylesheets/          estils propis
 └── CNAME                 domini personalitzat
 ```
