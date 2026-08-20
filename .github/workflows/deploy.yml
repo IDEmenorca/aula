@@ -54,6 +54,14 @@ jobs:
         # nav, referència inexistent) atura la construcció i no es publica res.
         run: mkdocs build --strict
 
+      - name: Comprova que el CSS propi encara s'aplica
+        # MkDocs copia el CSS sense mirar-se'l: si una opció del tema canvia
+        # l'HTML i un selector deixa de coincidir, es publicaria sense estil i
+        # sense cap error. Això ho detecta. Vegeu tools/comprova-estils.py.
+        run: |
+          pip install -r requirements-dev.txt
+          python tools/comprova-estils.py
+
       - name: Puja l'artefacte de Pages
         uses: actions/upload-pages-artifact@v5
         with:

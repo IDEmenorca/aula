@@ -91,26 +91,33 @@
    grossos, amb el color del text normal i un filet separador, perquè
    s'entenguin a cop d'ull com els blocs que organitzen el lateral.
 
-   El selector NO exigeix que la secció sigui filla directa de l'arrel del
-   menú a propòsit: amb navigation.tabs les seccions baixen un nivell (les de
-   primer nivell passen a ser pestanyes de la capçalera) i un selector de fill
-   directe deixaria d'aplicar-se sense avisar.
+   Dues trampes de l'HTML que genera Material, totes dues comprovades amb
+   tools/comprova-estils.py:
+
+   1. El ròtul de la secció NO és el primer fill. L'estructura és:
+          <li class="md-nav__item md-nav__item--section">
+            <input class="md-nav__toggle">   <-- amagat, però hi és
+            <label class="md-nav__link">Manuals d'usuari</label>
+            <nav class="md-nav">...</nav>
+          </li>
+      O sigui que `.md-nav__link:first-child` no coincideix mai. Cal
+      seleccionar-lo pel seu element: `label.md-nav__link`. De passada, això
+      el distingeix dels enllaços de pàgina, que són `<a>`.
+
+   2. No es pot exigir que la secció sigui filla directa de l'arrel del menú:
+      amb navigation.tabs les seccions baixen un nivell, perquè les de primer
+      nivell passen a ser pestanyes de la capçalera.
 
    Només a partir de 76.25em, que és on Material converteix les seccions en
    grups; per sota, el menú es comporta com un desplegable normal.
    ------------------------------------------------------------------------- */
 @media screen and (min-width: 76.25em) {
-  .md-nav--primary .md-nav__item--section > .md-nav__link:first-child {
+  .md-nav--primary .md-nav__item--section > label.md-nav__link {
     font-size: 0.78rem;
     font-weight: 700;
     color: var(--md-default-fg-color);
     margin-top: 1.4rem;
     padding-bottom: 0.3rem;
     border-bottom: 1px solid var(--md-default-fg-color--lighter);
-  }
-
-  /* La primera secció de la llista no necessita separació extra a dalt */
-  .md-nav--primary .md-nav__item--section:first-child > .md-nav__link:first-child {
-    margin-top: 0.4rem;
   }
 }

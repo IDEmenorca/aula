@@ -6,13 +6,23 @@
 
 I justament com que la terra no és plana ni tampoc és una esfera perfecta, els que fem mapes tenim molts maldecaps. Però molts. Mireu aquest vídeo que ho explica molt bé.
 
-[<iframe width="100%" height="340" src="https://www.youtube.com/embed/kIID5FDi2JQ?si=jWLze-QRUzfoIG0D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>](https://youtu.be/kIID5FDi2JQ?si=GPyb61XEmwI5JEQz)
+<div class="iframe-wrap iframe-wrap--video">
+  <iframe src="https://www.youtube-nocookie.com/embed/kIID5FDi2JQ"
+          title="Vídeo: la forma de la Terra"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+</div>
 
 Com heu vist, el problema apareix quan volem representar aquesta superfície tridimensional i corba que és la Terra sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Per a fer-ho hem inventat el concepte de **projecció cartogràfica**. 
 
-<img width="1024" height="559" alt="imagen" src="https://github.com/user-attachments/assets/95d863a3-9a86-4f10-961d-29ab5e932ac5" />
+<figure markdown>
+  ![Infografia sobre la forma de la Terra: el mite de la Terra plana, la simplificació de l'esfera perfecta i la realitat del geoide i l'el·lipsoide de revolució, i com es passa d'una superfície corba a un pla amb projeccions cilíndriques i còniques](img/01-forma-de-la-terra.png){ .captura }
+  <figcaption>De la forma real de la Terra a la seva representació sobre un pla.</figcaption>
+</figure>
 
-### 1.1. El problema de la distorsió és que els amplis poden petar si toques a volum molt alt.
+### 1.1. El problema de la distorsió
 Qualsevol projecció implica necessàriament una deformació o distorsió d'alguna de les propietats geomètriques. Cap mapa pot conservar simultàniament totes les propietats:
 
 *   **Projeccions Conformes:** Mantenen la fidelitat dels **angles** i les formes de petites regions. Són les utilitzades en navegació i en la cartografia oficial.

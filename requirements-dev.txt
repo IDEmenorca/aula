@@ -1,0 +1,8 @@
+# Dependències per COMPROVAR el lloc, no per construir-lo.
+# A propòsit fora de requirements.txt: `mkdocs build` no les necessita.
+#
+#   pip install -r requirements-dev.txt
+#   python tools/comprova-estils.py
+
+beautifulsoup4==4.15.0
+soupsieve==2.9.2

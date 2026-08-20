@@ -64,6 +64,7 @@ theme:
     - navigation.top           # botó "torna a dalt"
     - navigation.tabs          # pestanyes per a les seccions de primer nivell
     - navigation.tracking      # l'URL segueix l'apartat que es va llegint
+    - toc.integrate            # l'índex de la pàgina va al menú esquerre, no a un de dret
     - navigation.instant       # navegació sense recàrrega de pàgina
     - content.action.edit      # botó "edita aquesta pàgina" (usa edit_uri)
     - content.code.copy        # botó de còpia als blocs de codi

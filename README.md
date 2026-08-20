@@ -36,6 +36,24 @@ Per comprovar el que farà el desplegament (enllaços trencats inclosos):
 mkdocs build --strict
 ```
 
+### Si toques el tema o el CSS
+
+`mkdocs build` copia `docs/stylesheets/extra.css` sense mirar-se'l. Si canvies
+una opció de `theme.features`, l'HTML que genera Material canvia i un selector
+del CSS propi pot deixar d'aplicar-se **sense cap error**: el lloc es publica,
+simplement sense aquell estil.
+
+Per detectar-ho:
+
+```bash
+pip install -r requirements-dev.txt
+mkdocs build
+python tools/comprova-estils.py
+```
+
+Comprova que cada selector del CSS propi encara trobi algun element. També
+s'executa a cada desplegament, després de la construcció.
+
 ## Com contribuir
 
 Els canvis no es fan mai directament a `main`:
