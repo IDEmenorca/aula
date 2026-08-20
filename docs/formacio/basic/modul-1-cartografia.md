@@ -2,9 +2,9 @@
 
 ## 1. Conceptes Generals sobre Projeccions Geogràfiques
 
-**La Terra no és plana!!** Si algú us n'intenta convèncer aixequeu-vos i marxeu corrents sens ni dir adeu! :-) Tampoc és una esfera perfecta. La Terra és un **geoide** (superfície d'igual equipotencial gravitatòria) i per a respresentar-lo fem servir un **el·lipsoide de revolució**. 
+**La Terra no és plana!!** Si algú us n'intenta convèncer aixequeu-vos i marxeu corrents sens ni dir adeu! :-) Tampoc és una esfera perfecta. La Terra és un **geoide** irregular i deforme. I per aconseguir representar-lo, fer una maqueta o un model, hem de fer servir un **el·lipsoide de revolució**. 
 
-I com que la terra no és plana el problema apareix quan volem representar aquesta superfície tridimensional i corba (la Terra) sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Per a fer-ho hem d'utilitzar una **projecció cartogràfica**.
+I justament com que la terra no és plana el problema apareix quan volem representar aquesta superfície tridimensional i corba (la Terra) sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Per a fer-ho hem d'utilitzar una **projecció cartogràfica**.
 
 [<iframe width="560" height="315" src="https://www.youtube.com/embed/kIID5FDi2JQ?si=jWLze-QRUzfoIG0D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>](https://youtu.be/kIID5FDi2JQ?si=GPyb61XEmwI5JEQz)
 
