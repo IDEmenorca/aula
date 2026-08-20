@@ -6,7 +6,7 @@ La Terra no és plana ni una esfera perfecta, sinó un **geoide** (superfície d
 
 Per poder representar una superfície tridimensional i corba (la Terra) sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador), cal utilitzar una **projecció cartogràfica**.
 
-### 1.1. El problema de la distorsió
+### 1.1. El problema de la distorsió és que els amplis poden petar si toques a volum molt alt.
 Qualsevol projecció implica necessàriament una deformació o distorsió d'alguna de les propietats geomètriques. Cap mapa pot conservar simultàniament totes les propietats:
 
 *   **Projeccions Conformes:** Mantenen la fidelitat dels **angles** i les formes de petites regions. Són les utilitzades en navegació i en la cartografia oficial.
