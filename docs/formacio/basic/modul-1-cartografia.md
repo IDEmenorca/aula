@@ -2,13 +2,13 @@
 
 ## 1. Conceptes Generals sobre Projeccions Geogràfiques
 
-**La Terra no és plana!!** Si algú us n'intenta convèncer aixequeu-vos i marxeu corrents sens ni dir adeu! Tampoc és una esfera perfecta. La Terra és un **geoide** irregular i deforme. I per aconseguir representar-lo, fer una maqueta o un model, hem de fer servir un **el·lipsoide de revolució**. 
+**La Terra no és plana!!** Si algú us n'intenta convèncer aixequeu-vos i marxeu corrents sens ni dir adeu! Tampoc és una esfera perfecta. La Terra és un **geoide** irregular i deforme. 
 
-I justament com que la terra no és plana el problema apareix quan volem representar aquesta superfície tridimensional i corba (la Terra) sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Per a fer-ho hem d'utilitzar una **projecció cartogràfica**. En aques video ho explica molt bé.
+I justament com que la terra no és plana ni tampoc és una esfera perfecte els que fem mapes tenim molts maldecaps. 
 
 [<iframe width="100%" height="340" src="https://www.youtube.com/embed/kIID5FDi2JQ?si=jWLze-QRUzfoIG0D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>](https://youtu.be/kIID5FDi2JQ?si=GPyb61XEmwI5JEQz)
 
-
+Com heu vist al vídeo el problema apareix quan volem representar aquesta superfície tridimensional i corba que és la Terra sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Per a fer-ho hem inventat el concepte de **projecció cartogràfica**. 
 
 <img width="1024" height="559" alt="imagen" src="https://github.com/user-attachments/assets/95d863a3-9a86-4f10-961d-29ab5e932ac5" />
 
