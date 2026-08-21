@@ -15,7 +15,11 @@ I justament com que la terra no és plana ni tampoc és una esfera perfecta, els
           allowfullscreen></iframe>
 </div>
 
-Com heu vist, el problema apareix quan volem representar aquesta superfície tridimensional i corba que és la Terra sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Idò bé, per mirar de resoldre el problema ens hem inventat el concepte de **projecció cartogràfica**, que és una manera elegant de dir que fem totes les trampes que podem hora de representar la realitat en un mapa. De projeccions cartogràfiques n'hi ha un munt, tants com trampes diferents som capaços d'imaginar. I ja sabeu que si en alguna cosa destaca l'homo sapiens es en imaginar maneres de fer trampes. 
+Com heu vist, el problema apareix quan volem representar aquesta superfície tridimensional i corba que és la Terra sobre un pla bidimensional (un mapa, un plànol o una pantalla d'ordinador). Idò bé, per mirar de resoldre el problema ens hem inventat el concepte de **sistemes geodèsics de referència**, que és una manera elegant de dir que fem totes les trampes que podem hora de representar la realitat en un mapa. 
+
+*continuar amb geodesics/cartesians o plans.... i la relació Geodesics = esforoide de referència + punt fonamental, i cartesians= geodesic de referència + punt fonamental + projecció cartografica.... potser es pot posar enllac a video módul 12 de srs.*
+
+De projeccions cartogràfiques n'hi ha un munt, tants com trampes diferents som capaços d'imaginar. I ja sabeu que si en alguna cosa destaca l'homo sapiens es en imaginar maneres de fer trampes. 
 
 <figure markdown>
   ![Infografia sobre la forma de la Terra: el mite de la Terra plana, la simplificació de l'esfera perfecta i la realitat del geoide i l'el·lipsoide de revolució, i com es passa d'una superfície corba a un pla amb projeccions cilíndriques i còniques](img/01-forma-de-la-terra.png){ .captura }
