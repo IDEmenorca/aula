@@ -1,4 +1,4 @@
-# Sigueu benvniguts a l'aula de formació del projecte IDE Menorca
+# Sigueu benvinguts a l'aula de formació del projecte IDE Menorca
 
 IDE Menorca és un projecte del servei d'informació geogràfica de l'administració local de Menorca (Consell Insular i ajuntaments) que té per objectiu **facilitar l'ús de la cartografia i les dades geogràfiques**. 
 
