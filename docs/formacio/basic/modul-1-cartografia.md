@@ -23,7 +23,8 @@ De projeccions cartogràfiques n'hi ha un munt, tants com trampes diferents som 
 
 <figure markdown>
   ![Infografia sobre la forma de la Terra: el mite de la Terra plana, la simplificació de l'esfera perfecta i la realitat del geoide i l'el·lipsoide de revolució, i com es passa d'una superfície corba a un pla amb projeccions cilíndriques i còniques](img/01-forma-de-la-terra.png){ .captura }
-  <figcaption>De la forma real de la Terra a la seva representació sobre un pla.</figcaption>
+  <figcaption>De la forma real de la Terra a la seva representació sobre un pla. 
+  Imatge creada amb intel·ligència artificial (Gemini)</figcaption>
 </figure>
 
 ### 1.1. El problema de la distorsió
