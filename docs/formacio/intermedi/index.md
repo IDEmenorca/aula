@@ -1,3 +1,3 @@
-# Curs intermedi
+# Curs mitjà
 
 !!! note "Pendent de redactar"
