@@ -23,13 +23,18 @@ informació sobre el territori. Té dos propòsits: aportar informació per si m
 de base per a la resta de capes.
 
 En obrir el visor es carreguen **dos** mapes de fons alhora: el mapa base de l'IDE
-Menorca i l'ortofoto de 2021. Només se'n veu un perquè el control lliscant està
+Menorca i el **mapa blanc**. Només se'n veu un perquè el control lliscant està
 desplaçat del tot cap a un costat.
 
 <figure markdown>
-  ![Control lliscant entre l'ortofoto de 2021 i el mapa base de l'IDE Menorca](img/11-control-lliscant.png){ .captura }
+  ![Control lliscant amb un mapa de fons a cada extrem i el comandament al mig](img/11-control-lliscant.png){ .captura }
   <figcaption>El control lliscant alterna la transparència entre els dos mapes de fons.</figcaption>
 </figure>
+
+!!! warning "Captura desfasada"
+    Aquesta imatge ve del manual antic i hi surten l'ortofoto de 2021 i el mapa
+    base com a parella de sortida, que ja no és la que carrega el visor. Serveix
+    per entendre el control lliscant, però s'ha de refer.
 
 Per canviar-ne un:
 

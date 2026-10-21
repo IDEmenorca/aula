@@ -6,21 +6,22 @@ En acabar sabràs canviar el mapa de fons i comparar dues èpoques del mateix
 lloc amb el control lliscant.
 
 !!! note "Captura pendent — `img/42-mapes-de-fons.png`"
-    El panell de mapes de fons amb els dos mapes carregats i el control
-    lliscant al mig.
+    El control lliscant al mig del recorregut, amb el mapa base a un extrem i
+    una ortofoto a l'altre, i el mapa al darrere mostrant la fusió dels dos.
+    El control, emmarcat.
 
-    Peu de foto previst: *El control lliscant fon un mapa de fons amb l'altre.*
+    Peu de foto previst: *Amb el control al mig, el dibuix del mapa base i la fotografia se superposen.*
 
 ## Passos
 
 1. **Obrir el panell de mapes de fons.** És a la banda dreta de la pantalla.
 
 2. **Canviar el mapa de fons.** Tria'n un de la graella de miniatures. El mapa
-   es refresca sense perdre el lloc on eres.
+   es refresca sense moure's de lloc.
 
 3. **Treballar amb dos mapes alhora.** El visor en carrega dos de sèrie: el
-   mapa base de l'IDE Menorca i l'ortofoto més recent. El **control lliscant**
-   fon l'un amb l'altre.
+   mapa base de l'IDE Menorca i el **mapa blanc**. El **control lliscant** fon
+   l'un amb l'altre.
 
     Per canviar-ne un, selecciona'l primer al control lliscant i tria després
     el nou de la graella.
