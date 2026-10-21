@@ -5,11 +5,6 @@
 En acabar sabràs canviar el mapa de fons i comparar dues èpoques del mateix
 lloc amb el control lliscant.
 
-<figure markdown>
-  ![El control lliscant al mig del recorregut, amb el mapa base a un extrem i una ortofoto a l'altre, i el mapa al darrere mostrant la fusió dels dos. El control, emmarcat](img/42-mapes-de-fons.png){ .captura }
-  <figcaption>Amb el control al mig, el dibuix del mapa base i la fotografia se superposen.</figcaption>
-</figure>
-
 ## Passos
 
 1. **Obrir el panell de mapes de fons.** És a la banda dreta de la pantalla.
@@ -23,6 +18,11 @@ lloc amb el control lliscant.
 
     Per canviar-ne un, selecciona'l primer al control lliscant i tria després
     el nou de la graella.
+
+    <figure markdown>
+      ![El control lliscant al mig del recorregut, amb el mapa base a un extrem i una ortofoto a l'altre, i el mapa al darrere mostrant la fusió dels dos. El control, emmarcat](img/42-mapes-de-fons.png){ .captura }
+      <figcaption>Amb el control al mig, el dibuix del mapa base i la fotografia se superposen. Posant una ortofoto a cada extrem, el mateix control compara dues èpoques.</figcaption>
+    </figure>
 
     !!! warning "No tots cobreixen tota l'illa"
         Alguns mapes de fons són d'àmbit limitat: l'ortofoto del port de Maó,
