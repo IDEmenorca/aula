@@ -37,18 +37,15 @@ coordenades, distàncies i superfícies.
 5. **Mesurar una superfície.** Tria la pestanya **polígons** i dibuixa igual
    que amb les línies. En tancar la forma tens l'**àrea** i el **perímetre**.
 
-    <div class="grid" markdown>
-
+    <div class="figures-costat" markdown>
     <figure markdown>
       ![El polígon tancat sobre el pavelló del Menorca Bàsquet, amb l'àrea i el perímetre a la vista al panell de l'eina](img/43-poligon-pavello.png){ .captura }
       <figcaption>Una vora clara: tothom el mesurarà pràcticament igual.</figcaption>
     </figure>
-
     <figure markdown>
       ![El polígon tancat sobre el recinte de Torre d'en Galmés, amb l'àrea i el perímetre a la vista al panell de l'eina](img/43-poligon-poblat.png){ .captura }
       <figcaption>Una vora difusa: on acaba el poblat és una decisió de qui mesura.</figcaption>
     </figure>
-
     </div>
 
 6. **Esborrar el que has dibuixat.** La **paperera** esborra tot el dibuix, amb

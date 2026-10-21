@@ -161,3 +161,61 @@
 .md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb {
   background-color: var(--md-default-fg-color--light);
 }
+
+/* -------------------------------------------------------------------------
+   Dues figures una al costat de l'altra
+
+   La classe .grid de Material no serveix aquí: amb md_in_html, les línies en
+   blanc que separen les figures es converteixen en paràgrafs buits que ocupen
+   cel·la i escampen les imatges. Amb flex i sense línies en blanc al Markdown,
+   les figures queden alineades i s'apilen soles en pantalla estreta.
+   ------------------------------------------------------------------------- */
+.md-typeset .figures-costat {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.8rem;
+  margin: 1em 0;
+}
+
+.md-typeset .figures-costat > figure {
+  flex: 1 1 18rem;
+  margin: 0;
+}
+
+/* -------------------------------------------------------------------------
+   Enllaços a la pàgina anterior i la següent
+
+   Material els posa sobre una banda fosca a tota amplada, que els fa semblar
+   part del peu del lloc en lloc del final de la pàgina. Els passem al fons de
+   la pàgina, separats del text per un filet. La barra de crèdits de sota
+   (.md-footer-meta) conserva el seu fons fosc i marca on acaba el lloc.
+   ------------------------------------------------------------------------- */
+.md-footer {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.md-footer__inner {
+  border-top: 1px solid var(--md-default-fg-color--lighter);
+  margin: 2.4rem 0 0;
+  padding: 0.8rem 0.2rem 1.2rem;
+}
+
+/* Material els aplica una transició d'opacitat en passar-hi per sobre, que
+   sobre fons clar amb prou feines es nota. Hi posem color i un fons suau. */
+.md-footer__link {
+  border-radius: 0.2rem;
+  padding: 0.4rem 0.6rem;
+  transition: background-color 125ms;
+}
+
+.md-footer__link:focus,
+.md-footer__link:hover {
+  background-color: var(--md-default-fg-color--lightest);
+  opacity: 1;
+}
+
+.md-footer__title {
+  font-weight: 700;
+}
