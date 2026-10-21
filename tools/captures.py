@@ -204,6 +204,10 @@ def fes_insercio(prova: bool) -> int:
         for m in sorted(llestos, key=lambda x: x.inici, reverse=True):
             linies[m.inici:m.fi] = m.bloc_figura()
             print(f"  {m.src}  ->  {pagina.relative_to(ARREL).as_posix()}")
+            if not m.peu:
+                # Totes les imatges del lloc han de dur peu de foto. Si el
+                # marcador no en portava, la figura queda sense <figcaption>.
+                print("     SENSE PEU DE FOTO: afegeix-l'hi a mà a la pàgina")
             inserides += 1
 
         if not prova:

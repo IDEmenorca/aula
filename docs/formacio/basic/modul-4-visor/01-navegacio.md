@@ -7,6 +7,7 @@ vista inicial quan et perdis.
 
 <figure markdown>
   ![El visor a l'extensió inicial, amb la columna d'eines de l'esquerra i assenyalats els botons de zoom (+ i −), la casa i la pantalla completa](img/41-columna-navegacio.png){ .captura }
+  <figcaption>Els botons de navegació: zoom, extensió inicial i pantalla completa.</figcaption>
 </figure>
 
 ## Passos

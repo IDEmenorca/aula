@@ -11,6 +11,7 @@ carrer. El visor hi dóna accés directe.
 
 <figure markdown>
   ![Icona de Google Street View a la columna d'eines del visor](img/80-icona-street-view.png){ .captura }
+  <figcaption>S'arrossega la icona fins al punt del mapa que es vol veure.</figcaption>
 </figure>
 
 ## El mapa de situació

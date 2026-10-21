@@ -50,6 +50,7 @@ Els botons **+** i **−** de la columna esquerra apropen i allunyen el mapa.
 
 <figure markdown>
   ![Els dos botons de zoom, quadrats i negres, amb els signes més i menys, apilats verticalment](img/02-botons-zoom.png){ .captura }
+  <figcaption>Apropen i allunyen pel centre de la pantalla.</figcaption>
 </figure>
 
 ## 1.4. Tornar a l'extensió inicial
@@ -59,6 +60,7 @@ partida, on es veu tota l'illa de Menorca.
 
 <figure markdown>
   ![Botó d'extensió inicial amb icona de casa](img/03-extensio-inicial.png){ .captura }
+  <figcaption>Torna a la vista de tota l'illa.</figcaption>
 </figure>
 
 !!! warning "Compte amb els límits d'escala"
@@ -76,6 +78,7 @@ Per sortir-ne, torna a prémer el botó o la tecla ++esc++.
 
 <figure markdown>
   ![Els dos estats del botó de pantalla completa: negre quan s'hi entra, vermell quan ja s'hi és a dins](img/04-pantalla-completa.png){ .captura }
+  <figcaption>Negre per entrar-hi, vermell per sortir-ne.</figcaption>
 </figure>
 
 ## 1.6. Sistema de coordenades i coordenades del cursor

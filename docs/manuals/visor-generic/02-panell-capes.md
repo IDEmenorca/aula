@@ -10,6 +10,7 @@ amb el botó de panell de capes.
 
 <figure markdown>
   ![Capçalera del panell amb l'enllaç d'ajuda i els selectors d'idioma ca, es i en](img/10-capcalera-panell.png){ .captura }
+  <figcaption>Des d'aquí es canvia l'idioma del visor.</figcaption>
 </figure>
 
 Conté l'enllaç **ajuda** i els selectors d'idioma. Es descriuen a
@@ -50,12 +51,14 @@ el visor canvia automàticament al sistema de referència compatible.
 
 <figure markdown>
   ![Miniatura d'un mapa de fons amb el símbol de fletxa que indica un CRS diferent](img/12-avis-crs.png){ .captura }
+  <figcaption>La fletxa avisa que en triar aquest mapa canviarà el sistema de coordenades.</figcaption>
 </figure>
 
 ### Mapes de fons disponibles
 
 <figure markdown>
   ![Graella de miniatures amb tots els mapes de fons disponibles](img/13-graella-mapes-fons.png){ .captura }
+  <figcaption>Es poden carregar dos mapes de fons alhora i fondre'ls amb el control lliscant.</figcaption>
 </figure>
 
 !!! warning "A revisar: el llistat ha quedat endarrerit"
@@ -125,6 +128,7 @@ amb els botons d'expandir i contreure nodes.
 
 <figure markdown>
   ![Arbre de capes amb un node desplegat i el cursor en forma de mà sobre una capa](img/14-arbre-capes.png){ .captura }
+  <figcaption>El cursor en forma de mà indica que la capa es pot afegir al mapa.</figcaption>
 </figure>
 
 La forma del cursor indica què pots fer:
@@ -142,6 +146,7 @@ L'altra manera és prémer la icona de la lupa, que obre una caixa de cerca.
 
 <figure markdown>
   ![Cercador de capes amb resultats agrupats per servei](img/15-cercador-capes.png){ .captura }
+  <figcaption>La cerca mira el títol i la descripció, i indica de quin servei surt cada capa.</figcaption>
 </figure>
 
 A partir del **tercer caràcter** comencen a sortir resultats. La cerca mira tant el
@@ -159,6 +164,7 @@ organitzades, quines eines s'ofereixen i quins mapes de fons hi ha.
 
 <figure markdown>
   ![Finestra de canvi de tema amb les icones dels temes disponibles](img/16-canviar-tema.png){ .captura }
+  <figcaption>Cada tema reorganitza l'arbre de capes i les eines disponibles.</figcaption>
 </figure>
 
 Prem l'enllaç **Canviar tema** i tria'n un de la finestra que s'obre. En seleccionar-lo,

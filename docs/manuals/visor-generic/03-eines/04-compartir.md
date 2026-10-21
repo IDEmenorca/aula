@@ -6,6 +6,7 @@ carregades, objectes seleccionats, dibuixos, cerques i fitxers afegits.
 
 <figure markdown>
   ![Panell Compartir amb les icones de correu, QR, Facebook, X i marcador, i les pestanyes Compartir enllaç i Insertar mapa](img/50-compartir-panell.png){ .captura }
+  <figcaption>L'enllaç generat conserva l'estat sencer del visor.</figcaption>
 </figure>
 
 ## Compartir enllaç
@@ -37,6 +38,7 @@ incrustar el visor en una pàgina web, amb la mida que indiquis.
 
 <figure markdown>
   ![Pestanya Insertar mapa amb el codi de l'etiqueta iframe i el botó de copiar](img/51-insertar-mapa.png){ .captura }
+  <figcaption>El codi surt amb mida fixa; convé adaptar-lo abans d'incrustar-lo.</figcaption>
 </figure>
 
 !!! tip "Incrustar el visor en aquest lloc web"

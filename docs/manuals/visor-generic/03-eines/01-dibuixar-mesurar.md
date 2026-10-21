@@ -21,6 +21,7 @@ canviar el color del traç, el color del farciment, l'opacitat i el gruix.
 
 <figure markdown>
   ![Pestanya de punts amb els controls de color, gruix i les coordenades del punt](img/21-punts.png){ .captura }
+  <figcaption>De cada punt dibuixat se'n mostren les coordenades i l'elevació.</figcaption>
 </figure>
 
 ## Pestanya de línies
@@ -59,6 +60,7 @@ Els botons són els mateixos que a la pestanya de línies.
 
 <figure markdown>
   ![Pestanya de polígons mostrant àrea i perímetre del polígon dibuixat](img/23-poligons.png){ .captura }
+  <figcaption>Els polígons donen la superfície i el perímetre mentre es dibuixen.</figcaption>
 </figure>
 
 ## Eines comunes als tres tipus
@@ -81,12 +83,14 @@ per moure'l, o arrossega un punt intermedi per crear-ne un de nou.
 
 <figure markdown>
   ![Polígon abans i després de moure un vèrtex per modificar-ne la forma](img/24-modificar-geometria.png){ .captura }
+  <figcaption>Arrossegant un vèrtex es canvia la forma d'un element ja dibuixat.</figcaption>
 </figure>
 
 ### Descarregar el que has dibuixat
 
 <figure markdown>
   ![Diàleg de descàrrega del dibuix amb l'opció d'incloure elevacions i els formats disponibles](img/25-descarregar-dibuix.png){ .captura }
+  <figcaption>El dibuix es pot descarregar amb les elevacions incloses.</figcaption>
 </figure>
 
 El diàleg permet **incloure les elevacions**. En línies i polígons hi ha, a més, l'opció

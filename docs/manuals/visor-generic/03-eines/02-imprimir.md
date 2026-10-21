@@ -4,6 +4,7 @@ Genera un PDF del mapa que estàs veient en aquell moment.
 
 <figure markdown>
   ![Panell Imprimir amb els camps de títol, disseny, mida i la casella del codi QR](img/30-imprimir-panell.png){ .captura }
+  <figcaption>El codi QR del PDF imprès porta al mapa que l'ha generat.</figcaption>
 </figure>
 
 ## Opcions

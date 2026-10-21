@@ -14,6 +14,7 @@ que vulguis consultar.
 
 <figure markdown>
   ![Botó de consultes ressaltat a la fila d'una capa carregada](img/70-boto-consultes.png){ .captura }
+  <figcaption>La lupa de cada capa obre les consultes per atributs.</figcaption>
 </figure>
 
 Si la capa és en realitat un **grup de capes**, el visor et demanarà primer sobre quina
@@ -27,6 +28,7 @@ capa concreta vols consultar.
 
 <figure markdown>
   ![Diàleg de consulta alfanumèrica amb el desplegable d'atributs, els criteris i la caixa de valor](img/71-consulta-dialeg.png){ .captura }
+  <figcaption>Els criteris s'acumulen a la llista i es combinen amb «i» o «o».</figcaption>
 </figure>
 
 ### Criteris segons el tipus d'atribut
@@ -109,6 +111,7 @@ l'atribut **`the_geom` (geometry)** del llistat d'atributs.
 
 <figure markdown>
   ![Diàleg de consulta amb l'atribut the_geom seleccionat i els criteris interseca i dins](img/73-filtre-espacial.png){ .captura }
+  <figcaption>Triant l'atribut the_geom, la consulta passa a filtrar per posició.</figcaption>
 </figure>
 
 | Criteri | Què selecciona |

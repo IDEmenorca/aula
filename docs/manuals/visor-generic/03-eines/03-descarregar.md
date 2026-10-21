@@ -5,6 +5,7 @@ vectorials** de les capes carregades.
 
 <figure markdown>
   ![Panell Descarregar amb les pestanyes Imatge del mapa i Capes vectorials](img/40-descarregar-panell.png){ .captura }
+  <figcaption>Dues descàrregues ben diferents: una imatge o les dades vectorials.</figcaption>
 </figure>
 
 ## Imatge del mapa
@@ -17,6 +18,7 @@ imatge.
 
 <figure markdown>
   ![Pestanya d'imatge del mapa amb el selector de format i la casella del codi QR](img/41-descarregar-imatge.png){ .captura }
+  <figcaption>La imatge recull tot el que es veu al visor en aquell moment.</figcaption>
 </figure>
 
 ## Capes vectorials
@@ -31,6 +33,7 @@ Descarrega les entitats que intersequen amb l'àrea que estàs visualitzant.
 
 <figure markdown>
   ![Pestanya de capes vectorials amb el selector de format](img/42-descarregar-vectorial.png){ .captura }
+  <figcaption>Només es descarreguen les capes carregades i visibles.</figcaption>
 </figure>
 
 ### Què no es pot descarregar

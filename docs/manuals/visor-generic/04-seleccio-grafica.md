@@ -10,6 +10,7 @@ selecció **espacial** sobre el mapa: per punt, per línia o per recinte.
 
 <figure markdown>
   ![Barra de selecció amb els botons per punt, per línia i per recinte sota una capa carregada](img/60-barra-seleccio.png){ .captura }
+  <figcaption>La barra apareix sota cada capa carregada.</figcaption>
 </figure>
 
 ## 4.1. Tipus de selecció
