@@ -37,20 +37,35 @@ coordenades, distàncies i superfícies.
 5. **Mesurar una superfície.** Tria la pestanya **polígons** i dibuixa igual
    que amb les línies. En tancar la forma tens l'**àrea** i el **perímetre**.
 
+    !!! note "Captura pendent — `img/43-poligon-area.png`"
+        Un polígon tancat sobre un edifici ben delimitat, amb l'àrea i el
+        perímetre a la vista al panell de l'eina.
+
+        Peu de foto previst: *En tancar el polígon, el visor en dóna l'àrea i el perímetre.*
+
 6. **Esborrar el que has dibuixat.** La **paperera** esborra tot el dibuix, amb
    confirmació prèvia. La **goma** esborra només els elements que tinguis
    seleccionats.
 
 ## Exercici pràctic
 
-Seguim a **Cala Galdana**.
+**Quants camps de bàsquet caben dins d'un poblat talaiòtic?**
 
-1. Dibuixa un **punt** sobre la platja i apunta'n les coordenades i l'elevació.
-2. Amb una **línia**, mesura la platja de punta a punta.
-3. Amb un **polígon**, mesura la superfície de sorra.
-4. Traça una línia des de la platja **barranc d'Algendar amunt** i prem el botó
-   del perfil per veure'n el desnivell.
-5. Esborra-ho tot amb la paperera.
+1. Situa't sobre el **pavelló del Menorca Bàsquet**, a Maó. Dibuixa-hi un
+   **punt** i apunta'n les coordenades i l'elevació.
+2. Amb un **polígon**, mesura la superfície del pavelló.
+3. Vés a **Torre d'en Galmés**, a Alaior, i dibuixa-hi un **punt**: compara'n
+   l'elevació amb la de Maó.
+4. Amb un **polígon**, mesura el recinte del poblat.
+5. Divideix una superfície per l'altra: **quants pavellons hi caben?**
+6. Traça una **línia** que travessi el turó del poblat i prem el botó del
+   perfil per veure'n el relleu.
+7. Esborra-ho tot amb la paperera.
+
+!!! tip "Per què comparar i no només mesurar"
+    Cadascú dibuixarà el polígon una mica diferent i els metres quadrats no
+    sortiran idèntics. La proporció entre les dues superfícies, en canvi, surt
+    gairebé igual per a tothom: per això la comparació diu més que la xifra.
 
 ---
 
