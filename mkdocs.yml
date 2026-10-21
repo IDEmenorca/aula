@@ -108,11 +108,26 @@ markdown_extensions:
 # -----------------------------------------------------------------------------
 plugins:
   - search:
-      # lunr.js no té stemmer per al català. El castellà comparteix prou
-      # morfologia (plurals -s/-es, sufixos verbals) per donar millors resultats
-      # que l'anglès sobre text català.
-      # <A REVISAR> si algun dia apareix suport de català a lunr-languages.
+      # lunr-languages no té fitxer per al català (comprovat a la versió 1.22:
+      # hi ha es, fr, it, pt... però cap ca). <A REVISAR> si algun dia n'hi ha.
+      #
+      # Compte amb què fa realment aquesta opció aquí: el "pipeline" per
+      # defecte d'aquest tema només aplica stopWordFilter, NO stemmer. O sigui
+      # que triar castellà no arrela les paraules; només fa servir la llista
+      # castellana de mots buits. Té un parell d'efectes secundaris sobre text
+      # català ("sobre", "contra" i "entre" queden fora de l'índex perquè són
+      # mots buits en castellà) i no elimina els mots buits catalans que no
+      # existeixen en castellà (amb, els, per, tot...).
+      #
+      # Es manté en castellà perquè, si algun dia el lloc és bilingüe, les
+      # pàgines en castellà sí que en treuran profit.
       lang: es
+
+      # Els apòstrofs HAN de separar paraules. El separador per defecte és
+      # només [\s\-], i en català això vol dir que "l'extensió" s'indexa com
+      # un únic terme: qui cerqui "extensió" no la troba. Afectava 172 termes
+      # de l'índex. Vegeu DEPLOY.md si cal tornar-hi.
+      separator: '[\s\-''’]+'
   - glightbox                  # ampliació de les captures de pantalla
   - git-revision-date-localized:
       locale: ca
