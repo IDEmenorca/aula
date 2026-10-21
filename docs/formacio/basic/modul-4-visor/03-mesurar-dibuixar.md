@@ -11,10 +11,8 @@ coordenades, distàncies i superfícies.
    esquerra. L'eina de dibuix i mesura té tres pestanyes: punts, línies i
    polígons.
 
-    !!! warning "El panell es tanca tot sol"
-        Cada vegada que actives una eina diferent, el panell desapareix. Per
-        canviar de pestanya l'has de tornar a obrir amb el mateix botó. És el
-        que més despista els primers minuts.
+    El panell es tanca en activar una eina diferent. Per canviar de pestanya,
+    torna'l a obrir amb el mateix botó.
 
     !!! note "Captura pendent — `img/43-panell-eines.png`"
         La columna esquerra amb el botó de les eines creuades emmarcat, i el
