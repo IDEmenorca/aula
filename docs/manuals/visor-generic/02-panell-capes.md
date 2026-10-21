@@ -61,10 +61,11 @@ el visor canvia automàticament al sistema de referència compatible.
   <figcaption>Es poden carregar dos mapes de fons alhora i fondre'ls amb el control lliscant.</figcaption>
 </figure>
 
-!!! warning "A revisar: el llistat ha quedat endarrerit"
-    L'ortofoto més recent d'aquesta llista és la de **2021**, que era la darrera quan es
-    va escriure el manual original. Cal comprovar quines ortofotos ofereix avui el visor
-    i afegir-hi les que falten abans de publicar aquesta pàgina.
+!!! warning "A revisar: falten dades tècniques"
+    S'hi han afegit les dues ortofotos del 2024 que ofereix el visor, però sense
+    les dades de vol, resolució i dates que sí que duen la resta d'entrades.
+    Falta completar-les. La resta del llistat tampoc no s'ha contrastat entrada
+    per entrada amb el visor actual.
 
 ??? note "Llistat complet de mapes de fons"
 
@@ -86,6 +87,7 @@ el visor canvia automàticament al sistema de referència compatible.
 
     **Ortofotografia de tota l'illa**
 
+    - **2024**: la més recent de tota l'illa.
     - **2021**: 25 cm/píxel, vol GSD 25 cm fet entre el 17 de maig i el 26 de juny de 2021.
     - **2018**: 15 cm/píxel, vol GSD18 fet entre el 18 i el 23 d'abril de 2018 per a
       Menorca, Eivissa, Formentera i la meitat nord-oest de Mallorca.
@@ -108,6 +110,10 @@ el visor canvia automàticament al sistema de referència compatible.
 
     **Ortofotografia de nuclis i municipis concrets**
 
+    Compte: aquestes només cobreixen la seva zona. Fora d'aquell àmbit, el mapa
+    de fons es veu buit.
+
+    - **2024 port de Maó**: ortofotografia del port de Maó d'alta resolució.
     - **2012 Ciutadella**: ortofotografia del municipi de Ciutadella de 2012.
     - **2011 Ciutadella nuclis**: escala 1:1.000 de les zones urbanes de Ciutadella, a
       partir del vol fotogramètric digital GSD 9 cm de 2011, imatges TIFF RGB. Feta dins
