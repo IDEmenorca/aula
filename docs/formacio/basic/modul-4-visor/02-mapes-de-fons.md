@@ -5,12 +5,10 @@
 En acabar sabràs canviar el mapa de fons i comparar dues èpoques del mateix
 lloc amb el control lliscant.
 
-!!! note "Captura pendent — `img/42-mapes-de-fons.png`"
-    El control lliscant al mig del recorregut, amb el mapa base a un extrem i
-    una ortofoto a l'altre, i el mapa al darrere mostrant la fusió dels dos.
-    El control, emmarcat.
-
-    Peu de foto previst: *Amb el control al mig, el dibuix del mapa base i la fotografia se superposen.*
+<figure markdown>
+  ![El control lliscant al mig del recorregut, amb el mapa base a un extrem i una ortofoto a l'altre, i el mapa al darrere mostrant la fusió dels dos. El control, emmarcat](img/42-mapes-de-fons.png){ .captura }
+  <figcaption>Amb el control al mig, el dibuix del mapa base i la fotografia se superposen.</figcaption>
+</figure>
 
 ## Passos
 
