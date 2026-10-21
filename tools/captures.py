@@ -35,18 +35,24 @@ import sys
 ARREL = pathlib.Path(__file__).resolve().parent.parent
 DOCS = ARREL / "docs"
 
-TITOL = re.compile(r'^!!! note "Captura pendent [—-] `(?P<src>[^`]+)`"\s*$')
+# El marcador pot estar sagnat, perquè sovint va dins d'un pas numerat. El
+# sagnat es captura per poder tornar a posar-lo al bloc <figure> que el
+# substitueix: si no, la figura se'n sortiria de la llista.
+TITOL = re.compile(
+    r'^(?P<sagnat>[ ]*)!!! note "Captura pendent [—-] `(?P<src>[^`]+)`"\s*$'
+)
 PEU = re.compile(r"^\s*Peu de foto previst: \*(?P<peu>.+)\*\s*$")
 
 
 class Marcador:
-    def __init__(self, pagina, inici, fi, src, descripcio, peu):
+    def __init__(self, pagina, inici, fi, src, descripcio, peu, sagnat=""):
         self.pagina = pagina          # Path de la pàgina .md
         self.inici = inici            # índex de la primera línia del bloc
         self.fi = fi                  # índex següent al bloc
         self.src = src                # p. ex. "img/13-graella.png"
         self.descripcio = descripcio
         self.peu = peu
+        self.sagnat = sagnat          # espais davant del marcador, si n'hi ha
 
     @property
     def desti(self) -> pathlib.Path:
@@ -72,7 +78,7 @@ class Marcador:
         if self.peu:
             linies.append(f"  <figcaption>{self.peu}</figcaption>")
         linies.append("</figure>")
-        return linies
+        return [self.sagnat + l for l in linies]
 
 
 def llegeix(pagina: pathlib.Path) -> list[str]:
@@ -89,21 +95,23 @@ def marcadors_de(pagina: pathlib.Path) -> list[Marcador]:
             i += 1
             continue
 
-        # El cos de l'admonició són les línies indentades que segueixen,
-        # incloent-hi línies en blanc intercalades.
+        # El cos de l'admonició són les línies sagnades quatre espais més que
+        # el marcador, incloent-hi línies en blanc intercalades.
+        sagnat = m.group("sagnat")
+        cos_sagnat = sagnat + "    "
         j = i + 1
         cos = []
         while j < len(linies):
             linia = linies[j]
             if linia.strip() == "":
-                # Blanc: només forma part del bloc si després ve més indentació.
+                # Blanc: només forma part del bloc si després ve més sagnat.
                 seguent = linies[j + 1] if j + 1 < len(linies) else ""
-                if seguent.startswith("    "):
+                if seguent.startswith(cos_sagnat):
                     cos.append(linia)
                     j += 1
                     continue
                 break
-            if not linia.startswith("    "):
+            if not linia.startswith(cos_sagnat):
                 break
             cos.append(linia)
             j += 1
@@ -121,7 +129,7 @@ def marcadors_de(pagina: pathlib.Path) -> list[Marcador]:
             text = text[:-1]
 
         trobats.append(
-            Marcador(pagina, i, j, m.group("src"), text, peu)
+            Marcador(pagina, i, j, m.group("src"), text, peu, sagnat)
         )
         i = j
     return trobats

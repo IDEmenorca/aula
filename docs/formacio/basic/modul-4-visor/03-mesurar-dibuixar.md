@@ -14,11 +14,10 @@ coordenades, distàncies i superfícies.
     El panell es tanca en activar una eina diferent. Per canviar de pestanya,
     torna'l a obrir amb el mateix botó.
 
-    !!! note "Captura pendent — `img/43-panell-eines.png`"
-        La columna esquerra amb el botó de les eines creuades emmarcat, i el
-        panell de dibuix obert a sota.
-
-        Peu de foto previst: *El panell d'eines es torna a obrir amb el mateix botó cada vegada que es tanca.*
+    <figure markdown>
+      ![La columna esquerra amb el botó de les eines creuades emmarcat, i el panell de dibuix obert a sota](img/43-panell-eines.png){ .captura }
+      <figcaption>El panell d'eines es torna a obrir amb el mateix botó cada vegada que es tanca.</figcaption>
+    </figure>
 
 2. **Dibuixar un punt.** Tria la pestanya **punts** i fes clic al mapa. Del
    punt en surten les **coordenades** i l'**elevació**.
@@ -30,11 +29,10 @@ coordenades, distàncies i superfícies.
 4. **Veure el perfil d'elevació.** No apareix sol: prem el botó de la
    muntanyeta, al costat de la longitud.
 
-    !!! note "Captura pendent — `img/43-boto-perfil.png`"
-        El panell de la pestanya de línies amb la longitud mesurada i el botó
-        del perfil d'elevació emmarcat.
-
-        Peu de foto previst: *El perfil d'elevació s'ha de demanar amb aquest botó.*
+    <figure markdown>
+      ![El panell de la pestanya de línies amb la longitud mesurada i el botó del perfil d'elevació emmarcat](img/43-boto-perfil.png){ .captura }
+      <figcaption>El perfil d'elevació s'ha de demanar amb aquest botó.</figcaption>
+    </figure>
 
 5. **Mesurar una superfície.** Tria la pestanya **polígons** i dibuixa igual
    que amb les línies. En tancar la forma tens l'**àrea** i el **perímetre**.
