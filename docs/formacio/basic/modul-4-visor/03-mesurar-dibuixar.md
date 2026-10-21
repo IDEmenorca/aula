@@ -62,10 +62,14 @@ coordenades, distàncies i superfícies.
    perfil per veure'n el relleu.
 7. Esborra-ho tot amb la paperera.
 
-!!! tip "Per què comparar i no només mesurar"
-    Cadascú dibuixarà el polígon una mica diferent i els metres quadrats no
-    sortiran idèntics. La proporció entre les dues superfícies, en canvi, surt
-    gairebé igual per a tothom: per això la comparació diu més que la xifra.
+!!! tip "Quin resultat ha de sortir"
+    Unes **set o vuit vegades**: el pavelló fa uns 4.600 m² i el recinte del
+    poblat, uns 35.000 m².
+
+    El pavelló té una vora clara i tothom el mesurarà pràcticament igual. El
+    poblat no: on acaba exactament és una decisió de qui mesura, i per això el
+    número balla d'una persona a l'altra. **Decidir on acaba allò que mesures
+    forma part de mesurar-ho.**
 
 ---
 
