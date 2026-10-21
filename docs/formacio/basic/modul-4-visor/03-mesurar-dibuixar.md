@@ -63,13 +63,11 @@ coordenades, distàncies i superfícies.
 7. Esborra-ho tot amb la paperera.
 
 !!! tip "Quin resultat ha de sortir"
-    Unes **set o vuit vegades**: el pavelló fa uns 4.600 m² i el recinte del
-    poblat, uns 35.000 m².
+    Unes **set o vuit vegades**: el pavelló fa uns 4.600 m² i el que se'n pot
+    delimitar a l'ortofoto, uns 35.000 m².
 
-    El pavelló té una vora clara i tothom el mesurarà pràcticament igual. El
-    poblat no: on acaba exactament és una decisió de qui mesura, i per això el
-    número balla d'una persona a l'altra. **Decidir on acaba allò que mesures
-    forma part de mesurar-ho.**
+    Segons [fonts oficials](https://www.menorca.es/es/Poblado_talayotico_de_Torre_den_Galmes/8446),
+    el jaciment fa **66.240 m²**: el doble del que es distingeix des de l'aire.
 
 ---
 
