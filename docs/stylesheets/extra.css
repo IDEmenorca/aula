@@ -193,13 +193,22 @@
    ------------------------------------------------------------------------- */
 .md-footer {
   background-color: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
 }
 
+/* El color del text es posa aquí i no a .md-footer sencer: si es posa a dalt,
+   també tenyeix la barra de crèdits de sota i l'aclareix. */
 .md-footer__inner {
+  color: var(--md-default-fg-color);
   border-top: 1px solid var(--md-default-fg-color--lighter);
   margin: 2.4rem 0 0;
   padding: 0.8rem 0.2rem 1.2rem;
+}
+
+/* La barra de crèdits, del mateix negre que la capçalera, perquè el lloc
+   quedi tancat per dalt i per baix amb el mateix color. */
+.md-footer-meta {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-footer-fg-color);
 }
 
 /* Material els aplica una transició d'opacitat en passar-hi per sobre, que
