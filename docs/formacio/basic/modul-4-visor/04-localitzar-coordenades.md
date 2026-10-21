@@ -17,9 +17,10 @@ punt del mapa.
 
         Peu de foto previst: *El cercador troba municipis, nuclis, carrers i referències cadastrals.*
 
-2. **Obtenir les coordenades d'un punt.** Fes clic sobre el mapa. Si allà no hi
-   ha cap element d'una capa carregada, el visor et dóna les **coordenades** i
-   l'**elevació** del punt.
+2. **Obtenir les coordenades d'un punt.** Fes clic sobre el mapa. El visor et
+   dóna sempre el sistema de referència, les **coordenades** i l'**elevació**
+   del punt. Si allà hi ha elements d'alguna capa carregada, hi afegeix la
+   seva informació a sota.
 
     !!! note "Captura pendent — `img/44-coordenades-punt.png`"
         El quadre amb el sistema de referència, les coordenades x i y i
