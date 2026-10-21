@@ -158,11 +158,27 @@ nav:
               - "4.5. Buscar i carregar capes temàtiques": formacio/basic/modul-4-visor/05-capes-tematiques.md
               - "4.6. Consulta dels atributs de les capes carregades": formacio/basic/modul-4-visor/06-consulta-atributs.md
               - "4.7. Treballar amb el cadastre": formacio/basic/modul-4-visor/07-cadastre.md
-              - "4.8. Metadades de la informació": formacio/basic/modul-4-visor/08-metadades.md
+              - "4.8. Imprimir": formacio/basic/modul-4-visor/08-imprimir.md
               - "4.9. Visualitzar fitxers de cartografia al visor IDE Menorca": formacio/basic/modul-4-visor/09-fitxers-propis.md
           - "Mòdul 5. Prova escrita d'avaluació": formacio/basic/modul-5-avaluacio.md
-      - Curs intermedi:
-          - Presentació del curs intermedi: formacio/intermedi/index.md
+      - Curs mig:
+          - Presentació del curs mig: formacio/mig/index.md
+          - "Mòdul 1. Context de les Infraestructures de Dades Espacials": formacio/mig/modul-1-context-ide.md
+          - "Mòdul 2. Les eines del projecte IDE Menorca": formacio/mig/modul-2-eines-projecte.md
+          - "Mòdul 3. Visor genèric IDE Menorca":
+              - Presentació del mòdul 3: formacio/mig/modul-3-visor-generic/index.md
+              - "3.1. Revisió dels continguts i capes disponibles": formacio/mig/modul-3-visor-generic/01-continguts-i-capes.md
+              - "3.2. Compartir el mapa o incloure'l en una pàgina web": formacio/mig/modul-3-visor-generic/02-compartir-i-incloure.md
+              - "3.3. Metadades de la informació": formacio/mig/modul-3-visor-generic/03-metadades.md
+              - "3.4. Selecció espacial i alfanumèrica de dades espacials": formacio/mig/modul-3-visor-generic/04-seleccio-espacial-alfanumerica.md
+              - "3.5. Consultes dinàmiques": formacio/mig/modul-3-visor-generic/05-consultes-dinamiques.md
+              - "3.6. Localitzadors específics": formacio/mig/modul-3-visor-generic/06-localitzadors.md
+          - "Mòdul 4. Visor restringit IDE Menorca":
+              - Presentació del mòdul 4: formacio/mig/modul-4-visor-restringit/index.md
+              - "4.1. Introducció als visualitzadors restringits": formacio/mig/modul-4-visor-restringit/01-introduccio.md
+              - "4.2. Què són i com hi puc accedir": formacio/mig/modul-4-visor-restringit/02-acces.md
+              - "4.3. Informació que s'hi pot trobar i com es gestiona": formacio/mig/modul-4-visor-restringit/03-informacio.md
+          - "Mòdul 5. Prova escrita d'avaluació": formacio/mig/modul-5-avaluacio.md
   - Manuals d'usuari:
       - Presentació dels manuals: manuals/index.md
       - Manual del visor genèric:
