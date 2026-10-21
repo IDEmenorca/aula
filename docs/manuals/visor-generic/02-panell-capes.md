@@ -81,6 +81,9 @@ el visor canvia automàticament al sistema de referència compatible.
       de 2004 del Govern de les Illes Balears. Inclou la guia de carrers oficial dels
       vuit municipis de Menorca.
     - **BTIB**: mapa base de les Illes Balears, cartografia a totes les escales.
+    - **Mapa Base IDEIB**: mapa base de la Infraestructura de Dades Espacials
+      de les Illes Balears. *(Pendent de descriure i de confirmar en què es
+      diferencia del BTIB.)*
     - **Base topogràfica de l'illa de Menorca 2012**: actualització de la cartografia de
       2008 amb la fotografia aèria de 2012.
     - **Mapa blanc**: relleu en gris de Menorca, Eivissa, Formentera i Mallorca.
@@ -92,6 +95,9 @@ el visor canvia automàticament al sistema de referència compatible.
 
     **Ortofotografia de tota l'illa**
 
+    - **PNOA màxima actualitat**: servei de l'IGN que mostra, per a cada zona,
+      l'ortofoto més recent disponible del Pla Nacional d'Ortofotografia Aèria.
+      No correspon a un sol vol ni a una sola data.
     - **2024**: la més recent de tota l'illa.
     - **2021**: 25 cm/píxel, vol GSD 25 cm fet entre el 17 de maig i el 26 de juny de 2021.
     - **2018**: 15 cm/píxel, vol GSD18 fet entre el 18 i el 23 d'abril de 2018 per a
