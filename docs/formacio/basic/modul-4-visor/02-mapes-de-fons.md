@@ -25,10 +25,10 @@ lloc amb el control lliscant.
     </figure>
 
     !!! warning "No tots cobreixen tota l'illa"
-        Alguns mapes de fons són d'àmbit limitat: l'ortofoto del port de Maó,
-        algunes de Ciutadella. Fora d'aquella zona no es veu res. Si la pantalla
-        et queda buida, comprova que no t'hagis desplaçat fora de l'abast del
-        mapa que tens triat.
+        Sis mapes de fons són d'àmbit limitat: **2024 Port Maó**, els tres de
+        **Ciutadella** (2012, 2011 nuclis i 2006) i els de **nuclis** (2005 i
+        1995). Fora de la seva zona la pantalla queda buida, i sembla una
+        errada del visor quan no ho és. La resta cobreixen tota l'illa.
 
 ## Exercici pràctic
 
