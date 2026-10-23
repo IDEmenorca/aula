@@ -70,15 +70,14 @@ com es veu.
 
 ## Exercici pràctic
 
-1. Carrega la **Zonificació de la Reserva de la Biosfera**. És a quatre nivells
-   de fondària, i cal desplegar-los un per un:
+1. Al tema **Medi ambient, agricultura i caça**, busca la **Zonificació de la
+   Reserva de la Biosfera** i carrega-la.
 
-    ```text
-    Medi ambient, agricultura i caça          ← tema
-      Medi ambient, agricultura i caça (IDE menorca)   ← servei
-        Reserva de la Biosfera                ← grup de capes
-          Zonificació de la Reserva de la Biosfera     ← la capa
-    ```
+    ??? tip "Si no la trobes, aquest és el camí"
+        1. **Medi ambient, agricultura i caça** — el tema
+        2. **Medi ambient, agricultura i caça (IDE menorca)** — el servei
+        3. **Reserva de la Biosfera** — el grup de capes
+        4. **Zonificació de la Reserva de la Biosfera** — la capa
 2. Posa de mapa de fons una **ortofoto**: veuràs que la capa tapa el terreny.
 3. Amb la **barra lliscant** de la capa, baixa-li la transparència fins a veure
    la fotografia a sota.
