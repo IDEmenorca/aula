@@ -18,18 +18,21 @@ com es veu.
     - Cartografia històrica (Cartoteca)
     - Bases i mapes topogràfics
 
-    !!! note "Captura pendent — `img/45-arbre-capes.png`"
-        El panell de capes disponibles amb un dels temes desplegat i les seves
-        capes a la vista.
-
-        Peu de foto previst: *Les capes estan agrupades per temes; cada tema es desplega amb el botó del costat.*
+    <figure markdown>
+      ![El panell de capes disponibles amb un dels temes desplegat i les seves capes a la vista](img/45-arbre-capes.png){ .captura }
+      <figcaption>Les capes estan agrupades per temes; cada tema es desplega amb el botó del costat.</figcaption>
+    </figure>
 
 2. **Trobar una capa per l'arbre.** Desplega els temes fins a arribar a la capa
    que vols i fes-hi clic per carregar-la.
 
-    El cursor t'indica què pots fer: quan es converteix en una **mà**, allò es
-    pot afegir al mapa; si es queda en forma de **selecció de text**, aquell
-    node només és un grup i l'has de desplegar. Les capes que ja has carregat
+    L'arbre té quatre nivells —tema, servei, grup de capes i capa— o sigui que
+    sovint hauràs de desplegar unes quantes vegades abans d'arribar a allò que
+    es pot carregar.
+
+    El cursor t'indica on ets: quan es converteix en una **mà**, allò es pot
+    afegir al mapa; si es queda en forma de **selecció de text**, encara ets en
+    un nivell intermedi i l'has de desplegar. Les capes que ja has carregat
     surten **ressaltades en verd**.
 
 3. **Trobar una capa pel cercador.** Si ja saps què busques, la **lupa** del
@@ -56,11 +59,10 @@ com es veu.
     capa: busca a **totes les que tinguis carregades**. També la veuràs a la
     [4.6](06-consulta-atributs.md).
 
-    !!! note "Captura pendent — `img/45-capes-carregades.png`"
-        El panell de capes carregades amb un parell de capes i les icones de
-        cadascuna visibles.
-
-        Peu de foto previst: *Cada capa carregada porta les seves eines de visibilitat, transparència i ordre.*
+    <figure markdown>
+      ![El panell de capes carregades amb un parell de capes i les icones de cadascuna visibles](img/45-capes-carregades.png){ .captura }
+      <figcaption>Cada capa carregada porta les seves eines de visibilitat, transparència i ordre.</figcaption>
+    </figure>
 
     !!! tip "Si una capa surt en gris"
         Vol dir que a l'escala on ets no es dibuixa. Apropa't i tornarà a
@@ -68,8 +70,15 @@ com es veu.
 
 ## Exercici pràctic
 
-1. Al tema **Medi ambient, agricultura i caça**, busca la **Zonificació de la
-   Reserva de la Biosfera** i carrega-la.
+1. Carrega la **Zonificació de la Reserva de la Biosfera**. És a quatre nivells
+   de fondària, i cal desplegar-los un per un:
+
+    ```text
+    Medi ambient, agricultura i caça          ← tema
+      Medi ambient, agricultura i caça (IDE menorca)   ← servei
+        Reserva de la Biosfera                ← grup de capes
+          Zonificació de la Reserva de la Biosfera     ← la capa
+    ```
 2. Posa de mapa de fons una **ortofoto**: veuràs que la capa tapa el terreny.
 3. Amb la **barra lliscant** de la capa, baixa-li la transparència fins a veure
    la fotografia a sota.
