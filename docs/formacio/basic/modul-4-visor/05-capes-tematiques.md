@@ -43,11 +43,18 @@ com es veu.
 
     | Eina | Per a què |
     |---|---|
-    | Casella | Amagar i tornar a mostrar la capa sense descarregar-la |
+    | Casella | Amagar i tornar a mostrar la capa sense treure-la |
+    | **i** | Veure d'on surt la capa, qui la manté i amb quines condicions |
+    | Marc amb fletxa | Ajustar el mapa a l'extensió de la capa |
+    | Lupa | Consultar la capa per atributs. Ho veuràs a la [4.6](06-consulta-atributs.md) |
     | Barra lliscant | Fer-la més transparent per veure què hi ha a sota |
     | Fletxes verticals | Canviar l'ordre: quina capa tapa quina |
-    | Marc amb fletxa | Ajustar el mapa a l'extensió de la capa |
-    | Creu | Treure-la del mapa |
+    | Creu, a dalt a la dreta | Treure la capa del mapa |
+
+    A sota hi ha una fila de **selecció** —per punt, per línia o per recinte—
+    que serveix per triar elements sobre el mapa. No actua sobre una sola
+    capa: busca a **totes les que tinguis carregades**. També la veuràs a la
+    [4.6](06-consulta-atributs.md).
 
     !!! note "Captura pendent — `img/45-capes-carregades.png`"
         El panell de capes carregades amb un parell de capes i les icones de

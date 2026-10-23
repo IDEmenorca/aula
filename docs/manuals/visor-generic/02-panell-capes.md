@@ -228,14 +228,34 @@ nombre. Al seu costat, una creu permet eliminar-les totes de cop, amb confirmaci
 
 ### Icones de cada capa
 
+Al costat del títol de cada capa, una icona n'indica la naturalesa:
+
+| Icona | Nom | Què indica |
+|---|---|---|
+| Capes apilades | **Grup de capes** | La capa carregada és un grup de capes simples. La caixa apareix en verd; en passar-hi per sobre es mostren les capes que el componen |
+| Rombe | **Capa simple** | És una capa individual |
+
+I a la dreta del títol, la **creu** treu la capa o el grup del mapa.
+
+A sota, les eines, en l'ordre en què apareixen:
+
 | Icona | Nom | Què fa |
 |---|---|---|
-| Capes apilades | **Grup de capes** | Indica que la capa carregada és un grup de capes simples. La caixa apareix en verd; en passar-hi per sobre es mostren les capes que el componen |
-| Rombe | **Capa simple** | Indica que és una capa individual |
-| **i** | **Informació de la capa** | Obre les metadades: identificador, URL del servei, descripció de la capa i del servei, persona de contacte i altres dades |
 | Casella | **Visibilitat** | Activa o desactiva la visualització de la capa o grup |
+| **i** | **Informació de la capa** | Obre les metadades: identificador, URL del servei, descripció de la capa i del servei, persona de contacte i altres dades |
 | Marc amb fletxa | **Zoom a l'extensió de la capa** | Ajusta el mapa a l'extensió màxima de la capa |
-| Fletxes verticals | **Canviar l'ordre** | Prem i arrossega amunt o avall per reordenar les capes |
 | Lupa | **Consultes** | Obre les [cerques alfanumèriques i gràfiques](05-consultes.md) |
-| Creu | **Eliminar capa** | Treu la capa o el grup del mapa |
 | Barra lliscant | **Transparència** | Arrossega cap a l'esquerra per augmentar la transparència i cap a la dreta per reduir-la. Les capes es carreguen sense transparència |
+| Fletxes verticals | **Canviar l'ordre** | Prem i arrossega amunt o avall per reordenar les capes |
+
+### La fila de selecció
+
+Sota les eines hi ha una fila **Selecció per**, amb els botons **per punt**,
+**per línia** i **per recinte**, i al final els de descarregar i esborrar, que
+estan desactivats fins que no hi hagi res seleccionat.
+
+!!! warning "Actua sobre totes les capes carregades"
+    Tot i que la fila apareix dins de la caixa d'una capa, la selecció **no es
+    limita a aquella capa**: busca elements a totes les que tinguis carregades.
+
+El funcionament es descriu a [4. Selecció gràfica d'elements](04-seleccio-grafica.md).
