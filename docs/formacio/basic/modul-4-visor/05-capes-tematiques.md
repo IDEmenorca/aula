@@ -60,8 +60,8 @@ com es veu.
     [4.6](06-consulta-atributs.md).
 
     <figure markdown>
-      ![El panell de capes carregades amb un parell de capes i les icones de cadascuna visibles](img/45-capes-carregades.png){ .captura }
-      <figcaption>Cada capa carregada porta les seves eines de visibilitat, transparència i ordre.</figcaption>
+      ![El panell de capes carregades amb dues capes. Hi ha emmarcades la fila d'eines d'una de les capes i, a sota, la fila de selecció](img/45-capes-carregades.png){ .captura }
+      <figcaption>A dalt, les eines d'una capa. A baix, la fila de selecció, que actua sobre totes les capes carregades.</figcaption>
     </figure>
 
     !!! tip "Si una capa surt en gris"
