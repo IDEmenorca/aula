@@ -143,6 +143,16 @@ serveis de cartografia (IDEIB, IGN, Cadastre i altres). Hi ha dues maneres d'afe
 L'arbre presenta la informació organitzada per temàtiques. S'obre desplegat i es navega
 amb els botons d'expandir i contreure nodes.
 
+Al tema per defecte, les temàtiques de primer nivell són set:
+
+- Ordenació del territori i cadastre
+- Urbanisme i habitabilitat
+- Turisme, cultura i patrimoni
+- Medi ambient, agricultura i caça
+- Equipaments i infraestructures públiques
+- Cartografia històrica (Cartoteca)
+- Bases i mapes topogràfics
+
 <figure markdown>
   ![Arbre de capes amb un node desplegat i el cursor en forma de mà sobre una capa](img/14-arbre-capes.png){ .captura }
   <figcaption>El cursor en forma de mà indica que la capa es pot afegir al mapa.</figcaption>
