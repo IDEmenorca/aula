@@ -72,6 +72,14 @@ més les proves, totes compartides amb la Dolo.
 
 ## Pendents de confirmar
 
+- **L'abast de la 4.7 (cadastre) és provisional.** El que hi ha escrit surt
+  del criteri d'en Marc, pendent de comentar-ho amb els seus caps per definir
+  bé què ha de saber fer un tècnic municipal amb el cadastre. Pot canviar.
+- **El manual no té cap apartat de cadastre.** La secció 4.7 és l'única del
+  mòdul 4 que no s'hi pot recolzar. Caldria escriure'l: el servei el
+  proporciona la Direcció General del Cadastre a
+  `https://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx`.
+
 - **Mòduls 1 i 2 del curs mig: sense assignar** al pla. Falta decidir-ho.
 - **El mòdul 1 del curs bàsic és d'en Ricard**, però el text que hi ha ara l'ha
   escrit en Marc. Cal aclarir si és un esborrany per passar-li o si
