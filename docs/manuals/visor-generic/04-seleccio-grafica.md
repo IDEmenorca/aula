@@ -12,10 +12,16 @@ selecció **espacial** sobre el mapa: per punt, per línia o per recinte.
 !!! warning "A verificar: de què depèn exactament"
     El manual d'IDENA, del visor de Navarra fet amb la mateixa API, diu que els
     botons de línia i recinte només s'habiliten si hi ha capes *«cargadas y
-    activas con WFS asociado»*. Al visor de Menorca s'han vist actius amb una
-    capa el servei de la qual és WMS, però no s'ha pogut descartar que tingui un
-    WFS equivalent al darrere. Queda per aclarir si la condició és tenir capes o
-    tenir-ne amb WFS.
+    activas con WFS asociado»*.
+
+    S'ha provat amb dues capes i totes dues els activen, però **cap de les dues
+    descarta la condició del WFS**: la Zonificació de la Reserva de la Biosfera
+    és de la pròpia IDE Menorca, i la del Domini Públic Maritimoterrestre del
+    MITECO, carregada per WMS, té un WFS equivalent al mateix camí.
+
+    Per saber-ho del cert caldria provar-ho amb **una capa que només tingui
+    WMS**. Mentrestant, la regla segura per a l'usuari és la de dalt: sense
+    capes carregades, apagats.
 
 <figure markdown>
   ![Barra de selecció amb els botons per punt, per línia i per recinte sota una capa carregada](img/60-barra-seleccio.png){ .captura }
