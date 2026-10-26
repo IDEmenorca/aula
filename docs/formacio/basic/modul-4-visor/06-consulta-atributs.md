@@ -26,21 +26,16 @@ porten associada.
 
 4. **Seleccionar-ne diversos.** Amb **per línia** o **per recinte**, dibuixa
    sobre el mapa i acaba amb doble clic. Se seleccionen tots els elements que
-   toquin el que has dibuixat, i un **cercle verd** diu quants n'has agafat.
-
-    <figure markdown>
-      ![Una selecció per recinte amb el polígon dibuixat sobre el mapa i el requadre amb els elements trobats. El cercle verd del recompte, emmarcat](img/46-seleccio-recinte.png){ .captura }
-      <figcaption>El cercle verd compta els elements que ha agafat el recinte.</figcaption>
-    </figure>
+   toquin el que has dibuixat.
 
 5. **Llegir resultats de diverses capes.** Quan els elements vénen de capes
-   diferents, els resultats s'agrupen per capa, cadascuna amb el seu recompte.
+   diferents, els resultats s'agrupen per capa, i un **cercle verd** indica
+   quants n'hi ha de cadascuna.
 
-    !!! note "Captura pendent — `img/46-dues-capes.png`"
-        El requadre amb resultats de **dues** capes alhora, agrupats, amb el
-        cercle verd de cada grup.
-
-        Peu de foto previst: *Amb dues capes carregades, els resultats surten agrupats i comptats per capa.*
+    <figure markdown>
+      ![El requadre amb resultats de dues capes, agrupats, amb la capçalera i el cercle verd de cada grup emmarcats](img/46-atributs-dues-capes.png){ .captura }
+      <figcaption>Amb dues capes carregades, els resultats surten agrupats i comptats per capa.</figcaption>
+    </figure>
 
 6. **Netejar la selecció.** La **paperera** de la fila de selecció treu del mapa
    tot el que hi hagis seleccionat.

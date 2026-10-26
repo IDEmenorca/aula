@@ -8,6 +8,14 @@ redactàvem el curs i el manual. Es recullen aquí per no perdre-les; corregir-l
 
 ---
 
+## Interfície
+
+| On | Què passa |
+|---|---|
+| Panell de capes carregades | En carregar una **segona** capa, el panell creix i empeny la resta cap avall. L'arbre de capes disponibles queda tallat per sota i «Afegir mapes» surt de la vista. Amb una sola capa, el panell es veu bé |
+
+---
+
 ## Traduccions
 
 | On | Què passa | Hauria de dir |
