@@ -1,6 +1,6 @@
 # Curs bàsic
 
-Primer nivell de la formació en la IDE Menorca. Parteix de zero: no cal cap
+Primer nivell de la formació en l'IDE Menorca. Parteix de zero: no cal cap
 coneixement previ de cartografia ni de sistemes d'informació geogràfica.
 
 En acabar-lo sabràs moure't pel visor genèric, carregar-hi la informació que
@@ -15,8 +15,8 @@ el resultat.
 |---|---|---|
 | 1 | [Conceptes bàsics de cartografia i dades geogràfiques](modul-1-cartografia.md) | 1 h |
 | 2 | [Introducció a les Infraestructures de Dades Espacials](modul-2-ide.md) | 1 h |
-| 3 | [Característiques de la IDE Menorca](modul-3-ide-menorca.md) | 1 h |
-| 4 | [Visor genèric de la IDE Menorca](modul-4-visor/index.md) | 6 h |
+| 3 | [Característiques de l'IDE Menorca](modul-3-ide-menorca.md) | 1 h |
+| 4 | [Visor genèric de l'IDE Menorca](modul-4-visor/index.md) | 6 h |
 | 5 | [Prova escrita d'avaluació](modul-5-avaluacio.md) | 1 h |
 
 El mòdul 4 és el gruix del curs i es divideix en nou seccions; les tens

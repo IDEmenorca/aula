@@ -1,6 +1,6 @@
 # Curs mig
 
-Segon nivell de la formació en la IDE Menorca. Dóna per sabut el
+Segon nivell de la formació en l'IDE Menorca. Dona per sabut el
 [curs bàsic](../basic/index.md): es parteix de la base que ja et mous pel visor
 genèric i saps carregar-hi capes.
 

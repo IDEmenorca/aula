@@ -6,7 +6,7 @@
 site_name: Aula IDE Menorca
 site_description: >-
   Portal de formació en Infraestructures de Dades Espacials del Consell Insular
-  de Menorca. Cursos i guies sobre la IDE Menorca i el seu visor cartogràfic.
+  de Menorca. Cursos i guies sobre l'IDE Menorca i el seu visor cartogràfic.
 site_author: Consell Insular de Menorca · Departament de Cartografia
 copyright: >-
   © Consell Insular de Menorca · Departament de Cartografia
@@ -149,8 +149,8 @@ nav:
           - Presentació del curs bàsic: formacio/basic/index.md
           - "Mòdul 1. Conceptes bàsics de cartografia i dades geogràfiques": formacio/basic/modul-1-cartografia.md
           - "Mòdul 2. Introducció a les Infraestructures de Dades Espacials": formacio/basic/modul-2-ide.md
-          - "Mòdul 3. Característiques de la IDE Menorca": formacio/basic/modul-3-ide-menorca.md
-          - "Mòdul 4. Visor genèric de la IDE Menorca":
+          - "Mòdul 3. Característiques de l'IDE Menorca": formacio/basic/modul-3-ide-menorca.md
+          - "Mòdul 4. Visor genèric de l'IDE Menorca":
               - Presentació del mòdul 4: formacio/basic/modul-4-visor/index.md
               - "4.1. Eines de navegació sobre el mapa": formacio/basic/modul-4-visor/01-navegacio.md
               - "4.2. Control de mapes de fons": formacio/basic/modul-4-visor/02-mapes-de-fons.md

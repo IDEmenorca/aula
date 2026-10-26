@@ -108,7 +108,7 @@ Els sistemes disponibles depenen del mapa de fons que s'estigui utilitzant.
 ## 1.7. Ajuda i idioma
 
 A la capçalera del panell de capes hi ha l'enllaç **ajuda**, que obre un panell
-informatiu amb l'accés al visualitzador antic i al canal de YouTube de la IDE Menorca,
+informatiu amb l'accés al visualitzador antic i al canal de YouTube de l'IDE Menorca,
 on hi ha videotutorials.
 
 A la dreta del mateix panell, els enllaços **ca**, **es** i **en** canvien l'idioma de

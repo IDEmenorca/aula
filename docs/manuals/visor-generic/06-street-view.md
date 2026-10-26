@@ -32,4 +32,4 @@ Amb el botó de tancament del cantó superior dret.
 !!! note "Servei de tercers"
     Street View és un servei extern de Google. En utilitzar-lo, la connexió es fa contra
     els servidors de Google i s'hi apliquen les seves condicions i la seva política de
-    galetes, no les de la IDE Menorca.
+    galetes, no les de l'IDE Menorca.

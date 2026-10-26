@@ -1,7 +1,7 @@
 # Manual del visor genèric IDE Menorca
 
-El visor genèric és l'aplicació de consulta cartogràfica oberta de la IDE Menorca.
-Dóna accés a la informació geogràfica dels ajuntaments de Menorca, del Consell Insular
+El visor genèric és l'aplicació de consulta cartogràfica oberta de l'IDE Menorca.
+Dona accés a la informació geogràfica dels ajuntaments de Menorca, del Consell Insular
 de Menorca, del Govern de les Illes Balears (IDEIB) i de l'Administració General de
 l'Estat.
 

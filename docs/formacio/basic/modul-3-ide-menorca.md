@@ -1,3 +1,3 @@
-# Mòdul 3. Característiques de la IDE Menorca
+# Mòdul 3. Característiques de l'IDE Menorca
 
 !!! note "Pendent de redactar"

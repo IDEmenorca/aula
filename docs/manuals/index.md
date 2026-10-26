@@ -1,6 +1,6 @@
 # Manuals d'usuari
 
-Documentació de referència de les eines de la IDE Menorca. A diferència dels
+Documentació de referència de les eines de l'IDE Menorca. A diferència dels
 [cursos de formació](../formacio/index.md), que segueixen un itinerari d'aprenentatge,
 els manuals estan pensats per consultar-los de manera puntual: quan ja saps què vols
 fer i només necessites recordar com es fa.

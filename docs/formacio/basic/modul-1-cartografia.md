@@ -170,7 +170,7 @@ A continuació es presenten 4 exercicis pràctics pensats per als tècnics i adm
 ### Qüestionari d'Exercicis
 
 #### Exercici 1: Gestió de Projeccions en un projecte municipal
-Un topògraf entrega a l'Ajuntament de Ciutadella un arxiu CAD (`.dwg`) amb el projecte de reforma d'una plaça urbana. Quan el tècnic municipal carrega el fitxer sobre el visor geogràfic de la IDE Menorca (que treballa en ETRS89 UTM 31N), la plaça apareix desplaçada uns 200 metres endins del mar.
+Un topògraf entrega a l'Ajuntament de Ciutadella un arxiu CAD (`.dwg`) amb el projecte de reforma d'una plaça urbana. Quan el tècnic municipal carrega el fitxer sobre el visor geogràfic de l'IDE Menorca (que treballa en ETRS89 UTM 31N), la plaça apareix desplaçada uns 200 metres endins del mar.
 1.  Quin és el motiu més probable d'aquest desplaçament?
 2.  Quin codi EPSG té l'arxiu original del topògraf i quin codi EPSG hauria de tenir?
 

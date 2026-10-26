@@ -16,7 +16,7 @@ Repartiment: **M** = Marc · **D** = Dolo · **R** = Ricard
 |---|---|---|---|---|
 | 1 | Conceptes bàsics de cartografia i dades geogràfiques | 1 | R | Començat |
 | 2 | Introducció a les Infraestructures de Dades Espacials | 1 | R | Marcador |
-| 3 | Característiques de la IDE Menorca | 1 | R | Marcador |
+| 3 | Característiques de l'IDE Menorca | 1 | R | Marcador |
 | 4 | **Visor genèric** | 6 | **M + D** | Marcadors |
 | 5 | Prova escrita d'avaluació | 1 | M + D + R | Marcador |
 
