@@ -15,11 +15,10 @@ porten associada.
    **Selecció per**, amb **per punt** triat de sèrie. Fes clic sobre un element
    del mapa.
 
-    !!! note "Captura pendent — `img/46-atributs-element.png`"
-        El requadre de resultats amb la taula d'atributs d'un element de la
-        Zonificació de la Reserva de la Biosfera.
-
-        Peu de foto previst: *El requadre diu de quina capa surt l'element i en llista els atributs.*
+    <figure markdown>
+      ![El requadre de resultats amb la taula d'atributs d'un element de la Zonificació de la Reserva de la Biosfera](img/46-atributs-element.png){ .captura }
+      <figcaption>El requadre diu de quina capa surt l'element i en llista els atributs.</figcaption>
+    </figure>
 
 3. **Llegir el requadre.** A dalt hi surt **de quina capa** prové l'element, i a
    sota la taula amb els seus **atributs**. La selecció busca a **totes** les
@@ -27,15 +26,19 @@ porten associada.
 
 4. **Seleccionar-ne diversos.** Amb **per línia** o **per recinte**, dibuixa
    sobre el mapa i acaba amb doble clic. Se seleccionen tots els elements que
-   toquin el que has dibuixat.
+   toquin el que has dibuixat, i un **cercle verd** diu quants n'has agafat.
+
+    <figure markdown>
+      ![Una selecció per recinte amb el polígon dibuixat sobre el mapa i el requadre amb els elements trobats. El cercle verd del recompte, emmarcat](img/46-seleccio-recinte.png){ .captura }
+      <figcaption>El cercle verd compta els elements que ha agafat el recinte.</figcaption>
+    </figure>
 
 5. **Llegir resultats de diverses capes.** Quan els elements vénen de capes
-   diferents, els resultats s'agrupen per capa, i un **cercle verd** indica
-   quants n'hi ha de cadascuna.
+   diferents, els resultats s'agrupen per capa, cadascuna amb el seu recompte.
 
-    !!! note "Captura pendent — `img/46-atributs-dues-capes.png`"
-        El requadre amb resultats de dues capes, agrupats, amb el cercle verd
-        del recompte a cada grup.
+    !!! note "Captura pendent — `img/46-dues-capes.png`"
+        El requadre amb resultats de **dues** capes alhora, agrupats, amb el
+        cercle verd de cada grup.
 
         Peu de foto previst: *Amb dues capes carregades, els resultats surten agrupats i comptats per capa.*
 
