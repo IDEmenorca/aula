@@ -5,8 +5,17 @@ selecció **espacial** sobre el mapa: per punt, per línia o per recinte.
 
 !!! warning "Cal tenir capes carregades"
     La selecció només actua sobre capes que ja siguin al panell de
-    [capes carregades](02-panell-capes.md#25-capes-carregades). Sense capes carregades,
-    l'eina no retorna res.
+    [capes carregades](02-panell-capes.md#25-capes-carregades). Sense cap capa
+    carregada, els botons **per línia** i **per recinte** apareixen apagats i no
+    es poden fer servir. En carregar-ne una, s'activen.
+
+!!! warning "A verificar: de què depèn exactament"
+    El manual d'IDENA, del visor de Navarra fet amb la mateixa API, diu que els
+    botons de línia i recinte només s'habiliten si hi ha capes *«cargadas y
+    activas con WFS asociado»*. Al visor de Menorca s'han vist actius amb una
+    capa el servei de la qual és WMS, però no s'ha pogut descartar que tingui un
+    WFS equivalent al darrere. Queda per aclarir si la condició és tenir capes o
+    tenir-ne amb WFS.
 
 <figure markdown>
   ![Barra de selecció amb els botons per punt, per línia i per recinte sota una capa carregada](img/60-barra-seleccio.png){ .captura }
@@ -40,7 +49,7 @@ dibuixa al mapa, però el requadre de resultats mostra la informació de **tots*
 
 <figure markdown>
   ![Requadre de resultats amb les taules d'atributs agrupades per capa i els objectes ressaltats al mapa](img/61-requadre-resultats.png){ .captura }
-  <figcaption>Els resultats s'agrupen per capa; un cercle vermell n'indica el nombre.</figcaption>
+  <figcaption>Els resultats s'agrupen per capa; un cercle verd n'indica el nombre.</figcaption>
 </figure>
 
 Si fas clic a la taula d'atributs d'un objecte, aquell objecte es carrega al mapa i
@@ -50,7 +59,7 @@ Les seleccions noves **s'acumulen**: els objectes es van afegint al mapa fins qu
 esborris amb algun dels botons de paperera (el negre o el vermell).
 
 Quan els resultats provenen de diverses capes, es mostren agrupats per capa, amb un
-cercle vermell que indica quantes entitats s'han seleccionat de cadascuna.
+cercle verd que indica quantes entitats s'han seleccionat de cadascuna.
 
 ## 4.3. Accions sobre tots els resultats
 
