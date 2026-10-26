@@ -1,7 +1,7 @@
 # 6. Google Street View
 
 Google Street View és un servei de Google que proporciona imatges panoràmiques a peu de
-carrer. El visor hi dóna accés directe.
+carrer. El visor hi dona accés directe.
 
 ## Com s'utilitza
 

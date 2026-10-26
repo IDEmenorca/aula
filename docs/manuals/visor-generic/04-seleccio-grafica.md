@@ -37,7 +37,7 @@ selecció **espacial** sobre el mapa: per punt, per línia o per recinte.
 | **Per recinte** | Dibuixa un polígon; selecciona els objectes que hi intersequen. Es tanca amb doble clic |
 
 !!! tip "Consultar coordenades i elevació"
-    La selecció per punt **sempre** dóna el sistema de referència, les
+    La selecció per punt **sempre** dona el sistema de referència, les
     **coordenades** i l'**elevació** del punt consultat, hi hagi elements o no.
     Quan n'hi ha, la informació de les capes s'hi afegeix a sota.
 

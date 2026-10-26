@@ -144,7 +144,7 @@ feines** ha fallat: «Construeix el lloc» o «Desplega a GitHub Pages».
 
 ### Falla «Construeix el lloc»
 
-El problema és al contingut. Reprodueix-lo en local, que dóna el mateix error:
+El problema és al contingut. Reprodueix-lo en local, que dona el mateix error:
 
 ```bash
 mkdocs build --strict

@@ -22,7 +22,7 @@ coordenades, distàncies i superfícies.
 2. **Dibuixar un punt.** Tria la pestanya **punts** i fes clic al mapa. Del
    punt en surten les **coordenades** i l'**elevació**.
 
-3. **Mesurar una distància.** Tria la pestanya **línies** i ves fent clic a
+3. **Mesurar una distància.** Tria la pestanya **línies** i vés fent clic a
    cada vèrtex. Acaba amb doble clic. La **longitud** es va actualitzant
    mentre dibuixes.
 

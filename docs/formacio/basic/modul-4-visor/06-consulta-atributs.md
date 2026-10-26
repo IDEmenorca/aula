@@ -28,7 +28,7 @@ porten associada.
    sobre el mapa i acaba amb doble clic. Se seleccionen tots els elements que
    toquin el que has dibuixat.
 
-5. **Llegir resultats de diverses capes.** Quan els elements vénen de capes
+5. **Llegir resultats de diverses capes.** Quan els elements venen de capes
    diferents, els resultats s'agrupen per capa, i un **cercle verd** indica
    quants n'hi ha de cadascuna.
 
@@ -47,7 +47,7 @@ porten associada.
 2. Fes clic sobre una zona i mira què diu l'atribut **`dstipus`**.
 3. Busca'n una de **marina** i una de **terrestre**: veuràs que l'atribut
    canvia.
-4. Dibuixa un **recinte** sobre una zona de costa i mira quantes en seleccionés
+4. Dibuixa un **recinte** sobre una zona de costa i mira quantes en selecciones
    de cop.
 5. Carrega també la **Localització de les reserves de biosfera de la xarxa
    mundial** i torna a seleccionar: els resultats surten agrupats per capa.

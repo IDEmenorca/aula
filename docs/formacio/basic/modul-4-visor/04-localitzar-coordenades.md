@@ -17,13 +17,13 @@ punt del mapa.
     </figure>
 
 2. **Obtenir les coordenades d'un punt.** Fes clic sobre el mapa. El visor et
-   dóna sempre el sistema de referència, les **coordenades** i l'**elevació**
+   dona sempre el sistema de referència, les **coordenades** i l'**elevació**
    del punt. Si allà hi ha elements d'alguna capa carregada, hi afegeix la
    seva informació a sota.
 
     <figure markdown>
       ![El quadre amb el sistema de referència, les coordenades x i y i l'elevació del punt consultat](img/44-coordenades-punt.png){ .captura }
-      <figcaption>Cada clic al mapa dóna el sistema de referència, les coordenades i l'altitud del terreny.</figcaption>
+      <figcaption>Cada clic al mapa dona el sistema de referència, les coordenades i l'altitud del terreny.</figcaption>
     </figure>
 
 3. **Llegir les coordenades del cursor.** Al cantó inferior esquerre hi ha un
@@ -34,7 +34,7 @@ punt del mapa.
    esquerre. S'obre un quadre amb la projecció actual i les compatibles.
 
     El visor treballa per defecte en **ETRS89 / UTM zone 31N (EPSG:25831)**, que
-    és l'oficial a les Illes Balears i dóna les coordenades en **metres**. En
+    és l'oficial a les Illes Balears i dona les coordenades en **metres**. En
     canviar a **WGS 84 (EPSG:4326)**, el mateix punt passa a expressar-se en
     **graus**.
 

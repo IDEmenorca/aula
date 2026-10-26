@@ -1,6 +1,6 @@
 # Manual del visor restringit
 
-El visor restringit de la IDE Menorca dóna accés a informació geogràfica que no és
+El visor restringit de la IDE Menorca dona accés a informació geogràfica que no és
 pública, destinada al personal tècnic de les administracions de Menorca.
 
 !!! note "Pendent de redactar"

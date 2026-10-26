@@ -24,7 +24,7 @@ llistades a la [seva presentació](modul-4-visor/index.md).
 
 ## Com seguir-lo
 
-Els mòduls estan pensats per fer-se en ordre: cada un dóna per sabut el
+Els mòduls estan pensats per fer-se en ordre: cada un dona per sabut el
 d'abans. El mòdul 4 és pràctic, o sigui que val més tenir el visor obert en
 una altra finestra mentre el segueixes.
 
@@ -40,7 +40,7 @@ consultes, metadades i el visor restringit.
 
 ## Recursos
 
-- [Atlas didàctic de l'IGN: activitat sobre coordenades geogràfiques](https://educativo.ign.es/atlas-didactico/cartografia-eso/actividad_coordenadas_geogrficas.html)
+- [Atles didàctic de l'IGN: activitat sobre coordenades geogràfiques](https://educativo.ign.es/atlas-didactico/cartografia-eso/actividad_coordenadas_geogrficas.html)
 
 !!! note "Pendent de redactar"
     Falta decidir si aquesta llista de recursos es manté a la portada del curs

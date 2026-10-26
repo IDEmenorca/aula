@@ -21,6 +21,7 @@ redactàvem el curs i el manual. Es recullen aquí per no perdre-les; corregir-l
 | On | Què passa | Hauria de dir |
 |---|---|---|
 | Fila de selecció, dins del panell de capes carregades | Amb la interfície en **castellà** surt **«Selection by»**, en anglès. Falta la cadena traduïda | «Selección por» |
+| Panell d'eines, en **català** | L'eina es diu **«Dibuixar i medir»**. «Medir» és un castellanisme | «Dibuixar i mesurar» |
 
 En **català** la mateixa cadena surt bé, «Selecció per». El problema és només a
 la versió castellana.
