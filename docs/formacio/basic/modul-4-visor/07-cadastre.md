@@ -13,11 +13,10 @@ visor i obrir-ne la fitxa oficial al Cadastre.
    la cartografia cadastral sencera. Les altres del grup —`PARCELA`, `CONSTRU`,
    `MASA`…— són peces soltes, per a usos més concrets.
 
-    !!! note "Captura pendent — `img/47-capa-cadastre.png`"
-        El cadastre carregat sobre una ortofoto d'un nucli urbà, amb les
-        parcel·les dibuixades a sobre de les teulades.
-
-        Peu de foto previst: *La cartografia cadastral dibuixa els límits de les parcel·les sobre el terreny.*
+    <figure markdown>
+      ![El desplegable del cadastre amb la capa Catastro emmarcada, i les parcel·les dibuixades sobre el mapa](img/47-capa-cadastre.png){ .captura }
+      <figcaption>De tot el grup Cadastre, la capa que dibuixa les parcel·les senceres és Catastro.</figcaption>
+    </figure>
 
 2. **Buscar per referència cadastral.** El quadre de cerca de la capçalera —el
    mateix de la [4.4](04-localitzar-coordenades.md)— accepta referències
@@ -27,11 +26,10 @@ visor i obrir-ne la fitxa oficial al Cadastre.
    [4.6](06-consulta-atributs.md). El requadre no treu cap taula d'atributs: el
    que et dona és la **referència cadastral**, i és un **enllaç**.
 
-    !!! note "Captura pendent — `img/47-dades-parcella.png`"
-        El requadre de resultats d'una parcel·la, amb la referència cadastral
-        emmarcada.
-
-        Peu de foto previst: *La referència cadastral és, alhora, l'enllaç que obre la fitxa oficial.*
+    <figure markdown>
+      ![El requadre de resultats d'una parcel·la, amb la referència cadastral emmarcada](img/47-dades-parcella.png){ .captura }
+      <figcaption>La referència cadastral és, alhora, l'enllaç que obre la fitxa oficial.</figcaption>
+    </figure>
 
 4. **Obrir la fitxa oficial.** L'enllaç obre la Seu Electrònica del Cadastre
    **en una pestanya nova**, amb les dades d'aquella parcel·la. No perds el

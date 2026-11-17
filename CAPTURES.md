@@ -3,7 +3,7 @@
 Llista generada automàticament amb `python tools/captures.py --llista`.
 No l'editis a mà: es regenera.
 
-Queden **14 captures** per fer.
+Queden **10 captures** per fer.
 
 ## Com afegir-les
 
@@ -79,17 +79,3 @@ la resta com a marcadors.
 | Fitxer | Què ha de mostrar |
 |---|---|
 | `docs/manuals/visor-generic/03-eines/img/31-imprimir-previsualitzacio.png` | Previsualització dinàmica amb el marc ajustable de l'àrea d'impressió. El manual original no en té cap imatge, tot i ser el pas on l'usuari es queda encallat més sovint |
-
-## `docs/formacio/basic/modul-4-visor/07-cadastre.md`
-
-| Fitxer | Què ha de mostrar |
-|---|---|
-| `docs/formacio/basic/modul-4-visor/img/47-capa-cadastre.png` | El cadastre carregat sobre una ortofoto d'un nucli urbà, amb les parcel·les dibuixades a sobre de les teulades |
-| `docs/formacio/basic/modul-4-visor/img/47-dades-parcella.png` | El requadre de resultats d'una parcel·la, amb la referència cadastral emmarcada |
-
-## `docs/formacio/basic/modul-4-visor/08-imprimir.md`
-
-| Fitxer | Què ha de mostrar |
-|---|---|
-| `docs/formacio/basic/modul-4-visor/img/48-panell-imprimir.png` | El panell Imprimir obert, amb el títol escrit i les opcions de disseny, mida i codi QR a la vista |
-| `docs/formacio/basic/modul-4-visor/img/48-previsualitzacio.png` | La previsualització, amb el marc de l'àrea d'impressió sobre el mapa i el botó de descàrrega del marge superior dret emmarcat |

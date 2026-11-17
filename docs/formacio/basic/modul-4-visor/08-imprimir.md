@@ -13,11 +13,10 @@ l'escala i la llegenda de les capes carregades.
 2. **Obrir l'eina Imprimir.** És al panell d'eines, el de les eines creuades de
    la columna esquerra ([4.3](03-mesurar-dibuixar.md)).
 
-    !!! note "Captura pendent — `img/48-panell-imprimir.png`"
-        El panell Imprimir obert, amb el títol escrit i les opcions de disseny,
-        mida i codi QR a la vista.
-
-        Peu de foto previst: *El títol, el disseny i la mida es decideixen abans de generar el PDF.*
+    <figure markdown>
+      ![El panell Imprimir obert, amb el títol escrit i les opcions de disseny, mida i codi QR a la vista](img/48-panell-imprimir.png){ .captura }
+      <figcaption>El títol, el disseny i la mida es decideixen abans de generar el PDF.</figcaption>
+    </figure>
 
 3. **Omplir les opcions.** Títol, orientació del full, mida i si hi vols el codi
    QR. El QR porta al mapa que ha generat el PDF: qui el rebi imprès el pot
@@ -28,11 +27,10 @@ l'escala i la llegenda de les capes carregades.
    que es veia abans: ajusta l'escala amb la **roda del ratolí** fins que hi
    tinguis el que vols.
 
-    !!! note "Captura pendent — `img/48-previsualitzacio.png`"
-        La previsualització, amb el marc de l'àrea d'impressió sobre el mapa i el
-        botó de descàrrega del marge superior dret emmarcat.
-
-        Peu de foto previst: *A la previsualització s'ajusten l'enquadrament i l'escala abans de generar el PDF.*
+    <figure markdown>
+      ![La previsualització, amb el marc de l'àrea d'impressió sobre el mapa i el botó de descàrrega del marge superior dret emmarcat](img/48-previsualitzacio.png){ .captura }
+      <figcaption>A la previsualització s'ajusten l'enquadrament i l'escala abans de generar el PDF.</figcaption>
+    </figure>
 
 5. **Descarregar el PDF.** Amb el botó de descàrrega del marge superior dret de
    la previsualització.
