@@ -85,7 +85,7 @@ la resta com a marcadors.
 | Fitxer | Què ha de mostrar |
 |---|---|
 | `docs/formacio/basic/modul-4-visor/img/47-capa-cadastre.png` | El cadastre carregat sobre una ortofoto d'un nucli urbà, amb les parcel·les dibuixades a sobre de les teulades |
-| `docs/formacio/basic/modul-4-visor/img/47-dades-parcella.png` | El requadre de resultats d'una parcel·la cadastral, amb l'enllaç a la fitxa oficial emmarcat |
+| `docs/formacio/basic/modul-4-visor/img/47-dades-parcella.png` | El requadre de resultats d'una parcel·la, amb la referència cadastral emmarcada |
 
 ## `docs/formacio/basic/modul-4-visor/08-imprimir.md`
 

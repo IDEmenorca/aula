@@ -2,14 +2,16 @@
 
 ## Objectiu
 
-En acabar sabràs localitzar una parcel·la cadastral al visor, consultar-ne les
-dades i obrir-ne la fitxa oficial al Cadastre.
+En acabar sabràs carregar la cartografia cadastral, localitzar una parcel·la al
+visor i obrir-ne la fitxa oficial al Cadastre.
 
 ## Passos
 
-1. **Carregar la cartografia cadastral.** És al tema **Ordenació del territori
-   i cadastre** de les capes disponibles, com qualsevol altra capa
-   ([4.5](05-capes-tematiques.md)).
+1. **Carregar la cartografia cadastral.** És a les capes disponibles, dins
+   **Ordenació del territori i cadastre → Cadastre**
+   ([4.5](05-capes-tematiques.md)). Carrega-hi **`Catastro`**: és la que dibuixa
+   la cartografia cadastral sencera. Les altres del grup —`PARCELA`, `CONSTRU`,
+   `MASA`…— són peces soltes, per a usos més concrets.
 
     !!! note "Captura pendent — `img/47-capa-cadastre.png`"
         El cadastre carregat sobre una ortofoto d'un nucli urbà, amb les
@@ -21,17 +23,19 @@ dades i obrir-ne la fitxa oficial al Cadastre.
    mateix de la [4.4](04-localitzar-coordenades.md)— accepta referències
    cadastrals. Escriu-ne una i el visor s'hi situa.
 
-3. **Consultar una parcel·la.** Fes clic sobre la parcel·la, com a la
-   [4.6](06-consulta-atributs.md). A les dades que surten hi ha un **enllaç**.
+3. **Consultar una parcel·la.** Fes clic a sobre, com a la
+   [4.6](06-consulta-atributs.md). El requadre no treu cap taula d'atributs: el
+   que et dona és la **referència cadastral**, i és un **enllaç**.
 
     !!! note "Captura pendent — `img/47-dades-parcella.png`"
-        El requadre de resultats d'una parcel·la cadastral, amb l'enllaç a la
-        fitxa oficial emmarcat.
+        El requadre de resultats d'una parcel·la, amb la referència cadastral
+        emmarcada.
 
-        Peu de foto previst: *Les dades de la parcel·la porten l'enllaç a la fitxa oficial del Cadastre.*
+        Peu de foto previst: *La referència cadastral és, alhora, l'enllaç que obre la fitxa oficial.*
 
-4. **Obrir la fitxa oficial.** L'enllaç obre la pàgina del Cadastre amb la
-   fitxa d'aquella parcel·la.
+4. **Obrir la fitxa oficial.** L'enllaç obre la Seu Electrònica del Cadastre
+   **en una pestanya nova**, amb les dades d'aquella parcel·la. No perds el
+   mapa: el visor es queda obert a la pestanya d'abans.
 
     !!! tip "El visor situa, el Cadastre certifica"
         El visor et serveix per **trobar** la parcel·la i veure-la en context.
@@ -47,9 +51,9 @@ dades i obrir-ne la fitxa oficial al Cadastre.
 
 1. Carrega la cartografia cadastral.
 2. Busca la referència **`7552201FE0175S`** al quadre de cerca.
-3. Fes clic sobre la parcel·la i mira'n les dades.
+3. Fes clic sobre la parcel·la: en surt la referència cadastral.
 4. Obre la fitxa oficial amb l'enllaç.
-5. Compara l'adreça que dóna el Cadastre amb el que veus al mapa.
+5. Compara l'adreça que dona el Cadastre amb el que veus al mapa.
 
 !!! tip "L'edifici el coneixes"
     És la plaça de la Biosfera, 5, de Maó: la seu del Consell Insular de

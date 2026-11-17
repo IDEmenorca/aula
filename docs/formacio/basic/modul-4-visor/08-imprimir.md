@@ -25,7 +25,8 @@ l'escala i la llegenda de les capes carregades.
 
 4. **Prémer Imprimir i ajustar l'enquadrament.** S'obre una previsualització amb
    un marc sobre el mapa. El que hi quedi a dins és el que sortirà al PDF, no el
-   que es veia abans: mou-lo i canvia l'escala fins que hi tinguis el que vols.
+   que es veia abans: ajusta l'escala amb la **roda del ratolí** fins que hi
+   tinguis el que vols.
 
     !!! note "Captura pendent — `img/48-previsualitzacio.png`"
         La previsualització, amb el marc de l'àrea d'impressió sobre el mapa i el
@@ -43,7 +44,7 @@ l'escala i la llegenda de les capes carregades.
 2. Enquadra el **nucli urbà del teu municipi**.
 3. Obre **Imprimir**, posa-hi un títol, tria full **A4 horitzontal** i marca el
    **codi QR**.
-4. Ajusta el marc de la previsualització i descarrega el PDF.
+4. Ajusta l'escala amb la roda del ratolí i descarrega el PDF.
 5. Obre'l i comprova-hi tres coses: el **títol**, l'**escala** i la **llegenda**
    de la capa.
 6. Escaneja el **QR** amb el mòbil: ha d'obrir el mateix mapa al visor.
