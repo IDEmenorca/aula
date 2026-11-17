@@ -3,7 +3,7 @@
 Llista generada automàticament amb `python tools/captures.py --llista`.
 No l'editis a mà: es regenera.
 
-Queden **1 captures** per fer.
+Queden **14 captures** per fer.
 
 ## Com afegir-les
 
@@ -20,8 +20,76 @@ la resta com a marcadors.
 > personals a la vista. Retalla-les a l'element que es descriu: una captura
 > de pantalla sencera per ensenyar un botó no s'entén.
 
+## `docs/formacio/mig/modul-3-visor-generic/01-continguts-i-capes.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-3-visor-generic/img/01-continguts-i-capes.png` | Pendent de decidir què ha de mostrar |
+
+## `docs/formacio/mig/modul-4-visor-restringit/01-introduccio.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-4-visor-restringit/img/01-introduccio.png` | Pendent de decidir què ha de mostrar |
+
+## `docs/formacio/mig/modul-3-visor-generic/02-compartir-i-incloure.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-3-visor-generic/img/02-compartir-i-incloure.png` | Pendent de decidir què ha de mostrar |
+
+## `docs/formacio/mig/modul-4-visor-restringit/02-acces.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-4-visor-restringit/img/02-acces.png` | Pendent de decidir què ha de mostrar |
+
+## `docs/formacio/mig/modul-3-visor-generic/03-metadades.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-3-visor-generic/img/03-metadades.png` | Pendent de decidir què ha de mostrar |
+
+## `docs/formacio/mig/modul-4-visor-restringit/03-informacio.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-4-visor-restringit/img/03-informacio.png` | Pendent de decidir què ha de mostrar |
+
+## `docs/formacio/mig/modul-3-visor-generic/04-seleccio-espacial-alfanumerica.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-3-visor-generic/img/04-seleccio-espacial-alfanumerica.png` | Pendent de decidir què ha de mostrar |
+
+## `docs/formacio/mig/modul-3-visor-generic/05-consultes-dinamiques.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-3-visor-generic/img/05-consultes-dinamiques.png` | Pendent de decidir què ha de mostrar |
+
+## `docs/formacio/mig/modul-3-visor-generic/06-localitzadors.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/mig/modul-3-visor-generic/img/06-localitzadors.png` | Pendent de decidir què ha de mostrar |
+
 ## `docs/manuals/visor-generic/03-eines/02-imprimir.md`
 
 | Fitxer | Què ha de mostrar |
 |---|---|
 | `docs/manuals/visor-generic/03-eines/img/31-imprimir-previsualitzacio.png` | Previsualització dinàmica amb el marc ajustable de l'àrea d'impressió. El manual original no en té cap imatge, tot i ser el pas on l'usuari es queda encallat més sovint |
+
+## `docs/formacio/basic/modul-4-visor/07-cadastre.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/basic/modul-4-visor/img/47-capa-cadastre.png` | El cadastre carregat sobre una ortofoto d'un nucli urbà, amb les parcel·les dibuixades a sobre de les teulades |
+| `docs/formacio/basic/modul-4-visor/img/47-dades-parcella.png` | El requadre de resultats d'una parcel·la cadastral, amb l'enllaç a la fitxa oficial emmarcat |
+
+## `docs/formacio/basic/modul-4-visor/08-imprimir.md`
+
+| Fitxer | Què ha de mostrar |
+|---|---|
+| `docs/formacio/basic/modul-4-visor/img/48-panell-imprimir.png` | El panell Imprimir obert, amb el títol escrit i les opcions de disseny, mida i codi QR a la vista |
+| `docs/formacio/basic/modul-4-visor/img/48-previsualitzacio.png` | La previsualització, amb el marc de l'àrea d'impressió sobre el mapa i el botó de descàrrega del marge superior dret emmarcat |

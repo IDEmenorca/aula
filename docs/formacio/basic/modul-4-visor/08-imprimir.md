@@ -2,26 +2,57 @@
 
 ## Objectiu
 
-En acabar aquesta secció sabràs generar un PDF del mapa que tens a la pantalla,
-amb el títol, l'escala i la llegenda de les capes carregades.
+En acabar sabràs generar un PDF del mapa que tens a la pantalla, amb el títol,
+l'escala i la llegenda de les capes carregades.
 
 ## Passos
 
-!!! note "Pendent de redactar"
-    1. ...
-    2. ...
-    3. ...
+1. **Deixar el mapa com el vols imprimir.** El PDF surt del que hi ha a la
+   pantalla: les capes carregades, el mapa de fons i la zona enquadrada.
 
-!!! note "Captura pendent — `img/08-imprimir.png`"
-    Pendent de decidir què ha de mostrar.
+2. **Obrir l'eina Imprimir.** És al panell d'eines, el de les eines creuades de
+   la columna esquerra ([4.3](03-mesurar-dibuixar.md)).
+
+    !!! note "Captura pendent — `img/48-panell-imprimir.png`"
+        El panell Imprimir obert, amb el títol escrit i les opcions de disseny,
+        mida i codi QR a la vista.
+
+        Peu de foto previst: *El títol, el disseny i la mida es decideixen abans de generar el PDF.*
+
+3. **Omplir les opcions.** Títol, orientació del full, mida i si hi vols el codi
+   QR. El QR porta al mapa que ha generat el PDF: qui el rebi imprès el pot
+   tornar a obrir al visor.
+
+4. **Prémer Imprimir i ajustar l'enquadrament.** S'obre una previsualització amb
+   un marc sobre el mapa. El que hi quedi a dins és el que sortirà al PDF, no el
+   que es veia abans: mou-lo i canvia l'escala fins que hi tinguis el que vols.
+
+    !!! note "Captura pendent — `img/48-previsualitzacio.png`"
+        La previsualització, amb el marc de l'àrea d'impressió sobre el mapa i el
+        botó de descàrrega del marge superior dret emmarcat.
+
+        Peu de foto previst: *A la previsualització s'ajusten l'enquadrament i l'escala abans de generar el PDF.*
+
+5. **Descarregar el PDF.** Amb el botó de descàrrega del marge superior dret de
+   la previsualització.
 
 ## Exercici pràctic
 
-!!! note "Pendent de redactar"
+1. Carrega la **Zonificació de la Reserva de la Biosfera**
+   ([4.5](05-capes-tematiques.md)).
+2. Enquadra el **nucli urbà del teu municipi**.
+3. Obre **Imprimir**, posa-hi un títol, tria full **A4 horitzontal** i marca el
+   **codi QR**.
+4. Ajusta el marc de la previsualització i descarrega el PDF.
+5. Obre'l i comprova-hi tres coses: el **títol**, l'**escala** i la **llegenda**
+   de la capa.
+6. Escaneja el **QR** amb el mòbil: ha d'obrir el mateix mapa al visor.
+
+!!! tip "La llegenda només surt si hi ha capes"
+    Un PDF del mapa de fons sol no porta llegenda. Si vols que el document
+    s'expliqui per si mateix, carrega abans les capes que diuen què s'hi veu.
 
 ---
 
 !!! tip "Al manual de referència"
-    Aquesta eina està documentada amb detall a
-    [3.2. Imprimir](../../../manuals/visor-generic/03-eines/02-imprimir.md) del
-    manual del visor genèric. Aquí només cal el que l'alumne ha de saber fer.
+    [3.2. Imprimir](../../../manuals/visor-generic/03-eines/02-imprimir.md)
