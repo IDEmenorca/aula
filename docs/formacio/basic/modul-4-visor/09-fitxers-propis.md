@@ -28,28 +28,33 @@ els atributs i tornar-lo a descarregar en un altre format.
     Admet **KML**, **GML**, **GPX**, **GeoJSON**, **TopoJSON**, **WKT**,
     **Shapefile** i **GeoPackage**, també comprimits en **ZIP**.
 
-3. **No et preocupis pel sistema de coordenades.** El visor reprojecta el
-   fitxer ell mateix: tant se val que vingui en 25831, en 4326 o en ED50.
-
-4. **Consultar els atributs.** La fila **Selecció per** et sortirà apagada, però
-   fes clic damunt un element igualment: els atributs surten.
+3. **Consultar els atributs.** Fes clic damunt un element del fitxer i en
+   surten els atributs, com a la [4.6](06-consulta-atributs.md).
 
     <figure markdown>
       ![Un fitxer carregat al visor, amb la fila Selecció per emmarcada i apagada, i el requadre dels atributs de l'element on s'ha fet clic](img/49-atributs-fitxer.png){ .captura }
       <figcaption>Encara que la fila de selecció surti apagada, el clic sobre l'element en retorna els atributs.</figcaption>
     </figure>
 
-5. **Descarregar-lo en un altre format.** La fila del fitxer té una **icona de
-   descàrrega pròpia** que el torna a treure en KML, GML, GeoJSON, WKT,
-   Shapefile o GeoPackage. És una manera ràpida de convertir de format sense
-   sortir del visor.
+4. **Comprovar que es queda.** Recarrega la pàgina: el fitxer hi continua
+   carregat.
 
-    !!! warning "L'eina Descarregar no el baixa"
-        La del panell d'eines només treballa amb les capes del catàleg. Si hi
-        vas amb un fitxer teu carregat, et dirà que no hi ha capes carregades.
-        Per baixar-lo, la icona de la seva pròpia fila.
+!!! info "El sistema de coordenades no importa"
+    El visor reprojecta el fitxer ell mateix: tant se val que vingui en 25831,
+    en 4326 o en ED50.
 
-6. **El fitxer es queda.** Si recarregues la pàgina, continua carregat.
+!!! info "Diferències amb una capa normal"
+    Un fitxer teu no es comporta del tot com una capa del catàleg:
+
+    - La fila **Selecció per** surt **apagada**. Tot i així, el clic damunt un
+      element en retorna els atributs igualment.
+    - Es descarrega **des de la seva pròpia fila**, amb la icona del costat de
+      la casella, i el torna a treure en KML, GML, GeoJSON, WKT, Shapefile o
+      GeoPackage. És una manera ràpida de convertir de format sense sortir del
+      visor.
+    - L'eina **Descarregar** del panell d'eines **no el baixa**: només treballa
+      amb les capes del catàleg. Si hi vas amb un fitxer teu carregat, et dirà
+      que no hi ha capes carregades.
 
 ## Exercici pràctic
 
