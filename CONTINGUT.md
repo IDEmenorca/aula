@@ -17,20 +17,20 @@ Repartiment: **M** = Marc · **D** = Dolo · **R** = Ricard
 | 1 | Conceptes bàsics de cartografia i dades geogràfiques | 1 | R | Començat |
 | 2 | Introducció a les Infraestructures de Dades Espacials | 1 | R | Marcador |
 | 3 | Característiques de l'IDE Menorca | 1 | R | Marcador |
-| 4 | **Visor genèric** | 6 | **M + D** | Marcadors |
+| 4 | **Visor genèric** | 6 | **M + D** | Les 9 seccions fetes; falta la presentació |
 | 5 | Prova escrita d'avaluació | 1 | M + D + R | Marcador |
 
 ### Mòdul 4 — les nou seccions (M + D)
 
-- [ ] 4.1. Eines de navegació sobre el mapa
-- [ ] 4.2. Control de mapes de fons
-- [ ] 4.3. Mesurar i dibuixar elements
-- [ ] 4.4. Localitzar i obtenir coordenades
-- [ ] 4.5. Buscar i carregar capes temàtiques
-- [ ] 4.6. Consulta dels atributs de les capes carregades
-- [ ] 4.7. Treballar amb el cadastre
-- [ ] 4.8. Imprimir
-- [ ] 4.9. Visualitzar fitxers de cartografia al visor IDE Menorca
+- [x] 4.1. Eines de navegació sobre el mapa
+- [x] 4.2. Control de mapes de fons
+- [x] 4.3. Mesurar i dibuixar elements
+- [x] 4.4. Localitzar i obtenir coordenades
+- [x] 4.5. Buscar i carregar capes temàtiques
+- [x] 4.6. Consulta dels atributs de les capes carregades
+- [x] 4.7. Treballar amb el cadastre
+- [x] 4.8. Imprimir
+- [x] 4.9. Visualitzar fitxers de cartografia al visor IDE Menorca
 
 ---
 
