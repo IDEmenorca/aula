@@ -3,9 +3,9 @@
 Primer nivell de la formació en l'IDE Menorca. Parteix de zero: no cal cap
 coneixement previ de cartografia ni de sistemes d'informació geogràfica.
 
-En acabar-lo sabràs moure't pel visor genèric, carregar-hi la informació que
-necessites, mesurar, consultar atributs, treballar amb el cadastre i imprimir
-el resultat.
+En acabar-lo sabràs moure't pel [visor genèric](https://ide.cime.es/visor),
+carregar-hi la informació que necessites, mesurar, consultar atributs,
+treballar amb el cadastre i imprimir el resultat.
 
 **Durada total: 10 hores**, repartides en cinc mòduls.
 
@@ -25,8 +25,9 @@ llistades a la [seva presentació](modul-4-visor/index.md).
 ## Com seguir-lo
 
 Els mòduls estan pensats per fer-se en ordre: cada un dona per sabut el
-d'abans. El mòdul 4 és pràctic, o sigui que val més tenir el visor obert en
-una altra finestra mentre el segueixes.
+d'abans. El mòdul 4 és pràctic, o sigui que val més tenir el
+[visor](https://ide.cime.es/visor) obert en una altra finestra mentre el
+segueixes.
 
 !!! tip "Si el que vols és consultar una eina concreta"
     Per a això hi ha els [manuals d'usuari](../../manuals/index.md), que
