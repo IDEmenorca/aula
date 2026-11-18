@@ -200,7 +200,11 @@
 .md-footer__inner {
   color: var(--md-default-fg-color);
   border-top: 1px solid var(--md-default-fg-color--lighter);
-  margin: 2.4rem 0 0;
+  /* Compte amb els marges laterals: aquest element també duu la classe
+     .md-grid, que el centra amb margin-left i margin-right en auto. Si aquí
+     s'hi posa 0, el bloc se'n va a l'esquerra i els enllaços d'anterior i
+     següent deixen d'estar alineats amb el text de la pàgina. */
+  margin: 2.4rem auto 0;
   padding: 0.8rem 0.2rem 1.2rem;
 }
 
