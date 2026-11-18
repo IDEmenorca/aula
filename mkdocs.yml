@@ -133,7 +133,9 @@ plugins:
   - git-revision-date-localized:
       locale: ca
       type: date
-      enable_creation_date: true
+      # Només la data de darrera actualització: la de creació no aporta res
+      # a qui llegeix i dobla la línia del peu.
+      enable_creation_date: false
       # Evita que la construcció falli en clons superficials o fora de Git.
       # A CI el checkout fa fetch-depth: 0, per tant s'hi usen dates reals.
       fallback_to_build_date: true
