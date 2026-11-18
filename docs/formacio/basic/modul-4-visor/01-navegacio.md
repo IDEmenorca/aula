@@ -34,12 +34,12 @@ vista inicial quan et perdis.
 
 ## Exercici pràctic
 
-1. Prem la **casa** per partir de l'extensió inicial.
-2. Amb la **rodeta**, apropa't fins a veure els vuit municipis amb el nom.
-3. **Doble clic** sobre **Ferreries** fins a distingir-ne els carrers.
-4. Amb **+** i **−**, allunya't tres passos i torna. Fixa't que el mapa no es
-   mou de lloc: el zoom va pel centre, i el doble clic no.
-5. Torna a l'extensió inicial.
+- [ ] Prem la **casa** per partir de l'extensió inicial.
+- [ ] Amb la **rodeta**, apropa't fins a veure els vuit municipis amb el nom.
+- [ ] **Doble clic** sobre **Ferreries** fins a distingir-ne els carrers.
+- [ ] Amb **+** i **−**, allunya't tres passos i torna. Fixa't que el mapa no es
+  mou de lloc: el zoom va pel centre, i el doble clic no.
+- [ ] Torna a l'extensió inicial.
 
 ---
 

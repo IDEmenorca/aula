@@ -47,11 +47,11 @@ visor i obrir-ne la fitxa oficial al Cadastre.
 
 ## Exercici pràctic
 
-1. Carrega la cartografia cadastral.
-2. Busca la referència **`7552201FE0175S`** al quadre de cerca.
-3. Fes clic sobre la parcel·la: en surt la referència cadastral.
-4. Obre la fitxa oficial amb l'enllaç.
-5. Compara l'adreça que dona el Cadastre amb el que veus al mapa.
+- [ ] Carrega la cartografia cadastral.
+- [ ] Busca la referència **`7552201FE0175S`** al quadre de cerca.
+- [ ] Fes clic sobre la parcel·la: en surt la referència cadastral.
+- [ ] Obre la fitxa oficial amb l'enllaç.
+- [ ] Compara l'adreça que dona el Cadastre amb el que veus al mapa.
 
 !!! tip "L'edifici el coneixes"
     És la plaça de la Biosfera, 5, de Maó: la seu del Consell Insular de

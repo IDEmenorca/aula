@@ -56,16 +56,16 @@ coordenades, distàncies i superfícies.
 
 **Quants camps de bàsquet caben dins d'un poblat talaiòtic?**
 
-1. Situa't sobre el **pavelló del Menorca Bàsquet**, a Maó. Dibuixa-hi un
-   **punt** i apunta'n les coordenades i l'elevació.
-2. Amb un **polígon**, mesura la superfície del pavelló.
-3. Vés a **Torre d'en Galmés**, a Alaior, i dibuixa-hi un **punt**: compara'n
-   l'elevació amb la de Maó.
-4. Amb un **polígon**, mesura el recinte del poblat.
-5. Divideix una superfície per l'altra: **quants pavellons hi caben?**
-6. Traça una **línia** que travessi el turó del poblat i prem el botó del
-   perfil per veure'n el relleu.
-7. Esborra-ho tot amb la paperera.
+- [ ] Situa't sobre el **pavelló del Menorca Bàsquet**, a Maó. Dibuixa-hi un
+  **punt** i apunta'n les coordenades i l'elevació.
+- [ ] Amb un **polígon**, mesura la superfície del pavelló.
+- [ ] Vés a **Torre d'en Galmés**, a Alaior, i dibuixa-hi un **punt**: compara'n
+  l'elevació amb la de Maó.
+- [ ] Amb un **polígon**, mesura el recinte del poblat.
+- [ ] Divideix una superfície per l'altra: **quants pavellons hi caben?**
+- [ ] Traça una **línia** que travessi el turó del poblat i prem el botó del
+  perfil per veure'n el relleu.
+- [ ] Esborra-ho tot amb la paperera.
 
 !!! tip "Quin resultat ha de sortir"
     Unes **set o vuit vegades**: el pavelló fa uns 4.600 m² i el que se'n pot

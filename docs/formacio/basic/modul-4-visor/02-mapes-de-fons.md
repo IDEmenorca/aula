@@ -34,12 +34,12 @@ lloc amb el control lliscant.
 
 **Cala Galdana, de 1956 a avui.**
 
-1. Situa't sobre Cala Galdana.
-2. Posa l'ortofoto de **1956** —el vol americà— a un costat del control
-   lliscant i la de **2024** a l'altre.
-3. Mou el control endavant i enrere.
-4. Canvia ara un dels dos per **OSM** o **CARTO dark**: no tots els mapes de
-   fons són fotografies.
+- [ ] Situa't sobre Cala Galdana.
+- [ ] Posa l'ortofoto de **1956** —el vol americà— a un costat del control
+  lliscant i la de **2024** a l'altre.
+- [ ] Mou el control endavant i enrere.
+- [ ] Canvia ara un dels dos per **OSM** o **CARTO dark**: no tots els mapes de
+  fons són fotografies.
 
 ---
 

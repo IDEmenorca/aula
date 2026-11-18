@@ -61,14 +61,14 @@ els atributs i tornar-lo a descarregar en un altre format.
 Aquest exercici tanca el cercle: treure dades del visor i tornar-les-hi a
 posar.
 
-1. Dibuixa un polígon damunt el mapa amb l'eina de dibuix
-   ([4.3](03-mesurar-dibuixar.md)).
-2. Descarrega'l en **GeoJSON**.
-3. Torna'l a carregar al visor, arrossegant-lo damunt el mapa.
-4. Comprova que surt a **Capes carregades** amb el nom del fitxer.
-5. Recarrega la pàgina: hi ha de continuar.
-6. Descarrega'l un altre cop, ara des de la icona de la seva fila, i tria
-   **Shapefile**.
+- [ ] Dibuixa un polígon damunt el mapa amb l'eina de dibuix
+  ([4.3](03-mesurar-dibuixar.md)).
+- [ ] Descarrega'l en **GeoJSON**.
+- [ ] Torna'l a carregar al visor, arrossegant-lo damunt el mapa.
+- [ ] Comprova que surt a **Capes carregades** amb el nom del fitxer.
+- [ ] Recarrega la pàgina: hi ha de continuar.
+- [ ] Descarrega'l un altre cop, ara des de la icona de la seva fila, i tria
+  **Shapefile**.
 
 !!! tip "És el que faràs amb la cartografia del teu ajuntament"
     El mateix camí serveix per mirar al visor un fitxer que t'hagin passat o

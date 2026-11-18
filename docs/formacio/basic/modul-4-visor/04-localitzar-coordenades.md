@@ -40,11 +40,11 @@ punt del mapa.
 
 ## Exercici pràctic
 
-1. Cerca un **carrer de Ferreries** al quadre de cerca.
-2. Fes **clic sobre un edifici** i apunta'n les coordenades i l'elevació.
-3. Canvia el sistema de coordenades a **WGS 84** i torna a mirar el mateix
-   punt: els números passen de metres a graus, però el lloc és el mateix.
-4. Torna a **ETRS89 / UTM 31N**.
+- [ ] Cerca un **carrer de Ferreries** al quadre de cerca.
+- [ ] Fes **clic sobre un edifici** i apunta'n les coordenades i l'elevació.
+- [ ] Canvia el sistema de coordenades a **WGS 84** i torna a mirar el mateix
+  punt: els números passen de metres a graus, però el lloc és el mateix.
+- [ ] Torna a **ETRS89 / UTM 31N**.
 
 ---
 

@@ -103,6 +103,11 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  # Caselles per marcar als exercicis. clickable_checkbox les fa pitjables;
+  # el que es marca NO es desa enlloc i es perd en recarregar la pàgina.
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
 
 # -----------------------------------------------------------------------------
 # Connectors

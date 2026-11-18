@@ -1,16 +1,21 @@
 # Mòdul 4. Visor genèric de l'IDE Menorca
 
 El visor genèric és l'aplicació amb què es consulta la cartografia de l'IDE
-Menorca. És el gruix del curs —**sis de les deu hores**— i és tot pràctic:
-s'aprèn fent-ho al visor mateix.
+Menorca. En aquest mòdul aprendràs a fer-lo servir i descobriràs què hi pots
+trobar, que és molt més del que sembla a primera vista.
 
-No cal instal·lar res. Funciona al navegador.
+És un mòdul pràctic: cada secció acaba amb un exercici per provar al visor el
+que acabes de llegir. Ho farem tot des del navegador, i hi pots entrar sempre
+que vulguis, des d'on vulguis.
 
 ## En acabar el mòdul
 
-Sabràs moure't pel mapa, triar què hi vols veure, mesurar, consultar la
-informació de qualsevol element, treballar amb el cadastre, imprimir el
-resultat i carregar-hi fitxers teus.
+Podràs consultar amb quatre clics l'enllumenat d'un carrer, els plans
+d'ordenació del territori o els béns d'interès cultural d'un municipi.
+
+Pel camí hauràs après a moure't pel mapa, a triar què hi vols veure, a mesurar
+sobre el terreny, a consultar la informació de qualsevol element, a treballar
+amb el cadastre, a imprimir el resultat i a carregar-hi fitxers teus.
 
 ## La pantalla
 

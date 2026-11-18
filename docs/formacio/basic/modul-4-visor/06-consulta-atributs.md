@@ -42,16 +42,16 @@ porten associada.
 
 ## Exercici pràctic
 
-1. Carrega la **Zonificació de la Reserva de la Biosfera**, com a la secció
-   anterior.
-2. Fes clic sobre una zona i mira què diu l'atribut **`dstipus`**.
-3. Busca'n una de **marina** i una de **terrestre**: veuràs que l'atribut
-   canvia.
-4. Dibuixa un **recinte** sobre una zona de costa i mira quantes en selecciones
-   de cop.
-5. Carrega també la **Localització de les reserves de biosfera de la xarxa
-   mundial** i torna a seleccionar: els resultats surten agrupats per capa.
-6. Neteja-ho tot amb la paperera.
+- [ ] Carrega la **Zonificació de la Reserva de la Biosfera**, com a la secció
+  anterior.
+- [ ] Fes clic sobre una zona i mira què diu l'atribut **`dstipus`**.
+- [ ] Busca'n una de **marina** i una de **terrestre**: veuràs que l'atribut
+  canvia.
+- [ ] Dibuixa un **recinte** sobre una zona de costa i mira quantes en selecciones
+  de cop.
+- [ ] Carrega també la **Localització de les reserves de biosfera de la xarxa
+  mundial** i torna a seleccionar: els resultats surten agrupats per capa.
+- [ ] Neteja-ho tot amb la paperera.
 
 !!! tip "No totes les capes porten la mateixa informació"
     La Zonificació té tres atributs; la de Localització en té més d'una dotzena,
