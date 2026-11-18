@@ -3,7 +3,7 @@
 Llista generada automàticament amb `python tools/captures.py --llista`.
 No l'editis a mà: es regenera.
 
-Queden **12 captures** per fer.
+Queden **10 captures** per fer.
 
 ## Com afegir-les
 
@@ -79,10 +79,3 @@ la resta com a marcadors.
 | Fitxer | Què ha de mostrar |
 |---|---|
 | `docs/manuals/visor-generic/03-eines/img/31-imprimir-previsualitzacio.png` | Previsualització dinàmica amb el marc ajustable de l'àrea d'impressió. El manual original no en té cap imatge, tot i ser el pas on l'usuari es queda encallat més sovint |
-
-## `docs/formacio/basic/modul-4-visor/09-fitxers-propis.md`
-
-| Fitxer | Què ha de mostrar |
-|---|---|
-| `docs/formacio/basic/modul-4-visor/img/49-obrir-arxiu.png` | La pestanya Obrir arxiu seleccionada, amb el text dels formats admesos i el botó Obrir arxiu a la vista |
-| `docs/formacio/basic/modul-4-visor/img/49-atributs-fitxer.png` | Un fitxer carregat al visor i el requadre de resultats amb els seus atributs, després de fer-hi clic a sobre |

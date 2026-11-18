@@ -20,11 +20,10 @@ els atributs i tornar-lo a descarregar en un altre format.
    lloc: triar-lo des de la pestanya **Obrir arxiu**, aferrar-lo des del
    porta-retalls, o **arrossegar-lo damunt el mapa**.
 
-    !!! note "Captura pendent — `img/49-obrir-arxiu.png`"
-        La pestanya Obrir arxiu seleccionada, amb el text dels formats admesos
-        i el botó Obrir arxiu a la vista.
-
-        Peu de foto previst: *La pestanya Obrir arxiu diu quins formats accepta el visor.*
+    <figure markdown>
+      ![La pestanya Obrir arxiu emmarcada i seleccionada, amb el text dels formats admesos a sota](img/49-obrir-arxiu.png){ .captura }
+      <figcaption>La segona pestanya d'Afegir mapes és la dels fitxers, i hi diu quins formats accepta.</figcaption>
+    </figure>
 
     Admet **KML**, **GML**, **GPX**, **GeoJSON**, **TopoJSON**, **WKT**,
     **Shapefile** i **GeoPackage**, també comprimits en **ZIP**.
@@ -35,11 +34,10 @@ els atributs i tornar-lo a descarregar en un altre format.
 4. **Consultar els atributs.** La fila **Selecció per** et sortirà apagada, però
    fes clic damunt un element igualment: els atributs surten.
 
-    !!! note "Captura pendent — `img/49-atributs-fitxer.png`"
-        Un fitxer carregat al visor i el requadre de resultats amb els seus
-        atributs, després de fer-hi clic a sobre.
-
-        Peu de foto previst: *Encara que la fila de selecció surti apagada, el clic sobre l'element en retorna els atributs.*
+    <figure markdown>
+      ![Un fitxer carregat al visor, amb la fila Selecció per emmarcada i apagada, i el requadre dels atributs de l'element on s'ha fet clic](img/49-atributs-fitxer.png){ .captura }
+      <figcaption>Encara que la fila de selecció surti apagada, el clic sobre l'element en retorna els atributs.</figcaption>
+    </figure>
 
 5. **Descarregar-lo en un altre format.** La fila del fitxer té una **icona de
    descàrrega pròpia** que el torna a treure en KML, GML, GeoJSON, WKT,
