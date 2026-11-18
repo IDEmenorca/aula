@@ -238,8 +238,9 @@
    ENLLAÇOS DESTACATS DE LA PORTADA
 
    El visor i el portal web. No es fan servir els .md-button de Material
-   perquè agafen el color primari del tema i queden despenjats del verd del
-   logotip. Van amb el logotip de l'IDE Menorca al davant.
+   perquè criden massa l'atenció per al que són: dos enllaços de cortesia a
+   la portada. Van amb el logotip de l'IDE Menorca al davant i una vora
+   discreta, del negre del tema aclarit.
    ------------------------------------------------------------------------- */
 .md-typeset .enllac-destacat {
   display: inline-flex;
@@ -247,16 +248,14 @@
   gap: 0.6rem;
   margin: 0.2rem 0.6rem 0.2rem 0;
   padding: 0.45rem 0.9rem 0.45rem 0.6rem;
-  border: 2px solid #7a8500;
+  border: 1px solid var(--md-default-fg-color--lighter);
   border-radius: 0.2rem;
   /* El fons del lloc, no un blanc fix: així el botó segueix sent buit quan
      algú mira el web en mode fosc. */
   background-color: var(--md-default-bg-color);
-  /* El text va un punt més fosc que la vora: el #7a8500 sobre blanc es queda
-     en 4,05:1 de contrast i no arriba al mínim exigible a una web pública. */
-  color: #5f6800;
+  color: var(--md-default-fg-color);
   font-weight: 700;
-  transition: background-color 125ms, color 125ms;
+  transition: background-color 125ms, border-color 125ms;
 }
 
 .md-typeset .enllac-destacat img {
@@ -264,11 +263,11 @@
   width: auto;
 }
 
-/* En passar-hi per sobre s'omple: el mateix verd fosc del text, amb el text
-   en blanc. */
+/* El mateix gest que fan els enllaços del peu: la vora es marca una mica i
+   el fons s'ombreja, sense canviar de color. */
 .md-typeset .enllac-destacat:focus,
 .md-typeset .enllac-destacat:hover {
-  background-color: #5f6800;
-  border-color: #5f6800;
-  color: #fff;
+  background-color: var(--md-default-fg-color--lightest);
+  border-color: var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color);
 }
