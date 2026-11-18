@@ -232,3 +232,35 @@
 .md-footer__title {
   font-weight: 700;
 }
+
+
+/* -------------------------------------------------------------------------
+   ENLLAÇOS DESTACATS DE LA PORTADA
+
+   El visor i el portal web. No es fan servir els .md-button de Material
+   perquè agafen el color primari del tema i queden despenjats del verd del
+   logotip. Van amb el logotip de l'IDE Menorca al davant.
+   ------------------------------------------------------------------------- */
+.md-typeset .enllac-destacat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.2rem 0.6rem 0.2rem 0;
+  padding: 0.45rem 0.9rem 0.45rem 0.6rem;
+  border-radius: 0.2rem;
+  background-color: #7a8500;
+  color: #fff;
+  font-weight: 700;
+  transition: background-color 125ms;
+}
+
+.md-typeset .enllac-destacat img {
+  height: 1.6em;
+  width: auto;
+}
+
+.md-typeset .enllac-destacat:focus,
+.md-typeset .enllac-destacat:hover {
+  background-color: #5f6800;
+  color: #fff;
+}

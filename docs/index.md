@@ -2,8 +2,8 @@
 
 IDE Menorca és un projecte del servei d'informació geogràfica de l'administració local de Menorca (Consell Insular i ajuntaments) que té per objectiu **facilitar l'ús de la cartografia i les dades geogràfiques**. 
 
-[El visor genèric](https://ide.cime.es/visor){ .md-button .md-button--primary }
-[El web de l'IDE Menorca](https://ide.cime.es){ .md-button }
+[![](assets/logo.png) Visor genèric](https://ide.cime.es/visor){ .enllac-destacat }
+[![](assets/logo.png) Portal web](https://ide.cime.es){ .enllac-destacat }
 
 !!! note "Perquè fem el que fem?" 
     La nostra visió és que la cartografia i les dades geogràfiques són un servei bàsic essencial per a la gestió organitzada d'una societat sobre el qual es recolzen altres serveis com la gestió              d'emergències, la planificació del territori, la conservació del medi ambient o la planificació d'infraestructures. I que, en conseqüència, ha de ser **accessible, gratuït i fàcil d'emprar.**
