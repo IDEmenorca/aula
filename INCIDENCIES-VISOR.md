@@ -23,6 +23,7 @@ redactàvem el curs i el manual. Es recullen aquí per no perdre-les; corregir-l
 | Fila de selecció, dins del panell de capes carregades | Amb la interfície en **castellà** surt **«Selection by»**, en anglès. Falta la cadena traduïda | «Selección por» |
 | Panell d'eines, en **català** | L'eina es diu **«Dibuixar i medir»**. «Medir» és un castellanisme | «Dibuixar i mesurar» |
 | Panell **Imprimir**, en **castellà** | El desplegable **Diseño** ofereix **«Horitzontal»**, en català | «Horizontal» |
+| Diàleg **Descarregar dibuix**, amb les elevacions marcades | Al voltant del camp de la distància hi surten les claus internes **«interpolateEveryXMeters.1»** i **«interpolateEveryXMeters.2»** en comptes del text traduït | Alguna cosa com «Interpola un punt cada [20] metres» |
 
 En **català** la mateixa cadena surt bé, «Selecció per». El problema és només a
 la versió castellana.
