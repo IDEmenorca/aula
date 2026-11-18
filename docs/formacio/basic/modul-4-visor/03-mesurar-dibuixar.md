@@ -13,7 +13,7 @@ coordenades, distàncies i superfícies.
 
     El panell es tanca en activar una eina diferent. Per canviar de pestanya,
     torna'l a obrir amb el mateix botó.
-prova 2
+
 
     <figure markdown>
       ![La columna esquerra amb el botó de les eines creuades emmarcat, i el panell de dibuix obert a sota](img/43-panell-eines.png){ .captura }
