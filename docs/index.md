@@ -9,6 +9,6 @@ En aquesta pàgina trobareu **materials de formació i manuals d'usuari** per ap
 
 Esperem que us sigui d'utilitat!
 
-Servei d'informació gegràfica de l'administració local.
+Servei d'informació geogràfica de l'administració local.
 
 
