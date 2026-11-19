@@ -59,7 +59,7 @@ PREVISTOS_BUITS: dict[str, str] = {
 # de paraula, es retalla només ":focus" i queda un "-within" penjant que no
 # coincideix amb res.
 ESTATS = re.compile(
-    r"::?(hover|focus-within|focus-visible|focus|active|visited|target|"
+    r"::?(hover|focus-within|focus-visible|focus|active|visited|target|checked|"
     r"before|after|placeholder|selection|marker|first-line|first-letter|"
     r"-webkit-scrollbar(-thumb|-track|-corner|-button)?)\b"
 )

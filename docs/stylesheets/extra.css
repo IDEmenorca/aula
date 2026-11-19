@@ -298,3 +298,50 @@
 .md-typeset .info > summary::before {
   background-color: #448aff;
 }
+
+/* ---------------------------------------------------------------------------
+   Plegar l'índex de la pàgina al menú de l'esquerra
+
+   Amb `toc.integrate`, l'índex de la pàgina que s'està llegint es desplega dins
+   del menú de l'esquerra. A les seccions llargues empeny la resta de pàgines
+   cap avall i costa saltar d'una secció a una altra.
+
+   El tema ja té el mecanisme fet —una casella `#__toc` i una etiqueta amb
+   icona— però només el mostra entre 60em i 76.23em d'amplada. Aquí s'allarga a
+   la pantalla ampla, que és on es llegeix el curs.
+
+   Atenció: a aquesta amplada el tema força l'índex a visible amb quatre
+   classes. Per guanyar-li sense `!important` s'hi va per l'id de la casella,
+   que té més pes. Marcada = plegat.
+   --------------------------------------------------------------------------- */
+
+@media screen and (min-width: 76.25em) {
+  /* El tema dibuixa el títol dues vegades: l'etiqueta que plega i l'enllaç.
+     Es mostra la primera i s'amaga el segon, tal com fa ell a pantalla
+     mitjana. A la pàgina activa, l'enllaç només duia a ella mateixa. */
+  .md-nav--integrated .md-nav__link[for="__toc"] {
+    display: flex;
+  }
+
+  .md-nav--integrated .md-nav__link[for="__toc"] + .md-nav__link {
+    display: none;
+  }
+
+  /* La icona del tema per a aquesta etiqueta és la d'un índex. Es canvia per
+     la fletxa de navegació, que diu millor que allò es pot plegar. */
+  .md-nav--integrated .md-nav__link[for="__toc"] .md-icon::after {
+    content: "";
+    -webkit-mask-image: var(--md-nav-icon--next);
+    mask-image: var(--md-nav-icon--next);
+    transform: rotate(90deg);
+    transition: transform 250ms;
+  }
+
+  .md-nav--integrated #__toc:checked ~ .md-nav__link[for="__toc"] .md-icon::after {
+    transform: rotate(0deg);
+  }
+
+  .md-nav--integrated #__toc:checked ~ .md-nav--secondary {
+    display: none;
+  }
+}
