@@ -2,7 +2,7 @@
 
 ## 1. Conceptes Generals sobre Projeccions Geogràfiques
 
-**La Terra no és plana!!** Si algú us n'intenta convèncer aixequeu-vos i marxeu corrents sense ni dir adeu! Tampoc és una esfera perfecta. La Terra és un **geoide** irregular, lleig i deforme. Ens sap greu haver de ser noltros qui us obri els ulls a aquesta realitat.
+**La Terra no és plana!!** Si algú us n'intenta convèncer aixequeu-vos i marxeu corrents sense ni dir adéu! Tampoc és una esfera perfecta. La Terra és un **geoide** irregular, lleig i deforme. Ens sap greu haver de ser noltros qui us obri els ulls a aquesta realitat.
 
 I justament com que la terra no és plana ni tampoc és una esfera perfecta, els que fem mapes tenim molts maldecaps. Però molts. Mireu si no aquest vídeo, que ho explica molt bé.
 
@@ -19,7 +19,7 @@ Com heu vist, el problema apareix quan volem representar aquesta superfície tri
 
 *continuar amb geodesics/cartesians o plans.... i la relació Geodesics = esforoide de referència + punt fonamental, i cartesians= geodesic de referència + punt fonamental + projecció cartografica.... potser es pot posar enllac a video módul 12 de srs.*
 
-De projeccions cartogràfiques n'hi ha un munt, tants com trampes diferents som capaços d'imaginar. I ja sabeu que si en alguna cosa destaca l'homo sapiens es en imaginar maneres de fer trampes. 
+De projeccions cartogràfiques n'hi ha un munt, tants com trampes diferents som capaços d'imaginar. I ja sabeu que si en alguna cosa destaca l'homo sapiens és en imaginar maneres de fer trampes. 
 
 <figure markdown>
   ![Infografia sobre la forma de la Terra: el mite de la Terra plana, la simplificació de l'esfera perfecta i la realitat del geoide i l'el·lipsoide de revolució, i com es passa d'una superfície corba a un pla amb projeccions cilíndriques i còniques](img/01-forma-de-la-terra.png){ .captura }
