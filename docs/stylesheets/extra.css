@@ -271,3 +271,30 @@
   border-color: var(--md-default-fg-color--light);
   color: var(--md-default-fg-color);
 }
+
+/* ---------------------------------------------------------------------------
+   Cartells «info»
+
+   Per defecte el tema els pinta de cian (#00b8d4), un color que al costat del
+   verd de l'accent queda llepat. Es passen al blau del tema (#448aff, el que
+   fa servir als cartells «note») conservant-ne la icona, el cercle amb la i.
+
+   Afecta tots els cartells `!!! info` del lloc, no només un.
+   --------------------------------------------------------------------------- */
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #448aff;
+}
+
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: rgba(68, 138, 255, 0.1);
+}
+
+/* La icona es dibuixa com a màscara sobre aquest fons: el color del cercle
+   amb la i surt d'aquí, no d'una propietà de text. */
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: #448aff;
+}

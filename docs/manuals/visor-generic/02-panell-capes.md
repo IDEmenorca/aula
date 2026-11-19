@@ -87,8 +87,6 @@ el visor canvia automàticament al sistema de referència compatible.
     - **Base topogràfica de l'illa de Menorca 2012**: actualització de la cartografia de
       2008 amb la fotografia aèria de 2012.
     - **Mapa blanc**: relleu en gris de Menorca, Eivissa, Formentera i Mallorca.
-    - **CARTO dark**: base topogràfica amb esquema de colors fosc que ressalta el relleu.
-    - **CARTO light**: base topogràfica amb esquema de colors clars.
     - **OSM**: OpenStreetMap. Representació col·laborativa de carreteres, edificis i
       punts d'interès.
     - **Mapbox Satellite**: imatges de satèl·lit d'alta resolució.

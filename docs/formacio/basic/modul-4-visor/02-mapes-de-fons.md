@@ -7,55 +7,45 @@ mateix lloc amb el control lliscant.
 
 ## Passos
 
-1. **Moure el control lliscant.** El visor sempre té **dos** mapes de fons
-   carregats, no un. En obrir-lo són el mapa base de l'IDE Menorca i el **mapa
-   blanc**, i del segon no en veus res perquè el **control lliscant** —la barra
-   de dalt de tot del panell de la dreta— està del tot a un extrem.
+1. **Desplegar els mapes de fons.** El panell de la dreta s'obre amb les
+   **capes disponibles** a la vista; la secció dels **mapes de fons**, just a
+   sobre, la trobaràs plegada.
 
-    Arrossega'l i el veuràs aparèixer. El control no aclareix el mapa: decideix
-    quant en veus, de cada un.
+2. **Moure el control lliscant.** És la barra de dalt de la secció. El visor té
+   sempre **dos** mapes de fons carregats, no un, i del segon no en veus res
+   perquè el control és del tot a un extrem. Arrossega'l i apareixerà: el
+   control no aclareix el mapa, decideix quant en veus de cada un.
 
     <figure markdown>
       ![A dalt del panell de la dreta, el control lliscant emmarcat en vermell, amb el mapa base de l'IDE Menorca a un extrem i l'ortofoto de 2024 a l'altre, i a sota la graella de miniatures. Al mapa, els dos fons fosos](img/42-mapes-de-fons.png){ .captura }
-      <figcaption>Amb el control al mig, el dibuix del mapa base i la fotografia se superposen. Posant una ortofoto a cada extrem, el mateix control compara dues èpoques.</figcaption>
+      <figcaption>Amb el control al mig, el dibuix del mapa base i la fotografia se superposen.</figcaption>
     </figure>
 
-2. **Canviar un dels dos.** Selecciona primer, al control lliscant, el que vols
-   substituir. Tria després el nou a la **graella de miniatures**, just a sota.
-   El mapa es refresca sense moure's de lloc.
+3. **Canviar un dels dos.** Selecciona al control lliscant el que vols
+   substituir i tria després el nou a la **graella de miniatures**, just a sota.
 
-    La graella és llarga perquè un mapa de fons fa una de dues feines: dir-te
-    alguna cosa per si mateix —una ortofoto de 1956— o quedar-se discret perquè
-    es llegeixi el que hi carreguis a sobre.
+    !!! info "No tots cobreixen tota l'illa"
+        Sis mapes de fons són d'àmbit limitat: 2024 Port Maó, els tres de
+        Ciutadella (2012, 2011 nuclis i 2006) i els de nuclis (2005 i 1995).
+        Fora de la seva zona la pantalla queda buida, i sembla una errada del
+        visor quan no ho és. La resta cobreixen tota l'illa.
 
-    !!! info "Si en tries un i la pantalla queda buida"
-        Sis mapes de fons són d'un nucli o d'un municipi: els tres de
-        Ciutadella, els dos de nuclis i el del port de Maó. Fora de la seva
-        zona no hi ha res a dibuixar, i sembla una errada del visor quan no ho
-        és. La resta cobreixen tota l'illa.
-
-3. **Comparar dues èpoques.** Amb una ortofoto a cada extrem, el control passa
-   a ser una màquina del temps: quan es va construir una cosa, com era la
-   costa, què hi havia en un solar. Tot sense moure el mapa de lloc.
+4. **Comparar dues èpoques.** Amb una ortofoto a cada extrem, el control és una
+   màquina del temps: quan es va construir una cosa, com era la costa, què hi
+   havia en un solar.
 
 ## Exercici pràctic
 
 **Cala Galdana, de 1956 a avui.**
 
-- [ ] Prem la **casa** i apropa't amb la **rodeta** fins a Cala Galdana.
-- [ ] Abans de tocar la graella, mou el **control lliscant** d'un extrem a
-  l'altre: el mapa que apareix és el segon que ja tenies carregat.
-- [ ] Posa l'ortofoto de **1956** —el vol americà— a un extrem i la de **2024**
-  a l'altre. Compte amb la graella: la que et convé és **2024**, no **2024 Port
-  Maó**, que només cobreix el port.
+- [ ] Apropa't a **Cala Galdana** i desplega la secció **Mapes de fons**.
+- [ ] Mou el **control lliscant** d'un extrem a l'altre: el mapa que apareix és
+  el segon que ja tenies carregat.
+- [ ] Posa l'ortofoto de **1956** a un extrem i la de **2024** a l'altre. Compte
+  amb la graella: **2024**, no **2024 Port Maó**.
 - [ ] Mou el control a poc a poc i busca una cosa que hi hagi el 2024 i que el
-  1956 no hi fos. Deixa'l al mig: les dues èpoques se superposen.
-- [ ] Canvia ara un dels dos per **OSM** o **CARTO dark**: no tots els mapes de
-  fons són fotografies.
-
-!!! tip "La regla que et quedarà"
-    El mapa de fons el tries segons què hi vulguis fer: comparar-hi èpoques
-    demana dues ortofotos; llegir-hi capes a sobre demana un fons que no cridi.
+  1956 no hi fos.
+- [ ] Canvia'n un per **OSM**: no tots els mapes de fons són fotografies.
 
 ---
 
