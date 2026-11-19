@@ -16,6 +16,14 @@ redactàvem el curs i el manual. Es recullen aquí per no perdre-les; corregir-l
 
 ---
 
+## Mapes de fons
+
+| On | Què passa |
+|---|---|
+| Graella de mapes de fons | Els dos mapes **CARTO** —dark i light— no funcionen. S'han de treure de la graella. Mentrestant ja s'han tret de les explicacions: del curs (4.2) i del llistat del manual (2.2) |
+
+---
+
 ## Traduccions
 
 | On | Què passa | Hauria de dir |

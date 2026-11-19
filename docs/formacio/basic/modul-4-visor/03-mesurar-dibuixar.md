@@ -20,14 +20,14 @@ coordenades, distàncies i superfícies.
       <figcaption>El panell d'eines es torna a obrir amb el mateix botó cada vegada que es tanca.</figcaption>
     </figure>
 
-3. **Dibuixar un punt.** Tria la pestanya **punts** i fes clic al mapa. Del
+2. **Dibuixar un punt.** Tria la pestanya **punts** i fes clic al mapa. Del
    punt en surten les **coordenades** i l'**elevació**.
 
-4. **Mesurar una distància.** Tria la pestanya **línies** i vés fent clic a
+3. **Mesurar una distància.** Tria la pestanya **línies** i vés fent clic a
    cada vèrtex. Acaba amb doble clic. La **longitud** es va actualitzant
    mentre dibuixes.
 
-5. **Veure el perfil d'elevació.** No apareix sol: prem el botó de la
+4. **Veure el perfil d'elevació.** No apareix sol: prem el botó de la
    muntanyeta, al costat de la longitud.
 
     <figure markdown>
@@ -35,7 +35,7 @@ coordenades, distàncies i superfícies.
       <figcaption>El perfil d'elevació s'ha de demanar amb aquest botó.</figcaption>
     </figure>
 
-6. **Mesurar una superfície.** Tria la pestanya **polígons** i dibuixa igual
+5. **Mesurar una superfície.** Tria la pestanya **polígons** i dibuixa igual
    que amb les línies. En tancar la forma tens l'**àrea** i el **perímetre**.
 
     <div class="figures-costat" markdown>
@@ -49,7 +49,7 @@ coordenades, distàncies i superfícies.
     </figure>
     </div>
 
-7. **Esborrar el que has dibuixat.** La **paperera** esborra tot el dibuix, amb
+6. **Esborrar el que has dibuixat.** La **paperera** esborra tot el dibuix, amb
    confirmació prèvia. La **goma** esborra només els elements que tinguis
    seleccionats.
 

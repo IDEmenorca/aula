@@ -232,3 +232,69 @@
 .md-footer__title {
   font-weight: 700;
 }
+
+
+/* -------------------------------------------------------------------------
+   ENLLAÇOS DESTACATS DE LA PORTADA
+
+   El visor i el portal web. No es fan servir els .md-button de Material
+   perquè criden massa l'atenció per al que són: dos enllaços de cortesia a
+   la portada. Van amb el logotip de l'IDE Menorca al davant i una vora
+   discreta, del negre del tema aclarit.
+   ------------------------------------------------------------------------- */
+.md-typeset .enllac-destacat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.2rem 0.6rem 0.2rem 0;
+  padding: 0.45rem 0.9rem 0.45rem 0.6rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+  /* El fons del lloc, no un blanc fix: així el botó segueix sent buit quan
+     algú mira el web en mode fosc. */
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+  transition: background-color 125ms, border-color 125ms;
+}
+
+.md-typeset .enllac-destacat img {
+  height: 1.6em;
+  width: auto;
+}
+
+/* El mateix gest que fan els enllaços del peu: la vora es marca una mica i
+   el fons s'ombreja, sense canviar de color. */
+.md-typeset .enllac-destacat:focus,
+.md-typeset .enllac-destacat:hover {
+  background-color: var(--md-default-fg-color--lightest);
+  border-color: var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color);
+}
+
+/* ---------------------------------------------------------------------------
+   Cartells «info»
+
+   Per defecte el tema els pinta de cian (#00b8d4), un color que al costat del
+   verd de l'accent queda llepat. Es passen al blau del tema (#448aff, el que
+   fa servir als cartells «note») conservant-ne la icona, el cercle amb la i.
+
+   Afecta tots els cartells `!!! info` del lloc, no només un.
+   --------------------------------------------------------------------------- */
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #448aff;
+}
+
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: rgba(68, 138, 255, 0.1);
+}
+
+/* La icona es dibuixa com a màscara sobre aquest fons: el color del cercle
+   amb la i surt d'aquí, no d'una propietà de text. */
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: #448aff;
+}

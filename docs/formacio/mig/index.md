@@ -1,8 +1,8 @@
 # Curs mig
 
 Segon nivell de la formació en l'IDE Menorca. Dona per sabut el
-[curs bàsic](../basic/index.md): es parteix de la base que ja et mous pel visor
-genèric i saps carregar-hi capes.
+[curs bàsic](../basic/index.md): es parteix de la base que ja et mous pel
+[visor genèric](https://ide.cime.es/visor) i saps carregar-hi capes.
 
 Aquí s'entra en les eines de consulta i anàlisi, en les metadades, i en el
 visor restringit, al qual només hi accedeix el personal autoritzat.

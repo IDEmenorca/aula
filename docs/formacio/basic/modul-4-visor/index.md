@@ -22,18 +22,18 @@ amb el cadastre, a imprimir el resultat i a carregar-hi fitxers teus.
 Val la pena dedicar-hi un minut abans de començar. El visor té **cinc zones**,
 i cada secció del mòdul treballa en una o dues.
 
-!!! note "Captura pendent — `img/40-zones-pantalla.png`"
-    El visor acabat d'obrir, amb les cinc zones marcades i numerades a sobre.
+<figure markdown>
+  ![El visor acabat d'obrir, amb les cinc zones marcades i numerades a sobre](img/40-zones-pantalla.png){ .captura }
+  <figcaption>Les cinc zones de la pantalla del visor.</figcaption>
+</figure>
 
-    Peu de foto previst: *Les cinc zones de la pantalla del visor.*
-
-| Zona | Què hi trobaràs | On es treballa |
-|---|---|---|
-| **Capçalera** | El quadre de cerca | [4.4](04-localitzar-coordenades.md), [4.7](07-cadastre.md) |
-| **Columna esquerra** | Zoom, extensió inicial, pantalla completa, panell d'eines i Street View | [4.1](01-navegacio.md), [4.3](03-mesurar-dibuixar.md), [4.8](08-imprimir.md) |
-| **El mapa** | Tota la superfície central | A totes |
-| **Panell de la dreta** | Mapes de fons, capes carregades, capes disponibles i «Afegir mapes» | [4.2](02-mapes-de-fons.md), [4.5](05-capes-tematiques.md), [4.6](06-consulta-atributs.md), [4.9](09-fitxers-propis.md) |
-| **Barra inferior** | Coordenades del cursor, atribucions i escala | [4.4](04-localitzar-coordenades.md) |
+| | Zona | Què hi trobaràs | On es treballa |
+|---|---|---|---|
+| **1** | **Capçalera** | El quadre de cerca | [4.4](04-localitzar-coordenades.md), [4.7](07-cadastre.md) |
+| **2** | **Columna esquerra** | Zoom, extensió inicial, pantalla completa, panell d'eines i Street View | [4.1](01-navegacio.md), [4.3](03-mesurar-dibuixar.md), [4.8](08-imprimir.md) |
+| **3** | **El mapa** | Tota la superfície central | A totes |
+| **4** | **Panell de la dreta** | Mapes de fons, capes carregades, capes disponibles i «Afegir mapes» | [4.2](02-mapes-de-fons.md), [4.5](05-capes-tematiques.md), [4.6](06-consulta-atributs.md), [4.9](09-fitxers-propis.md) |
+| **5** | **Barra inferior** | Coordenades del cursor, atribucions i escala | [4.4](04-localitzar-coordenades.md) |
 
 !!! tip "La llista completa és al manual"
     Per seguir el curs, amb les cinc zones n'hi ha prou. Si en vols el detall
@@ -56,12 +56,7 @@ i cada secció del mòdul treballa en una o dues.
 
 Estan pensades per fer-se en ordre: cada una dona per sabuda l'anterior.
 
-## Abans de començar
-
-Obre el visor en una altra finestra i tingue'l a mà mentre llegeixes. Totes les
-seccions acaben amb un exercici que s'hi fa, i la manera d'aprendre'n és
-fent-los.
-
-!!! note "Pendent"
-    Falta posar aquí l'adreça del visor genèric, que ara mateix no surt enlloc
-    del curs.
+!!! tip "Tingues el visor obert mentre llegeixes"
+    Obre el [visor genèric](https://ide.cime.es/visor) en una altra finestra i
+    tingue'l a mà. Totes les seccions acaben amb un exercici que s'hi fa, i la
+    manera d'aprendre'n és fent-los.

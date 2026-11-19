@@ -3,6 +3,8 @@
 Full de ruta dels dos cursos que s'estan preparant. **No es publica**: és un
 document de treball intern del repositori.
 
+**El primer curs bàsic es fa el 23 de novembre del 2026.**
+
 Fita: tenir els dos cursos redactats. Fins llavors, el lloc es manté només en
 català (vegeu [DEPLOY.md](DEPLOY.md) per a la publicació).
 
