@@ -6,10 +6,10 @@ IDE Menorca és un projecte del servei d'informació geogràfica de l'administra
 !!! note "Per què fem el que fem?"
     La nostra visió és que la cartografia i les dades geogràfiques són un servei bàsic essencial per a la gestió organitzada d'una societat. Constitueixen una base sobre la qual es recolzen altres serveis com la planificació del territori, la conservació del medi ambient, la gestió d'infraestructures o la gestió d'emergències. Per aquest motiu han de ser **accessibles, gratuïtes i fàcils d'emprar.**
 
-<div style="text-align: center; margin: 2.5em 0;">
+<div style="text-align: center; margin: 2em 0; padding: 1.5em; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 10px; background-color: var(--md-code-bg-color);">
 
-  <p style="font-size: 1.35em; font-weight: 500;">
-    Pots accedir a totes les nostres aplicacions a través de la nostra pàgina web:
+  <p>
+    Podeu accedir a totes les aplicacions del projecte IDE menorca a través de la nostra pàgina web:
   </p>
 
   <p>
