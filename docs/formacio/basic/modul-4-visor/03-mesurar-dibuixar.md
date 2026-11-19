@@ -77,14 +77,15 @@ les coordenades, la longitud i la superfície sense fer cap càlcul.
 
 **Quants pavellons de bàsquet caben dins d'un poblat talaiòtic?**
 
-- [ ] Posa de fons l'**ortofoto de 2024** ([4.2](02-mapes-de-fons.md)) i
-  situa't sobre el **pavelló del Menorca Bàsquet**, a Maó.
+- [ ] Escriu **Pavelló Menorca** al cercador de dalt i posa de fons l'**ortofoto
+  de 2024** ([4.2](02-mapes-de-fons.md)).
 - [ ] Dibuixa-hi un **punt** i apunta'n les coordenades i l'elevació.
 - [ ] Amb un **polígon**, mesura la superfície del pavelló.
 - [ ] Vés a **Torre d'en Galmés**, a Alaior, i dibuixa-hi un **punt**:
   compara'n l'elevació amb la de Maó.
 - [ ] Amb un **polígon**, mesura el recinte del poblat. Selecciona'l després amb
-  la **mà** i arrossega'n un vèrtex: la vora del poblat la decideixes tu.
+  la **mà**, arrossega'n un vèrtex i mira com canvia l'àrea: la vora del poblat
+  la decideixes tu.
 - [ ] Divideix una superfície per l'altra: **quants pavellons hi caben?**
 - [ ] Traça una **línia** que travessi el turó del poblat i prem el botó del
   perfil per veure'n el relleu.
