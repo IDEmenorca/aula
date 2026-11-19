@@ -13,7 +13,7 @@ fer i només necessites recordar com es fa.
 
     ---
 
-    El visor cartogràfic obert a tothom. Navegació, mapes de fons, càrrega de capes,
+    El visor cartogràfic obert a tothom. Navegació, mapes de fons, càrrega de capes i serveis,
     eines de dibuix i mesura, impressió, descàrregues, consultes i selecció d'elements.
 
 -   __[Manual del visor restringit](visor-restringit/index.md)__
