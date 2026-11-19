@@ -3,8 +3,7 @@
 ## Objectiu
 
 En acabar sabràs desplaçar el mapa, apropar-te i allunyar-te, i tornar a la
-vista inicial quan et perdis. És el que faràs abans de qualsevol altra cosa a
-totes les seccions següents.
+vista inicial quan et perdis.
 
 ## Passos
 
@@ -29,7 +28,8 @@ totes les seccions següents.
 
 3. **Tornar a l'extensió inicial.** La **casa** recupera la vista de tota
    l'illa. És la sortida d'emergència: quan no saps on ets, prem-la i comença
-   de nou.
+   de nou. Només canvia l'enquadrament, o sigui que el que tinguis carregat
+   no es perd.
 
     !!! info "Quan comencis a carregar capes"
         En allunyar-te, algunes deixaran de dibuixar-se i semblarà que les has
@@ -38,6 +38,9 @@ totes les seccions següents.
 
 4. **Pantalla completa.** Amaga la resta de la pàgina i deixa només el visor:
    tot el que guanyes és mapa. Se'n surt amb el mateix botó o amb ++esc++.
+
+!!! tip "Si l'obres a la tauleta"
+    Arrossega amb un dit i fes el zoom amb la pinça. La resta funciona igual.
 
 ## Exercici pràctic
 
