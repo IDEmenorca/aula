@@ -248,12 +248,13 @@ A sota, les eines, en l'ordre en què apareixen:
 
 ### La fila de selecció
 
-Sota les eines hi ha una fila **Selecció per**, amb els botons **per punt**,
+Al final de la llista hi ha una fila **Selecció per**, amb els botons **per punt**,
 **per línia** i **per recinte**, i al final els de descarregar i esborrar, que
 estan desactivats fins que no hi hagi res seleccionat.
 
-!!! warning "Actua sobre totes les capes carregades"
-    Tot i que la fila apareix dins de la caixa d'una capa, la selecció **no es
-    limita a aquella capa**: busca elements a totes les que tinguis carregades.
+!!! note "Una sola fila per a tot el panell"
+    La fila no és de cap capa en concret: n'hi ha una de sola, sota l'última
+    capa carregada, i la selecció busca elements a **totes** les capes que
+    tinguis carregades.
 
 El funcionament es descriu a [4. Selecció gràfica d'elements](04-seleccio-grafica.md).

@@ -24,8 +24,8 @@ selecció **espacial** sobre el mapa: per punt, per línia o per recinte.
     capes carregades, apagats.
 
 <figure markdown>
-  ![Barra de selecció amb els botons per punt, per línia i per recinte sota una capa carregada](img/60-barra-seleccio.png){ .captura }
-  <figcaption>La barra apareix sota cada capa carregada.</figcaption>
+  ![Barra de selecció amb els botons per punt, per línia i per recinte al final de la llista de capes carregades](img/60-barra-seleccio.png){ .captura }
+  <figcaption>La barra apareix un sol cop, al final de la llista de capes carregades.</figcaption>
 </figure>
 
 ## 4.1. Tipus de selecció
