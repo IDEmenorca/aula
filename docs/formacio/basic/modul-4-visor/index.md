@@ -30,7 +30,7 @@ i cada secció del mòdul treballa en una o dues.
 | | Zona | Què hi trobaràs | On es treballa |
 |---|---|---|---|
 | **1** | **Capçalera** | El quadre de cerca | [4.4](04-localitzar-coordenades.md), [4.7](07-cadastre.md) |
-| **2** | **Columna esquerra** | Zoom, extensió inicial, pantalla completa, panell d'eines i Street View | [4.1](01-navegacio.md), [4.3](03-mesurar-dibuixar.md), [4.8](08-imprimir.md) |
+| **2** | **Columna esquerra** | Zoom, extensió inicial, pantalla completa, panell d'eines, Street View, vista d'ocell, llegenda i mapa de situació. | [4.1](01-navegacio.md), [4.3](03-mesurar-dibuixar.md), [4.8](08-imprimir.md) |
 | **3** | **El mapa** | Tota la superfície central | A totes |
 | **4** | **Panell de la dreta** | Mapes de fons, capes carregades, capes disponibles i «Afegir mapes» | [4.2](02-mapes-de-fons.md), [4.5](05-capes-tematiques.md), [4.6](06-consulta-atributs.md), [4.9](09-fitxers-propis.md) |
 | **5** | **Barra inferior** | Coordenades del cursor, atribucions i escala | [4.4](04-localitzar-coordenades.md) |
