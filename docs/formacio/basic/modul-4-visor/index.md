@@ -11,7 +11,7 @@ que vulguis, des d'on vulguis.
 ## En acabar el mòdul
 
 Podràs consultar amb quatre clics l'enllumenat d'un carrer, els plans
-d'ordenació del territori o els béns d'interès cultural d'un municipi.
+d'ordenació del territori o els béns d'interès cultural d'un municipi, entre moltes altres funcions.
 
 Pel camí hauràs après a moure't pel mapa, a triar què hi vols veure, a mesurar
 sobre el terreny, a consultar la informació de qualsevol element, a treballar
