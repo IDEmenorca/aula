@@ -47,7 +47,7 @@ vista inicial quan et perdis.
 **De l'illa sencera als carrers de Ferreries, i tornar.**
 
 - [ ] Prem la **casa**: parteixes de tota Menorca a la pantalla.
-- [ ] Amb la **rodeta**, apropa't fins que surtin els noms dels vuit municipis.
+- [ ] Amb la **rodeta**, allunya't fins que deixis de veure els noms dels vuit municipis.
 - [ ] **Doble clic** damunt **Ferreries**, i repeteix-ho fins a distingir-ne els
   carrers. Fixa't que el mapa es va movent cap a on apuntes.
 - [ ] Allunya't tres passos amb **−** i torna amb **+**: acabes al mateix lloc.
