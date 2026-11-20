@@ -19,7 +19,7 @@ vista inicial quan et perdis.
     | Botons **+** i **−** | Cap al centre de la pantalla |
 
     Per això, amb els botons, allò que vols mirar l'has de tenir al mig abans
-    de prémer: si el deixes a una vora, el zoom te l'allunya de la vista.
+    de prémer: si el deixes a un costat, el zoom te l'allunya de la vista.
 
     <figure markdown>
       ![El visor a l'extensió inicial, amb la columna d'eines de l'esquerra i assenyalats els botons de zoom (+ i −), la casa i la pantalla completa](img/41-columna-navegacio.png){ .captura }
@@ -51,7 +51,7 @@ vista inicial quan et perdis.
 - [ ] **Doble clic** damunt **Ferreries**, i repeteix-ho fins a distingir-ne els
   carrers. Fixa't que el mapa es va movent cap a on apuntes.
 - [ ] Allunya't tres passos amb **−** i torna amb **+**: acabes al mateix lloc.
-- [ ] Ara arrossega Ferreries fins a una **vora** de la pantalla i prem **+**
+- [ ] Ara arrossega Ferreries fins a un **costat** de la pantalla i prem **+**
   dues vegades. El poble se t'escapa: aquesta és tota la diferència entre els
   botons i la rodeta.
 - [ ] Entra i surt de **pantalla completa**, i acaba tornant a prémer la

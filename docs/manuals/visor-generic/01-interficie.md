@@ -24,8 +24,8 @@ l'illa. Aquest apartat descriu què hi ha a la pantalla i com moure-s'hi.
 | 10 | Llegenda | Columna esquerra |
 | 11 | Mapa de situació | Columna esquerra, a baix |
 | 12 | Indicador del sistema de coordenades i coordenades del cursor | Cantó inferior esquerre |
-| 13 | Atribucions de les dades | Vora inferior, al centre |
-| 14 | Escala gràfica | Vora inferior, a la dreta |
+| 13 | Atribucions de les dades | A baix, al centre |
+| 14 | Escala gràfica | A baix, a la dreta |
 | 15 | Escala numèrica i mida de pantalla | Cantó inferior dret |
 
 !!! note "Pendent de redactar"

@@ -48,11 +48,11 @@ les coordenades, la longitud i la superfície sense fer cap càlcul.
     <div class="figures-costat" markdown>
     <figure markdown>
       ![El polígon tancat sobre el pavelló del Menorca Bàsquet, amb l'àrea i el perímetre a la vista al panell de l'eina](img/43-poligon-pavello.png){ .captura }
-      <figcaption>Una vora clara: tothom el mesurarà pràcticament igual.</figcaption>
+      <figcaption>Un contorn clar: tothom el mesurarà pràcticament igual.</figcaption>
     </figure>
     <figure markdown>
       ![El polígon tancat sobre el recinte de Torre d'en Galmés, amb l'àrea i el perímetre a la vista al panell de l'eina](img/43-poligon-poblat.png){ .captura }
-      <figcaption>Una vora difusa: on acaba el poblat és una decisió de qui mesura.</figcaption>
+      <figcaption>Un contorn difús: on acaba el poblat és una decisió de qui mesura.</figcaption>
     </figure>
     </div>
 
@@ -84,8 +84,8 @@ les coordenades, la longitud i la superfície sense fer cap càlcul.
 - [ ] Vés a **Torre d'en Galmés**, a Alaior, i dibuixa-hi un **punt**:
   compara'n l'elevació amb la de Maó.
 - [ ] Amb un **polígon**, mesura el recinte del poblat. Selecciona'l després amb
-  la **mà**, arrossega'n un vèrtex i mira com canvia l'àrea: la vora del poblat
-  la decideixes tu.
+  la **mà**, arrossega'n un vèrtex i mira com canvia l'àrea: el contorn del
+  poblat el decideixes tu.
 - [ ] Divideix una superfície per l'altra: **quants pavellons hi caben?**
 - [ ] Traça una **línia** que travessi el turó del poblat i prem el botó del
   perfil per veure'n el relleu.
@@ -97,7 +97,8 @@ les coordenades, la longitud i la superfície sense fer cap càlcul.
 
     Segons [fonts oficials](https://www.menorca.es/es/Poblado_talayotico_de_Torre_den_Galmes/8446),
     el jaciment fa **66.240 m²**: el doble del que es distingeix des de l'aire.
-    Una mesura val el que val la vora que has dibuixat.
+    No és cap errada del visor, que mesura exactament el que dibuixes.
+    Encertar on acaba el poblat ja és cosa teva.
 
 ---
 
