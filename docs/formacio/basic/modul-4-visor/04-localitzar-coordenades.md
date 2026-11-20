@@ -9,12 +9,13 @@ de qualsevol punt del mapa.
 
 1. **Cercar un lloc pel nom.** Escriu-lo al quadre de cerca de la capçalera i
    tria un resultat de la llista: el visor s'hi situa. Hi valen municipis,
-   nuclis i carrers, però també **equipaments** i **referències cadastrals**:
-   amb «Pavelló Menorca» hi arribes igual que amb una adreça.
+   nuclis, carrers i camins, però també **topònims** i **referències
+   cadastrals**. No sempre cal una adreça: amb «Pavelló Menorca» hi arribes
+   igual.
 
     <figure markdown>
       ![El quadre de cerca amb text escrit i la llista de resultats desplegada a sota](img/44-cercador.png){ .captura }
-      <figcaption>El cercador troba municipis, nuclis, carrers, equipaments i referències cadastrals.</figcaption>
+      <figcaption>El cercador troba municipis, nuclis, carrers, camins, referències cadastrals i topònims, i agrupa els resultats per tipus.</figcaption>
     </figure>
 
 2. **Obtenir les coordenades d'un punt.** Fes clic sobre el mapa: el requadre et
