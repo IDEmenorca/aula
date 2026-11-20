@@ -39,17 +39,17 @@ i desfer o refer trams mentre dibuixes.
 
 ### Perfil d'elevació
 
-En dibuixar una línia apareix el seu **perfil d'elevació**, amb el desnivell acumulat
-positiu i negatiu.
+El **perfil d'elevació** d'una línia no apareix sol: s'ha de demanar amb el botó de
+la icona de muntanyes, al costat de la longitud. Mostra la corba del terreny i el
+desnivell acumulat, positiu i negatiu.
 
 <figure markdown>
   ![Panell de perfil d'elevació amb la corba del terreny i el desnivell](img/22-perfil-elevacio.png){ .captura }
   <figcaption>El perfil mostra el desnivell al llarg de la línia dibuixada.</figcaption>
 </figure>
 
-El botó amb la icona de muntanyes activa i desactiva el panell del perfil. L'alçada i
-l'amplada del panell s'ajusten amb els controls del lateral dret, de la part inferior i
-del cantó inferior dret.
+El mateix botó torna a tancar el panell. L'alçada i l'amplada del panell s'ajusten
+amb els controls del lateral dret, de la part inferior i del cantó inferior dret.
 
 ## Pestanya de polígons
 

@@ -28,8 +28,10 @@ o les parcel·les del cadastre.
     !!! info "L'enllaç «Canviar tema», a dalt de tot"
         Aquests set blocs són els del **tema per defecte**. L'enllaç **Canviar
         tema** recarrega el visor amb una altra configuració: un arbre de capes
-        diferent, i també unes altres eines i uns altres mapes de fons. Si un dia
-        el visor no s'assembla al que expliquem aquí, mira quin tema tens posat.
+        diferent, i també unes altres eines i uns altres mapes de fons. N'ofereix
+        quatre —capes per origen de dades, de medi ambient, de turisme i
+        d'ordenació del territori— i un accés per a usuaris restringits. Si el
+        visor no s'assembla al que expliquem aquí, mira quin tema tens posat.
 
 2. **Baixar fins a la capa.** Sota el bloc hi ha serveis i grups de capes, i no
    sempre els mateixos: unes capes les tens a un parell de clics i unes altres
