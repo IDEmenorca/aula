@@ -1,4 +1,4 @@
-# 4.4. Localitzar i obtenir coordenades
+# 4.4. Cercar un lloc i obtenir coordenades
 
 ## Objectiu
 

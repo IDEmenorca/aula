@@ -49,8 +49,12 @@ o les parcel·les del cadastre.
 
 4. **Buscar-la pel nom.** Si ja saps què vols, la **lupa** del costat de «Capes
    disponibles» va més de pressa: a partir del tercer caràcter et surten les
-   capes que diuen allò al títol o a la descripció, amb el servei d'on ve
-   cadascuna.
+   capes que diuen allò al títol o a la descripció.
+
+    <figure markdown>
+      ![El cercador de capes obert amb la paraula biosfera escrita i quatre resultats, repartits sota els dos serveis d'on surten, emmarcats en vermell](img/45-cercador-capes.png){ .captura }
+      <figcaption>Els resultats s'agrupen pel servei d'on surten, i la capa que ja tens carregada hi surt en cursiva.</figcaption>
+    </figure>
 
 5. **Comprovar què tens carregat.** La secció **Capes carregades**, just a sobre
    de les disponibles, es queda plegada: desplega-la i hi tens tot el que has

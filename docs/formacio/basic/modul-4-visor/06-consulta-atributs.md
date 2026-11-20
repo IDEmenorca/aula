@@ -18,14 +18,14 @@ seus **atributs**.
    mapa i s'obre el requadre de resultats.
 
     <figure markdown>
-      ![El requadre de resultats amb la taula d'atributs d'un element de la Zonificació de la Reserva de la Biosfera](img/46-atributs-element.png){ .captura }
-      <figcaption>A dalt del requadre, el punt on has fet clic; a sota, d'on surt l'element i els seus atributs.</figcaption>
+      ![El requadre de resultats amb la primera línia emmarcada en vermell —sistema de referència, coordenades i elevació— i, a sota, els atributs d'un element de la Zonificació de la Reserva de la Biosfera](img/46-atributs-element.png){ .captura }
+      <figcaption>A dalt, el mateix que et dona un clic al mapa sense capes carregades. A sota, d'on surt l'element i els seus atributs.</figcaption>
     </figure>
 
 3. **Llegir el requadre.** És el mateix que ja et sortia a la
-   [4.4](04-localitzar-coordenades.md): a dalt hi tens les coordenades del punt.
-   A sota hi apareix d'on surt l'element —el servei, i després el camí fins a la
-   capa— i la taula dels seus atributs.
+   [4.4](04-localitzar-coordenades.md): a dalt hi tens les coordenades i
+   l'elevació del punt. A sota hi apareix d'on surt l'element —el servei, i
+   després el camí fins a la capa— i la taula dels seus atributs.
 
 4. **Seleccionar-ne uns quants de cop.** Amb **per línia** o **per recinte**,
    dibuixa sobre el mapa i acaba amb doble clic: hi entren tots els elements que
