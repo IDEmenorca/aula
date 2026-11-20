@@ -74,9 +74,9 @@ o les parcel·les del cadastre.
     | Fletxes verticals | Canviar l'ordre: quina capa tapa quina |
     | Creu, al costat del títol | Treure aquella capa del mapa |
 
-    La fila **Selecció per** de sota, tot i sortir dins d'una capa, busca a
-    **totes** les que tinguis carregades: la faràs servir a la
-    [4.6](06-consulta-atributs.md).
+    Al final de la llista, en canvi, hi ha una fila **Selecció per** que no és
+    de cap capa en concret: actua sobre **totes** les que tinguis carregades. La
+    faràs servir a la [4.6](06-consulta-atributs.md).
 
     <figure markdown>
       ![El panell de capes carregades amb dues capes. Hi ha emmarcades la fila d'eines d'una de les capes i, a sota, la fila de selecció](img/45-capes-carregades.png){ .captura }
