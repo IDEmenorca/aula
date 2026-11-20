@@ -18,6 +18,7 @@ cada apartat s'entén per si sol.
 | [4. Selecció gràfica d'elements](04-seleccio-grafica.md) | Consultar elements del mapa per punt, línia o recinte |
 | [5. Consultes](05-consultes.md) | Cerques per atributs i filtres espacials sobre les capes carregades |
 | [6. Google Street View](06-street-view.md) | Veure imatges a peu de carrer des del visor |
+| [7. El cadastre](07-cadastre.md) | Carregar la cartografia cadastral, trobar una parcel·la i obrir-ne la fitxa oficial |
 
 ## Abans de començar
 

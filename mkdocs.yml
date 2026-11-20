@@ -202,5 +202,6 @@ nav:
           - "4. Selecció gràfica d'elements": manuals/visor-generic/04-seleccio-grafica.md
           - "5. Consultes": manuals/visor-generic/05-consultes.md
           - "6. Google Street View": manuals/visor-generic/06-street-view.md
+          - "7. El cadastre": manuals/visor-generic/07-cadastre.md
       - Manual del visor restringit:
           - Presentació del manual: manuals/visor-restringit/index.md
