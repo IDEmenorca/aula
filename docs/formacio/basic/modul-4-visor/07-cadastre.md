@@ -2,8 +2,10 @@
 
 ## Objectiu
 
-En acabar sabràs carregar la cartografia cadastral, localitzar una parcel·la al
-visor i obrir-ne la fitxa oficial al Cadastre.
+En acabar sabràs anar de la referència cadastral al mapa i del mapa a la
+referència, i obrir la fitxa oficial d'una parcel·la. La **referència
+cadastral** és el codi que identifica cada parcel·la: és el que demana
+qualsevol tràmit i el que el Cadastre entén.
 
 ## Passos
 
@@ -18,12 +20,12 @@ visor i obrir-ne la fitxa oficial al Cadastre.
       <figcaption>De tot el grup Cadastre, la capa que dibuixa les parcel·les senceres és Catastro.</figcaption>
     </figure>
 
-2. **Buscar per referència cadastral.** El quadre de cerca de la capçalera —el
-   mateix de la [4.4](04-localitzar-coordenades.md)— accepta referències
-   cadastrals. Escriu-ne una i el visor s'hi situa.
+2. **De la referència al mapa.** El quadre de cerca de la capçalera —el mateix
+   de la [4.4](04-localitzar-coordenades.md)— accepta referències cadastrals.
+   Escriu-ne una i el visor s'hi situa.
 
-3. **Consultar una parcel·la.** Fes clic a sobre, com a la
-   [4.6](06-consulta-atributs.md). El requadre no treu cap taula d'atributs: el
+3. **Del mapa a la referència.** Fes clic sobre una parcel·la, com a la
+   [4.6](06-consulta-atributs.md). Aquesta capa no treu cap taula d'atributs: el
    que et dona és la **referència cadastral**, i és un **enllaç**.
 
     <figure markdown>
@@ -41,11 +43,13 @@ visor i obrir-ne la fitxa oficial al Cadastre.
         Cadastre**, no d'aquí.
 
 !!! warning "La cartografia cadastral ve de fora"
-    No és de l'IDE Menorca: la serveix la Direcció General del Cadastre. Per
-    això no es pot descarregar en vectorial des del visor, a diferència de les
-    capes pròpies.
+    No és de l'IDE Menorca: la serveix la Direcció General del Cadastre. Es nota
+    al requadre de consulta: on les capes pròpies hi tenen els botons de
+    descarregar i compartir, aquesta només hi deixa imprimir.
 
 ## Exercici pràctic
+
+**De quin edifici és aquesta referència?**
 
 - [ ] Carrega la cartografia cadastral.
 - [ ] Busca la referència **`7552201FE0175S`** al quadre de cerca.
