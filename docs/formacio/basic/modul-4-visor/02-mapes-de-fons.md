@@ -43,7 +43,7 @@ mateix lloc amb el control de transparència.
   apareix és el segon que ja tenies carregat.
 - [ ] Posa l'ortofoto de **1956** a un extrem i la de **2024** a l'altre. Compte
   amb la graella: **2024**, no **2024 Port Maó**.
-- [ ] Mou el **control de transparència** a poc a poc i busca una cosa que hi
+- [ ] Mou el **control de transparència** a poc a poc i cerca una cosa que hi
   hagi el 2024 i que el 1956 no hi fos.
 - [ ] Canvia una ortofoto per **OSM**: no tots els mapes de fons són
   fotografies.

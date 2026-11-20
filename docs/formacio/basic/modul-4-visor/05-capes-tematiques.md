@@ -1,4 +1,4 @@
-# 4.5. Buscar i carregar capes temàtiques
+# 4.5. Cercar i carregar capes temàtiques
 
 ## Objectiu
 
@@ -47,7 +47,7 @@ o les parcel·les del cadastre.
    l'arbre queda **ressaltada en verd**, per si després dubtes de si la tens
    posada.
 
-4. **Buscar-la pel nom.** Si ja saps què vols, la **lupa** del costat de «Capes
+4. **Cercar-la pel nom.** Si ja saps què vols, la **lupa** del costat de «Capes
    disponibles» va més de pressa: a partir del tercer caràcter et surten les
    capes que diuen allò al títol o a la descripció.
 
@@ -106,7 +106,7 @@ o les parcel·les del cadastre.
 - [ ] Amb el **control de transparència**, fes la capa més transparent fins que es vegi la
   fotografia a sota.
 - [ ] Amaga-la i torna-la a mostrar amb la **casella**.
-- [ ] Busca ara **Biosfera** amb la **lupa**: la que ja tens carregada hi surt en
+- [ ] Cerca ara **Biosfera** amb la **lupa**: la que ja tens carregada hi surt en
   cursiva.
 - [ ] Treu-la del mapa amb la **creu**.
 
@@ -119,5 +119,5 @@ o les parcel·les del cadastre.
 ---
 
 !!! tip "Al manual de referència"
-    [2.3. Buscar i afegir capes](../../../manuals/visor-generic/02-panell-capes.md#23-buscar-i-afegir-capes)
+    [2.3. Cercar i afegir capes](../../../manuals/visor-generic/02-panell-capes.md#23-cercar-i-afegir-capes)
     i [2.5. Capes carregades](../../../manuals/visor-generic/02-panell-capes.md#25-capes-carregades)

@@ -1,7 +1,7 @@
 # 2. Panell de capes
 
 El panell de capes és a la banda dreta de la pantalla i és el lloc des d'on es tria el
-mapa de fons, es busquen capes d'informació i es gestionen les que ja s'han carregat.
+mapa de fons, es cerquen capes d'informació i es gestionen les que ja s'han carregat.
 
 Per defecte apareix desplegat. Es contreu amb el botó de tancament i es torna a obrir
 amb el botó de panell de capes.
@@ -131,9 +131,9 @@ el visor canvia automàticament al sistema de referència compatible.
     - **2005 nuclis**: ortofotografia de nuclis de 2004-2005-2006 de les Illes Balears.
     - **1995 nuclis**: fotografies georeferenciades de nuclis de 1995.
 
-## 2.3. Buscar i afegir capes
+## 2.3. Cercar i afegir capes
 
-El menú **Capes disponibles** permet buscar capes procedents de l'IDE Menorca i d'altres
+El menú **Capes disponibles** permet cercar capes procedents de l'IDE Menorca i d'altres
 serveis de cartografia (IDEIB, IGN, Cadastre i altres). Hi ha dues maneres d'afegir-les.
 
 ### Per l'arbre de capes
@@ -254,7 +254,7 @@ estan desactivats fins que no hi hagi res seleccionat.
 
 !!! note "Una sola fila per a tot el panell"
     La fila no és de cap capa en concret: n'hi ha una de sola, sota l'última
-    capa carregada, i la selecció busca elements a **totes** les capes que
+    capa carregada, i la selecció cerca elements a **totes** les capes que
     tinguis carregades.
 
 El funcionament es descriu a [4. Selecció gràfica d'elements](04-seleccio-grafica.md).

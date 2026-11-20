@@ -52,7 +52,7 @@ qualsevol tràmit i el que el Cadastre entén.
 **De quin edifici és aquesta referència?**
 
 - [ ] Carrega la cartografia cadastral.
-- [ ] Busca la referència **`7552201FE0175S`** al quadre de cerca.
+- [ ] Cerca la referència **`7552201FE0175S`** al quadre de dalt.
 - [ ] Fes clic sobre la parcel·la: en surt la referència cadastral.
 - [ ] Obre la fitxa oficial amb l'enllaç.
 - [ ] Compara l'adreça que dona el Cadastre amb el que veus al mapa.
@@ -66,4 +66,4 @@ qualsevol tràmit i el que el Cadastre entén.
 !!! tip "Al manual de referència"
     El manual encara no té cap apartat de cadastre. Mentrestant, la càrrega de
     capes es descriu a
-    [2.3. Buscar i afegir capes](../../../manuals/visor-generic/02-panell-capes.md#23-buscar-i-afegir-capes).
+    [2.3. Cercar i afegir capes](../../../manuals/visor-generic/02-panell-capes.md#23-cercar-i-afegir-capes).

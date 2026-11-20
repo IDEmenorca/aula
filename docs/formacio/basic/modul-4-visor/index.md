@@ -48,7 +48,7 @@ i cada secció del mòdul treballa en una o dues.
 | 4.2 | [Control de mapes de fons](02-mapes-de-fons.md) | Canviar el mapa de fons i comparar dues èpoques del mateix lloc |
 | 4.3 | [Mesurar i dibuixar elements](03-mesurar-dibuixar.md) | Dibuixar punts, línies i polígons, i obtenir-ne distàncies i superfícies |
 | 4.4 | [Cercar un lloc i obtenir coordenades](04-localitzar-coordenades.md) | Trobar un lloc pel nom i obtenir les coordenades de qualsevol punt |
-| 4.5 | [Buscar i carregar capes temàtiques](05-capes-tematiques.md) | Trobar una capa d'informació, carregar-la al mapa i ajustar com es veu |
+| 4.5 | [Cercar i carregar capes temàtiques](05-capes-tematiques.md) | Trobar una capa d'informació, carregar-la al mapa i ajustar com es veu |
 | 4.6 | [Consulta dels atributs de les capes carregades](06-consulta-atributs.md) | Seleccionar elements i llegir la informació que porten associada |
 | 4.7 | [Treballar amb el cadastre](07-cadastre.md) | Localitzar una parcel·la cadastral i obrir-ne la fitxa oficial |
 | 4.8 | [Imprimir](08-imprimir.md) | Generar un PDF del mapa amb el títol, l'escala i la llegenda |

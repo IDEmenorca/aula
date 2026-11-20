@@ -2,7 +2,7 @@
 
 ## Objectiu
 
-En acabar aquesta secció sabràs quina informació ofereix el visor, com està organitzada i on buscar
+En acabar aquesta secció sabràs quina informació ofereix el visor, com està organitzada i on cercar
 el que necessites.
 
 ## Passos

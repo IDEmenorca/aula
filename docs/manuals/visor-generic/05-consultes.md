@@ -1,7 +1,7 @@
 # 5. Consultes
 
-Mentre la [selecció gràfica](04-seleccio-grafica.md) busca **on és** una cosa, les
-consultes busquen **quines** compleixen una condició. Es basen en expressions sobre els
+Mentre la [selecció gràfica](04-seleccio-grafica.md) cerca **on és** una cosa, les
+consultes cerquen **quines** compleixen una condició. Es basen en expressions sobre els
 atributs de les capes carregades i s'hi poden combinar filtres espacials.
 
 La consulta selecciona i centra al mapa els objectes que compleixen els criteris, i en
@@ -66,7 +66,7 @@ capa concreta vols consultar.
 Els criteris es poden encadenar amb els operadors lògics **i** i **o**, fent servir
 atributs diferents i criteris diferents.
 
-**Exemple.** A la capa «Registres de pluvials», buscar els registres del nucli urbà de
+**Exemple.** A la capa «Registres de pluvials», cercar els registres del nucli urbà de
 Maó que estiguin en mal estat:
 
 ```text
@@ -75,7 +75,7 @@ i
 dsnucli  igual que  "Maó"
 ```
 
-**Exemple.** A la capa «Punts de llum. Làmpades», buscar les làmpades de vapor de més de
+**Exemple.** A la capa «Punts de llum. Làmpades», cercar les làmpades de vapor de més de
 200 W (n'hi ha de «Vapor de Mercuri / VM» i de «Vapor de Sodi d'Alta Pressió / VSAP»):
 
 ```text

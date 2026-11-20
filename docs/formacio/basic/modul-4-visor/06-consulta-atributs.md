@@ -50,7 +50,7 @@ seus **atributs**.
 - [ ] Carrega la **Zonificació de la Reserva de la Biosfera**
   ([4.5](05-capes-tematiques.md)).
 - [ ] Fes clic sobre una zona i mira què diu l'atribut **`dstipus`**.
-- [ ] Busca'n una de **marina** i una de **terrestre**: l'atribut canvia.
+- [ ] Cerca'n una de **marina** i una de **terrestre**: l'atribut canvia.
 - [ ] Dibuixa un **recinte** sobre un tros de costa i compta quants valors
   diferents de `dstipus` et surten de cop.
 - [ ] Carrega també la **Localització de les reserves de biosfera de la xarxa
