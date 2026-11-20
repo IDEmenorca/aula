@@ -3,7 +3,7 @@
 ## Objectiu
 
 En acabar sabràs triar el mapa de fons que et convé i comparar dues èpoques del
-mateix lloc amb el control lliscant.
+mateix lloc amb el control de transparència.
 
 ## Passos
 
@@ -11,17 +11,17 @@ mateix lloc amb el control lliscant.
    **capes disponibles** a la vista; la secció dels **mapes de fons**, just a
    sobre, la trobaràs plegada.
 
-2. **Moure el control lliscant.** És la barra de dalt de la secció. El visor té
-   sempre **dos** mapes de fons carregats, no un, i del segon no en veus res
-   perquè el control és del tot a un extrem. Arrossega'l i apareixerà: el
+2. **Moure el control de transparència.** És la barra de dalt de la secció. El
+   visor té sempre **dos** mapes de fons carregats, no un, i del segon no en veus
+   res perquè el control és del tot a un extrem. Arrossega'l i apareixerà: el
    control no aclareix el mapa, decideix quant en veus de cada un.
 
     <figure markdown>
-      ![A dalt del panell de la dreta, el control lliscant emmarcat en vermell, amb el mapa base de l'IDE Menorca a un extrem i l'ortofoto de 2024 a l'altre, i a sota la graella de miniatures. Al mapa, els dos fons fosos](img/42-mapes-de-fons.png){ .captura }
+      ![A dalt del panell de la dreta, el control de transparència emmarcat en vermell, amb el mapa base de l'IDE Menorca a un extrem i l'ortofoto de 2024 a l'altre, i a sota la graella de miniatures. Al mapa, els dos fons fosos](img/42-mapes-de-fons.png){ .captura }
       <figcaption>Amb el control al mig, el dibuix del mapa base i la fotografia se superposen.</figcaption>
     </figure>
 
-3. **Canviar un dels dos.** Selecciona al control lliscant el que vols
+3. **Canviar un dels dos.** Selecciona al control de transparència el que vols
    substituir i tria després el nou a la **graella de miniatures**, just a sota.
 
     !!! info "No tots cobreixen tota l'illa"
@@ -39,7 +39,7 @@ mateix lloc amb el control lliscant.
 **Cala Galdana, de 1956 a avui.**
 
 - [ ] Apropa't a **Cala Galdana** i desplega la secció **Mapes de fons**.
-- [ ] Mou el **control lliscant** d'un extrem a l'altre: el mapa que apareix és
+- [ ] Mou el **control de transparència** d'un extrem a l'altre: el mapa que apareix és
   el segon que ja tenies carregat.
 - [ ] Posa l'ortofoto de **1956** a un extrem i la de **2024** a l'altre. Compte
   amb la graella: **2024**, no **2024 Port Maó**.

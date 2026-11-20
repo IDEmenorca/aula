@@ -23,30 +23,30 @@ informació sobre el territori. Té dos propòsits: aportar informació per si m
 de base per a la resta de capes.
 
 En obrir el visor es carreguen **dos** mapes de fons alhora: el mapa base de l'IDE
-Menorca i el **mapa blanc**. Només se'n veu un perquè el control lliscant està
+Menorca i el **mapa blanc**. Només se'n veu un perquè el control de transparència està
 desplaçat del tot cap a un costat.
 
 <figure markdown>
-  ![Control lliscant amb un mapa de fons a cada extrem i el comandament al mig](img/11-control-lliscant.png){ .captura }
-  <figcaption>El control lliscant alterna la transparència entre els dos mapes de fons.</figcaption>
+  ![Control de transparència amb un mapa de fons a cada extrem i el comandament al mig](img/11-control-lliscant.png){ .captura }
+  <figcaption>El control de transparència decideix quant es veu de cada un dels dos mapes de fons.</figcaption>
 </figure>
 
 !!! warning "Captura desfasada"
     Aquesta imatge ve del manual antic i hi surten l'ortofoto de 2021 i el mapa
     base com a parella de sortida, que ja no és la que carrega el visor. Serveix
-    per entendre el control lliscant, però s'ha de refer.
+    per entendre el control de transparència, però s'ha de refer.
 
 Per canviar-ne un:
 
-1. Selecciona primer el mapa de fons que vols substituir (el de l'esquerra o el de la dreta del control lliscant).
+1. Selecciona primer el mapa de fons que vols substituir (el de l'esquerra o el de la dreta del control de transparència).
 2. Tria després el mapa de fons nou de la graella de miniatures.
 
-El control lliscant permet fondre progressivament un mapa amb l'altre, cosa que va molt
+El control de transparència permet fondre progressivament un mapa amb l'altre, cosa que va molt
 bé per comparar dues èpoques del mateix indret.
 
 !!! tip "Comparar ortofotos"
-    Carregar dues ortofotos de dates diferents i moure el control lliscant és la manera
-    més ràpida de veure com ha canviat una zona.
+    Carregar dues ortofotos de dates diferents i moure el control de transparència
+    és la manera més ràpida de veure com ha canviat una zona.
 
 ### Compatibilitat de sistemes de coordenades
 
@@ -63,7 +63,7 @@ el visor canvia automàticament al sistema de referència compatible.
 
 <figure markdown>
   ![Graella de miniatures amb tots els mapes de fons disponibles](img/13-graella-mapes-fons.png){ .captura }
-  <figcaption>Es poden carregar dos mapes de fons alhora i fondre'ls amb el control lliscant.</figcaption>
+  <figcaption>Es poden carregar dos mapes de fons alhora i fondre'ls amb el control de transparència.</figcaption>
 </figure>
 
 !!! warning "A revisar: falten dades tècniques"
@@ -243,7 +243,7 @@ A sota, les eines, en l'ordre en què apareixen:
 | **i** | **Informació de la capa** | Obre les metadades: identificador, URL del servei, descripció de la capa i del servei, persona de contacte i altres dades |
 | Marc amb fletxa | **Zoom a l'extensió de la capa** | Ajusta el mapa a l'extensió màxima de la capa |
 | Lupa | **Consultes** | Obre les [cerques alfanumèriques i gràfiques](05-consultes.md) |
-| Barra lliscant | **Transparència** | Arrossega cap a l'esquerra per augmentar la transparència i cap a la dreta per reduir-la. Les capes es carreguen sense transparència |
+| Barra lliscant | **Control de transparència** | Arrossega cap a l'esquerra per augmentar la transparència i cap a la dreta per reduir-la. Les capes es carreguen sense transparència |
 | Fletxes verticals | **Canviar l'ordre** | Prem i arrossega amunt o avall per reordenar les capes |
 
 ### La fila de selecció

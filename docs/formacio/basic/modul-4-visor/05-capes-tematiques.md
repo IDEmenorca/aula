@@ -68,7 +68,7 @@ o les parcel·les del cadastre.
     | **i** | Veure d'on surt la capa, qui la manté i amb quines condicions |
     | Marc amb fletxa | Ajustar el mapa a l'extensió de la capa: la manera ràpida de trobar-la si no la veus |
     | Lupa | Consultar la capa per atributs. Ho veuràs a la [4.6](06-consulta-atributs.md) |
-    | Barra lliscant | Fer-la més transparent per veure què hi ha a sota |
+    | Control de transparència | Deixar veure a través de la capa el que hi ha a sota |
     | Fletxes verticals | Canviar l'ordre: quina capa tapa quina |
     | Creu, al costat del títol | Treure aquella capa del mapa |
 
@@ -97,7 +97,7 @@ o les parcel·les del cadastre.
   fins on hi arriba la zonificació.
 - [ ] Posa de fons una **ortofoto** ([4.2](02-mapes-de-fons.md)): la capa tapa
   el terreny.
-- [ ] Amb la **barra lliscant**, fes la capa més transparent fins que es vegi la
+- [ ] Amb el **control de transparència**, fes la capa més transparent fins que es vegi la
   fotografia a sota.
 - [ ] Amaga-la i torna-la a mostrar amb la **casella**.
 - [ ] Busca ara **Biosfera** amb la **lupa**: la que ja tens carregada hi surt en
