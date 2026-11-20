@@ -3,12 +3,14 @@
 ## Objectiu
 
 En acabar sabràs trobar una capa d'informació, carregar-la al mapa i ajustar
-com es veu.
+com es veu. Una capa és cada conjunt de dades que el visor dibuixa damunt del
+mapa de fons: els hidrants d'un nucli, les zones de la Reserva de la Biosfera
+o les parcel·les del cadastre.
 
 ## Passos
 
-1. **Obrir el panell de capes disponibles.** És a la banda dreta, sota els
-   mapes de fons. La informació hi està organitzada per temes:
+1. **Desplegar un bloc temàtic.** El panell de la dreta ja s'obre per **Capes
+   disponibles**: set blocs que es reparteixen tot el que pots carregar.
 
     - Ordenació del territori i cadastre
     - Urbanisme i habitabilitat
@@ -19,44 +21,59 @@ com es veu.
     - Bases i mapes topogràfics
 
     <figure markdown>
-      ![El panell de capes disponibles amb un dels temes desplegat i les seves capes a la vista](img/45-arbre-capes.png){ .captura }
-      <figcaption>Les capes estan agrupades per temes; cada tema es desplega amb el botó del costat.</figcaption>
+      ![El panell de capes disponibles amb un dels temes desplegat i el que conté a la vista](img/45-arbre-capes.png){ .captura }
+      <figcaption>Desplegar un bloc encara no et dona capes: a sota hi ha més nivells.</figcaption>
     </figure>
 
-2. **Trobar una capa per l'arbre.** Desplega els temes fins a arribar a la capa
-   que vols i fes-hi clic per carregar-la.
+    !!! info "L'enllaç «Canviar tema», a dalt de tot"
+        Aquests set blocs són els del **tema per defecte**. L'enllaç **Canviar
+        tema** recarrega el visor amb una altra configuració: un arbre de capes
+        diferent, i també unes altres eines i uns altres mapes de fons. Si un dia
+        el visor no s'assembla al que expliquem aquí, mira quin tema tens posat.
 
-    L'arbre té quatre nivells —tema, servei, grup de capes i capa— o sigui que
-    sovint hauràs de desplegar unes quantes vegades abans d'arribar a allò que
-    es pot carregar.
+2. **Baixar fins a la capa.** Sota el bloc hi ha serveis i grups de capes, i no
+   sempre els mateixos: unes capes les tens a un parell de clics i unes altres
+   s'amaguen quatre o cinc nivells més avall. El cursor et diu si ja hi has
+   arribat.
 
-    El cursor t'indica on ets: quan es converteix en una **mà**, allò es pot
-    afegir al mapa; si es queda en forma de **selecció de text**, encara ets en
-    un nivell intermedi i l'has de desplegar. Les capes que ja has carregat
-    surten **ressaltades en verd**.
+    | Cursor | Vol dir |
+    |---|---|
+    | Mà | Això es pot afegir al mapa: fes-hi clic |
+    | Selecció de text | Encara ets en un nivell intermedi: desplega'l |
 
-3. **Trobar una capa pel cercador.** Si ja saps què busques, la **lupa** del
-   costat de «Capes disponibles» és més ràpida que anar desplegant temes.
+3. **Carregar la capa.** Fes-hi clic i es dibuixa damunt del mapa de fons. A
+   l'arbre queda **ressaltada en verd**, per si després dubtes de si la tens
+   posada.
 
-    Escriu-hi tres caràcters i començarà a donar resultats. Busca tant al nom
-    de la capa com a la seva descripció, i et diu de quin servei surt cadascuna.
+4. **Buscar-la pel nom.** Si ja saps què vols, la **lupa** del costat de «Capes
+   disponibles» va més de pressa: a partir del tercer caràcter et surten les
+   capes que diuen allò al títol o a la descripció, amb el servei d'on ve
+   cadascuna.
 
-4. **Gestionar les capes carregades.** Les que has afegit apareixen al panell
-   **Capes carregades**, cadascuna amb les seves eines:
+5. **Comprovar què tens carregat.** La secció **Capes carregades**, just a sobre
+   de les disponibles, es queda plegada: desplega-la i hi tens tot el que has
+   afegit. Mentre és plegada, un **cercle verd** en diu el nombre i la creu del
+   costat les treu totes de cop.
+
+    !!! info "Si carregues una capa i no la veus"
+        Mira'n el títol en aquesta llista: si surt en **gris clar**, a l'escala
+        on ets no es dibuixa. Apropa't i tornarà a aparèixer.
+
+6. **Ajustar com es veu.** Cada capa carregada porta la seva fila d'eines, just
+   sota el títol.
 
     | Eina | Per a què |
     |---|---|
     | Casella | Amagar i tornar a mostrar la capa sense treure-la |
     | **i** | Veure d'on surt la capa, qui la manté i amb quines condicions |
-    | Marc amb fletxa | Ajustar el mapa a l'extensió de la capa |
+    | Marc amb fletxa | Ajustar el mapa a l'extensió de la capa: la manera ràpida de trobar-la si no la veus |
     | Lupa | Consultar la capa per atributs. Ho veuràs a la [4.6](06-consulta-atributs.md) |
     | Barra lliscant | Fer-la més transparent per veure què hi ha a sota |
     | Fletxes verticals | Canviar l'ordre: quina capa tapa quina |
-    | Creu, a dalt a la dreta | Treure la capa del mapa |
+    | Creu, al costat del títol | Treure aquella capa del mapa |
 
-    A sota hi ha una fila de **selecció** —per punt, per línia o per recinte—
-    que serveix per triar elements sobre el mapa. No actua sobre una sola
-    capa: busca a **totes les que tinguis carregades**. També la veuràs a la
+    La fila **Selecció per** de sota, tot i sortir dins d'una capa, busca a
+    **totes** les que tinguis carregades: la faràs servir a la
     [4.6](06-consulta-atributs.md).
 
     <figure markdown>
@@ -64,25 +81,34 @@ com es veu.
       <figcaption>A dalt, les eines d'una capa. A baix, la fila de selecció, que actua sobre totes les capes carregades.</figcaption>
     </figure>
 
-    !!! tip "Si una capa surt en gris"
-        Vol dir que a l'escala on ets no es dibuixa. Apropa't i tornarà a
-        aparèixer.
-
 ## Exercici pràctic
 
-- [ ] Al tema **Medi ambient, agricultura i caça**, busca la **Zonificació de la
-  Reserva de la Biosfera** i carrega-la.
+**La Reserva de la Biosfera, damunt del teu poble.**
+
+- [ ] Carrega la **Zonificació de la Reserva de la Biosfera**, del tema **Medi
+  ambient, agricultura i caça**.
 
     ??? tip "Si no la trobes, aquest és el camí"
-        1. **Medi ambient, agricultura i caça** — el tema
+        1. **Medi ambient, agricultura i caça** — el bloc
         2. **Medi ambient, agricultura i caça (IDE menorca)** — el servei
         3. **Reserva de la Biosfera** — el grup de capes
         4. **Zonificació de la Reserva de la Biosfera** — la capa
-- [ ] Posa de mapa de fons una **ortofoto**: veuràs que la capa tapa el terreny.
-- [ ] Amb la **barra lliscant** de la capa, baixa-li la transparència fins a veure
-  la fotografia a sota.
-- [ ] Prova la **casella** per amagar-la i tornar-la a mostrar.
+- [ ] Cerca el **teu municipi** ([4.4](04-localitzar-coordenades.md)) i mira
+  fins on hi arriba la zonificació.
+- [ ] Posa de fons una **ortofoto** ([4.2](02-mapes-de-fons.md)): la capa tapa
+  el terreny.
+- [ ] Amb la **barra lliscant**, fes la capa més transparent fins que es vegi la
+  fotografia a sota.
+- [ ] Amaga-la i torna-la a mostrar amb la **casella**.
+- [ ] Busca ara **Biosfera** amb la **lupa**: la que ja tens carregada hi surt en
+  cursiva.
 - [ ] Treu-la del mapa amb la **creu**.
+
+!!! tip "El fons i les capes no són el mateix"
+    Del mapa de fons només en pots tenir dos alhora
+    ([4.2](02-mapes-de-fons.md)) i serveixen per situar-te. Les capes són la
+    informació que hi poses a sobre: les vas acumulant, i l'ordre decideix
+    quina tapa quina.
 
 ---
 
