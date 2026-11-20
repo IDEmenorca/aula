@@ -39,13 +39,14 @@ mateix lloc amb el control de transparència.
 **Cala Galdana, de 1956 a avui.**
 
 - [ ] Apropa't a **Cala Galdana** i desplega la secció **Mapes de fons**.
-- [ ] Mou el **control de transparència** d'un extrem a l'altre: el mapa que apareix és
-  el segon que ja tenies carregat.
+- [ ] Mou el **control de transparència** d'un extrem a l'altre: el mapa que
+  apareix és el segon que ja tenies carregat.
 - [ ] Posa l'ortofoto de **1956** a un extrem i la de **2024** a l'altre. Compte
   amb la graella: **2024**, no **2024 Port Maó**.
-- [ ] Mou el control a poc a poc i busca una cosa que hi hagi el 2024 i que el
-  1956 no hi fos.
-- [ ] Canvia'n un per **OSM**: no tots els mapes de fons són fotografies.
+- [ ] Mou el **control de transparència** a poc a poc i busca una cosa que hi
+  hagi el 2024 i que el 1956 no hi fos.
+- [ ] Canvia una ortofoto per **OSM**: no tots els mapes de fons són
+  fotografies.
 
 ---
 
