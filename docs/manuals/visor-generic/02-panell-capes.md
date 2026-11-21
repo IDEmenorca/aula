@@ -38,7 +38,8 @@ desplaçat del tot cap a un costat.
 
 Per canviar-ne un:
 
-1. Selecciona primer el mapa de fons que vols substituir (el de l'esquerra o el de la dreta del control de transparència).
+1. Prem l'extrem del control de transparència que correspon al mapa que vols substituir.
+   El de l'esquerra queda marcat en **verd**; el de la dreta, en **blau**.
 2. Tria després el mapa de fons nou de la graella de miniatures.
 
 El control de transparència permet fondre progressivament un mapa amb l'altre, cosa que va molt

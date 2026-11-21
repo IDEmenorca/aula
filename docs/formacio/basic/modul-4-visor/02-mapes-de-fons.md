@@ -21,8 +21,10 @@ mateix lloc amb el control de transparència.
       <figcaption>Amb el control al mig, el dibuix del mapa base i la fotografia se superposen.</figcaption>
     </figure>
 
-3. **Canviar un dels dos.** Selecciona al control de transparència el que vols
-   substituir i tria després el nou a la **graella de miniatures**, just a sota.
+3. **Canviar un dels dos.** Els dos extrems del control són botons amb el nom
+   de cada mapa. Prem el que vols substituir —el de l'esquerra es marca de
+   **verd**; el de la dreta, de **blau**— i tria després el nou a la **graella
+   de miniatures**, just a sota.
 
     !!! info "No tots cobreixen tota l'illa"
         Sis mapes de fons són d'àmbit limitat: 2024 Port Maó, els tres de
