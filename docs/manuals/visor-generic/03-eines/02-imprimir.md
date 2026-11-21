@@ -23,13 +23,10 @@ Genera un PDF del mapa que estàs veient en aquell moment.
 3. S'obre una previsualització dinàmica. Ajusta-hi l'àrea d'impressió i l'escala.
 4. Prem el botó de descàrrega del PDF, al marge superior dret.
 
-!!! note "Captura pendent — `img/31-imprimir-previsualitzacio.png`"
-    Previsualització dinàmica amb el marc ajustable de l'àrea d'impressió.
-
-    El manual original no en té cap imatge, tot i ser el pas on l'usuari es queda
-    encallat més sovint.
-
-    Peu de foto previst: *La previsualització permet ajustar l'enquadrament abans de generar el PDF.*
+<figure markdown>
+  ![La previsualització, amb el marc de l'àrea d'impressió sobre el mapa i el botó de descàrrega del marge superior dret emmarcat](img/31-imprimir-previsualitzacio.png){ .captura }
+  <figcaption>La previsualització permet ajustar l'enquadrament abans de generar el PDF.</figcaption>
+</figure>
 
 El PDF resultant inclou el mapa, l'escala i, si l'has demanat, el codi QR. Si tens capes
 carregades, també hi apareix la seva llegenda.

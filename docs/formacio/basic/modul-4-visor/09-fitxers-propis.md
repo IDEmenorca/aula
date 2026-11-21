@@ -1,4 +1,4 @@
-# 4.9. Visualitzar fitxers de cartografia al visor IDE Menorca
+# 4.9. Visualitzar fitxers de cartografia
 
 ## Objectiu
 
@@ -36,7 +36,12 @@ els atributs i tornar-lo a descarregar en un altre format.
       <figcaption>Encara que la fila de selecció surti apagada, el clic sobre l'element en retorna els atributs.</figcaption>
     </figure>
 
-4. **Comprovar que es queda.** Recarrega la pàgina: el fitxer hi continua
+4. **Tornar-lo a descarregar en un altre format.** La fila del fitxer té la
+   seva pròpia icona de descàrrega, al costat de la casella. El torna a treure
+   en KML, GML, GeoJSON, WKT, Shapefile o GeoPackage: és una manera ràpida de
+   convertir de format sense sortir del visor.
+
+5. **Comprovar que es queda.** Recarrega la pàgina: el fitxer hi continua
    carregat.
 
 !!! info "El sistema de coordenades no importa"
@@ -48,10 +53,6 @@ els atributs i tornar-lo a descarregar en un altre format.
 
     - La fila **Selecció per** surt **apagada**. Tot i així, el clic damunt un
       element en retorna els atributs igualment.
-    - Es descarrega **des de la seva pròpia fila**, amb la icona del costat de
-      la casella, i el torna a treure en KML, GML, GeoJSON, WKT, Shapefile o
-      GeoPackage. És una manera ràpida de convertir de format sense sortir del
-      visor.
     - L'eina **Descarregar** del panell d'eines **no el baixa**: només treballa
       amb les capes del catàleg. Si hi vas amb un fitxer teu carregat, et dirà
       que no hi ha capes carregades.
@@ -77,6 +78,4 @@ posar.
 ---
 
 !!! tip "Al manual de referència"
-    El manual encara no té cap apartat sobre carregar fitxers propis. Els
-    formats de descàrrega es descriuen a
-    [3.3. Descarregar](../../../manuals/visor-generic/03-eines/03-descarregar.md).
+    [8. Fitxers propis](../../../manuals/visor-generic/08-fitxers-propis.md)

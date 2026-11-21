@@ -167,7 +167,7 @@ nav:
               - "4.6. Consulta dels atributs de les capes carregades": formacio/basic/modul-4-visor/06-consulta-atributs.md
               - "4.7. Treballar amb el cadastre": formacio/basic/modul-4-visor/07-cadastre.md
               - "4.8. Imprimir": formacio/basic/modul-4-visor/08-imprimir.md
-              - "4.9. Visualitzar fitxers de cartografia al visor IDE Menorca": formacio/basic/modul-4-visor/09-fitxers-propis.md
+              - "4.9. Visualitzar fitxers de cartografia": formacio/basic/modul-4-visor/09-fitxers-propis.md
           - "Mòdul 5. Prova escrita d'avaluació": formacio/basic/modul-5-avaluacio.md
       - Curs mig:
           - Presentació del curs mig: formacio/mig/index.md
@@ -203,5 +203,6 @@ nav:
           - "5. Consultes": manuals/visor-generic/05-consultes.md
           - "6. Google Street View": manuals/visor-generic/06-street-view.md
           - "7. El cadastre": manuals/visor-generic/07-cadastre.md
+          - "8. Fitxers propis": manuals/visor-generic/08-fitxers-propis.md
       - Manual del visor restringit:
           - Presentació del manual: manuals/visor-restringit/index.md

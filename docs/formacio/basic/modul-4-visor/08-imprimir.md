@@ -7,8 +7,9 @@ l'escala i la llegenda de les capes carregades.
 
 ## Passos
 
-1. **Deixar el mapa com el vols imprimir.** El PDF surt del que hi ha a la
-   pantalla: les capes carregades, el mapa de fons i la zona enquadrada.
+1. **Deixar el mapa com el vols imprimir.** Carrega-hi les capes i tria el
+   mapa de fons: el PDF surt del que tinguis a la pantalla. L'enquadrament
+   l'acabaràs d'ajustar al final.
 
 2. **Obrir l'eina Imprimir.** És al panell d'eines, el de les eines creuades de
    la columna esquerra ([4.3](03-mesurar-dibuixar.md)).
@@ -24,16 +25,16 @@ l'escala i la llegenda de les capes carregades.
 
 4. **Prémer Imprimir i ajustar l'enquadrament.** S'obre una previsualització amb
    un marc sobre el mapa. El que hi quedi a dins és el que sortirà al PDF, no el
-   que es veia abans: ajusta l'escala amb la **roda del ratolí** fins que hi
-   tinguis el que vols.
+   que es veia abans: ajusta l'escala amb la **roda del ratolí** i arrossega el
+   mapa per centrar-hi el que vols.
 
     <figure markdown>
       ![La previsualització, amb el marc de l'àrea d'impressió sobre el mapa i el botó de descàrrega del marge superior dret emmarcat](img/48-previsualitzacio.png){ .captura }
       <figcaption>A la previsualització s'ajusten l'enquadrament i l'escala abans de generar el PDF.</figcaption>
     </figure>
 
-5. **Descarregar el PDF.** Amb el botó de descàrrega del marge superior dret de
-   la previsualització.
+5. **Descarregar el PDF.** Amb el botó de descàrrega del marge superior dret.
+   La creu del costat tanca la previsualització sense generar res.
 
 ## Exercici pràctic
 

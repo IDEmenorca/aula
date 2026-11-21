@@ -64,6 +64,4 @@ qualsevol tràmit i el que el Cadastre entén.
 ---
 
 !!! tip "Al manual de referència"
-    El manual encara no té cap apartat de cadastre. Mentrestant, la càrrega de
-    capes es descriu a
-    [2.3. Cercar i afegir capes](../../../manuals/visor-generic/02-panell-capes.md#23-cercar-i-afegir-capes).
+    [7. El cadastre](../../../manuals/visor-generic/07-cadastre.md)
