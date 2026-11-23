@@ -19,7 +19,7 @@ cada apartat s'entén per si sol.
 | [5. Consultes](05-consultes.md) | Cerques per atributs i filtres espacials sobre les capes carregades |
 | [6. Google Street View](06-street-view.md) | Veure imatges a peu de carrer des del visor |
 | [7. El cadastre](07-cadastre.md) | Carregar la cartografia cadastral, trobar una parcel·la i obrir-ne la fitxa oficial |
-| [8. Fitxers propis](08-fitxers-propis.md) | Obrir al visor un fitxer de cartografia del teu ordinador, consultar-lo i tornar-lo a descarregar |
+| [8. Afegir mapes i arxius](08-fitxers-propis.md) | Carregar al visor un servei WMS d'un altre organisme, o un fitxer de cartografia del teu ordinador, i tornar-lo a descarregar |
 
 ## Abans de començar
 

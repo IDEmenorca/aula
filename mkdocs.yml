@@ -219,6 +219,6 @@ nav:
           - "5. Consultes": manuals/visor-generic/05-consultes.md
           - "6. Google Street View": manuals/visor-generic/06-street-view.md
           - "7. El cadastre": manuals/visor-generic/07-cadastre.md
-          - "8. Fitxers propis": manuals/visor-generic/08-fitxers-propis.md
+          - "8. Afegir mapes i arxius": manuals/visor-generic/08-fitxers-propis.md
       - Manual del visor restringit:
           - Presentació del manual: manuals/visor-restringit/index.md

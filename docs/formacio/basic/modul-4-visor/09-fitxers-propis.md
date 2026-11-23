@@ -78,4 +78,4 @@ posar.
 ---
 
 !!! tip "Al manual de referència"
-    [8. Fitxers propis](../../../manuals/visor-generic/08-fitxers-propis.md)
+    [8. Afegir mapes i arxius](../../../manuals/visor-generic/08-fitxers-propis.md)
