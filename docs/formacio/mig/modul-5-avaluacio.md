@@ -1,6 +1,6 @@
 # Mòdul 5. Prova escrita d'avaluació
 
-Prova final del curs mig. Una hora.
+Prova final del curs mitjà. Una hora.
 
 ## Estructura de la prova
 

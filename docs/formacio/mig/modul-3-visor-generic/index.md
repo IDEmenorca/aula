@@ -1,6 +1,6 @@
 # Mòdul 3. Visor genèric IDE Menorca
 
-El gruix del curs mig. Es torna al visor genèric, però ara per treure'n el que
+El gruix del curs mitjà. Es torna al visor genèric, però ara per treure'n el que
 el curs bàsic no toca: consultes, seleccions, metadades i localitzadors
 especialitzats.
 

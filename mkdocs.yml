@@ -200,8 +200,9 @@ nav:
           - "Mòdul 4. Visor restringit IDE Menorca":
               - Presentació del mòdul 4: formacio/mig/modul-4-visor-restringit/index.md
               - "4.1. Introducció als visualitzadors restringits": formacio/mig/modul-4-visor-restringit/01-introduccio.md
-              - "4.2. Què són i com hi puc accedir": formacio/mig/modul-4-visor-restringit/02-acces.md
-              - "4.3. Informació que s'hi pot trobar i com es gestiona": formacio/mig/modul-4-visor-restringit/03-informacio.md
+              - "4.2. Control de capes i mapes de fons": formacio/mig/modul-4-visor-restringit/02-capes-i-mapes-de-fons.md
+              - "4.3. Eines bàsiques": formacio/mig/modul-4-visor-restringit/03-eines-basiques.md
+              - "4.4. Accés als expedients des del visor restringit": formacio/mig/modul-4-visor-restringit/04-expedients.md
           - "Mòdul 5. Prova escrita d'avaluació": formacio/mig/modul-5-avaluacio.md
   - Manuals d'usuari:
       - Presentació dels manuals: manuals/index.md
