@@ -22,8 +22,8 @@ mateix lloc amb el control de transparència.
     </figure>
 
 3. **Canviar un dels dos.** Els dos extrems del control són botons amb el nom
-   de cada mapa. Prem el que vols substituir —el de l'esquerra es marca de
-   **verd**; el de la dreta, de **blau**— i tria després el nou a la **graella
+   de cada mapa. Prem el que vols substituir —el de l'esquerra es marca en
+   **verd**; el de la dreta, en **blau**— i tria després el nou a la **graella
    de miniatures**, just a sota.
 
     !!! info "No tots cobreixen tota l'illa"

@@ -7,7 +7,7 @@ vista inicial quan et perdis.
 
 ## Passos
 
-1. **Desplaçar el mapa.** Botó esquerre premut i arrossega.
+1. **Desplaçar el mapa.** Arrossega'l amb el botó esquerre premut.
 
 2. **Apropar-se i allunyar-se.** Hi ha tres maneres, i només es diferencien en
    una cosa: cap a on s'apropen.
@@ -33,7 +33,7 @@ vista inicial quan et perdis.
 
     !!! info "Quan comencis a carregar capes"
         En allunyar-te, algunes deixaran de dibuixar-se i semblarà que les has
-        perdudes. Segueixen al mapa i tornen quan t'hi apropes. Ho veuràs a la
+        perdudes. Continuen al mapa i tornen quan t'hi apropes. Ho veuràs a la
         [4.5](05-capes-tematiques.md).
 
 4. **Pantalla completa.** Amaga la resta de la pàgina i deixa només el visor:
@@ -45,9 +45,10 @@ vista inicial quan et perdis.
 ## Exercici: de l'illa sencera als carrers de Ferreries, i tornar
 
 - [ ] Prem la **casa**: parteixes de tota Menorca a la pantalla.
-- [ ] Amb la **rodeta**, allunya't fins que deixis de veure els noms dels vuit municipis.
-- [ ] **Doble clic** damunt **Ferreries**, i repeteix-ho fins a distingir-ne els
-  carrers. Fixa't que el mapa es va movent cap a on apuntes.
+- [ ] Amb la **rodeta**, allunya't fins que deixis de veure els noms dels vuit
+  municipis.
+- [ ] Fes **doble clic** damunt **Ferreries** i repeteix-ho fins a distingir-ne
+  els carrers. Fixa't que el mapa es va movent cap a on apuntes.
 - [ ] Allunya't tres passos amb **−** i torna amb **+**: acabes al mateix lloc.
 - [ ] Ara arrossega Ferreries fins a un **costat** de la pantalla i prem **+**
   dues vegades. El poble se t'escapa: aquesta és tota la diferència entre els

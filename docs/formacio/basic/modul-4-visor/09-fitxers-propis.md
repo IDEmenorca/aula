@@ -44,7 +44,7 @@ els atributs i tornar-lo a descarregar en un altre format.
 5. **Comprovar que es queda.** Recarrega la pàgina: el fitxer hi continua
    carregat.
 
-!!! info "El sistema de coordenades no importa"
+!!! info "El sistema de referència no importa"
     El visor reprojecta el fitxer ell mateix: tant se val que vingui en 25831,
     en 4326 o en ED50.
 

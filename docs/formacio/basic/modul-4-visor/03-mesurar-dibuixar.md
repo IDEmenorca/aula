@@ -56,8 +56,8 @@ les coordenades, la longitud i la superfície sense fer cap càlcul.
     </figure>
     </div>
 
-6. **Fer servir les sis eines comunes.** Tornant al panell de l'esquerra, sota
-   les pestanyes, hi ha sis botons que valen per als tres tipus de dibuix.
+6. **Fer servir les sis eines comunes.** Al panell de l'esquerra, sota les
+   pestanyes, hi ha sis botons que valen per als tres tipus de dibuix.
 
     <figure markdown>
       ![El panell de l'esquerra amb Dibuixar i medir desplegat: les tres pestanyes i, emmarcat en vermell, el bloc de sis eines comunes](img/43-eines-comunes.png){ .captura }
@@ -75,7 +75,7 @@ les coordenades, la longitud i la superfície sense fer cap càlcul.
 
 ## Exercici: quants pavellons de bàsquet caben dins d'un poblat talaiòtic?
 
-- [ ] Escriu **Pavelló Menorca** al cercador de dalt i posa de fons l'**ortofoto
+- [ ] Escriu **Pavelló Menorca** al quadre de cerca i posa de fons l'**ortofoto
   de 2024** ([4.2](02-mapes-de-fons.md)).
 - [ ] Dibuixa-hi un **punt** i apunta'n les coordenades i l'elevació.
 - [ ] Amb un **polígon**, mesura la superfície del pavelló.

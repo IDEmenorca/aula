@@ -9,8 +9,8 @@ o les parcel·les del cadastre.
 
 ## Passos
 
-1. **Desplegar un bloc temàtic.** El panell de la dreta ja s'obre per **Capes
-   disponibles**: set blocs que es reparteixen tot el que pots carregar.
+1. **Desplegar un bloc temàtic.** El panell de la dreta ja s'obre amb les
+   **Capes disponibles** a la vista: set blocs que es reparteixen tot el que pots carregar.
 
     - Ordenació del territori i cadastre
     - Urbanisme i habitabilitat
@@ -30,7 +30,7 @@ o les parcel·les del cadastre.
         tema** recarrega el visor amb una altra configuració: un arbre de capes
         diferent, i també unes altres eines i uns altres mapes de fons. N'ofereix
         quatre —capes per origen de dades, de medi ambient, de turisme i
-        d'ordenació del territori— i un accés per a usuaris restringits. Si el
+        d'ordenació del territori— i un d'accés restringit. Si el
         visor no s'assembla al que expliquem aquí, mira quin tema tens posat.
 
 2. **Baixar fins a la capa.** Sota el bloc hi ha serveis i grups de capes, i no
@@ -101,8 +101,8 @@ o les parcel·les del cadastre.
   fins on hi arriba la zonificació.
 - [ ] Posa de fons una **ortofoto** ([4.2](02-mapes-de-fons.md)): la capa tapa
   el terreny.
-- [ ] Amb el **control de transparència**, fes la capa més transparent fins que es vegi la
-  fotografia a sota.
+- [ ] Amb el **control de transparència**, fes la capa més transparent fins
+  que es vegi la fotografia a sota.
 - [ ] Amaga-la i torna-la a mostrar amb la **casella**.
 - [ ] Cerca ara **Biosfera** amb la **lupa**: la que ja tens carregada hi surt en
   cursiva.

@@ -15,7 +15,7 @@ de qualsevol punt del mapa.
 
     <figure markdown>
       ![El quadre de cerca amb text escrit i la llista de resultats desplegada a sota](img/44-cercador.png){ .captura }
-      <figcaption>El cercador troba municipis, nuclis, carrers, camins, referències cadastrals i topònims, i agrupa els resultats per tipus.</figcaption>
+      <figcaption>El quadre de cerca troba municipis, nuclis, carrers, camins, referències cadastrals i topònims, i agrupa els resultats per tipus.</figcaption>
     </figure>
 
 2. **Obtenir les coordenades d'un punt.** Fes clic sobre el mapa: el requadre et
@@ -25,7 +25,7 @@ de qualsevol punt del mapa.
 
     <figure markdown>
       ![El quadre amb el sistema de referència, les coordenades x i y i l'elevació del punt consultat](img/44-coordenades-punt.png){ .captura }
-      <figcaption>Cada clic al mapa dona el sistema de referència, les coordenades i l'altitud del terreny.</figcaption>
+      <figcaption>Cada clic al mapa dona el sistema de referència, les coordenades i l'elevació del terreny.</figcaption>
     </figure>
 
 3. **Llegir les coordenades del cursor.** L'indicador del cantó inferior
@@ -33,9 +33,9 @@ de qualsevol punt del mapa.
    coordenades d'allà on tens el ratolí: per saber on ets no has de fer clic
    enlloc.
 
-4. **Canviar el sistema de coordenades.** Prem aquest mateix indicador i tria'n
-   un altre del quadre que s'obre: el punt no es mou, només canvia la manera
-   d'escriure'l.
+4. **Canviar el sistema de referència.** Prem aquest mateix indicador i
+   tria'n un altre del quadre que s'obre: el punt no es mou, només canvia la
+   manera d'escriure'l.
 
     <figure markdown>
       ![El quadre «Canviar sistema de referència de coordenades» obert, amb la projecció actual EPSG:25831 i la llista de compatibles; a baix a l'esquerra, emmarcat en vermell, l'indicador que l'obre](img/44-sistema-coordenades.png){ .captura }
@@ -61,10 +61,11 @@ de qualsevol punt del mapa.
   l'elevació.
 - [ ] Fes **clic a l'altre extrem** i resta les dues elevacions: això és el que
   puja el carrer.
-- [ ] Prova ara el cercador amb **Pavelló Menorca**: no li has de donar cap
-  adreça.
-- [ ] Canvia el sistema de coordenades a **WGS 84** i torna a fer clic al mateix
-  punt: els números passen de metres a graus, però el lloc és el mateix.
+- [ ] Prova ara el quadre de cerca amb **Pavelló Menorca**: no li has de donar
+  cap adreça.
+- [ ] Canvia el sistema de referència a **WGS 84** i torna a fer clic al
+  mateix punt: els números passen de metres a graus, però el lloc és el
+  mateix.
 - [ ] Torna a **ETRS89 / UTM 31N** i passeja el cursor mirant l'indicador de
   baix.
 

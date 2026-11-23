@@ -44,13 +44,13 @@ qualsevol tràmit i el que el Cadastre entén.
 
 !!! warning "La cartografia cadastral ve de fora"
     No és de l'IDE Menorca: la serveix la Direcció General del Cadastre. Es nota
-    al requadre de consulta: on les capes pròpies hi tenen els botons de
+    al requadre de consulta: on les capes pròpies tenen els botons de
     descarregar i compartir, aquesta només hi deixa imprimir.
 
 ## Exercici: de quin edifici és aquesta referència?
 
 - [ ] Carrega la cartografia cadastral.
-- [ ] Cerca la referència **`7552201FE0175S`** al quadre de dalt.
+- [ ] Cerca la referència **`7552201FE0175S`** al quadre de cerca.
 - [ ] Fes clic sobre la parcel·la: en surt la referència cadastral.
 - [ ] Obre la fitxa oficial amb l'enllaç.
 - [ ] Compara l'adreça que dona el Cadastre amb el que veus al mapa.
