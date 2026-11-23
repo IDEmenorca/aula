@@ -29,6 +29,16 @@ d'abans. El mòdul 4 és pràctic, o sigui que val més tenir el
 [visor](https://ide.cime.es/visor) obert en una altra finestra mentre el
 segueixes.
 
+!!! info "El teu progrés"
+    Quan arribes al final d'una secció, al menú de l'esquerra hi surt una
+    **✓**; si a més marques totes les caselles de l'exercici, en surten
+    dues. Al costat de cada mòdul hi veuràs quantes seccions en duus.
+
+    Es guarda en aquest navegador: si canvies d'ordinador o de navegador, no
+    hi serà.
+
+    <button type="button" class="md-button" data-progres-reinicia="basic">Reinicia el progrés</button>
+
 !!! tip "Si el que vols és consultar una eina concreta"
     Per a això hi ha els [manuals d'usuari](../../manuals/index.md), que
     descriuen el visor eina per eina sense itinerari. El curs explica el

@@ -345,3 +345,42 @@
     display: none;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Progrés de lectura (javascripts/progres.js)
+
+   La ✓ o les dues ✓ van al final de cada secció del menú de l'esquerra, i el
+   comptador «3/9» al costat del títol de cada mòdul. Es fa servir el color
+   d'accent del tema, que ja canvia sol entre el mode clar i el fosc.
+   --------------------------------------------------------------------------- */
+
+.progres-marca {
+  flex-shrink: 0;
+  margin-left: 0.4em;
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+  letter-spacing: -0.1em;
+}
+
+.progres-comptador {
+  flex-shrink: 0;
+  margin-left: 0.5em;
+  padding: 0 0.4em;
+  border-radius: 0.6em;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+  background-color: var(--md-default-fg-color--lightest);
+  white-space: nowrap;
+}
+
+.progres-comptador--complet {
+  color: var(--md-accent-bg-color);
+  background-color: var(--md-accent-fg-color);
+  font-weight: 700;
+}
+
+/* L'element invisible que el script vigila al final de cada pàgina. */
+.progres-sentinella {
+  height: 1px;
+}

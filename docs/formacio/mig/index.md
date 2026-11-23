@@ -19,6 +19,16 @@ visor restringit, al qual només hi accedeix el personal autoritzat.
 | 4 | [Visor restringit IDE Menorca](modul-4-visor-restringit/index.md) | 2 h |
 | 5 | [Prova escrita d'avaluació](modul-5-avaluacio.md) | 1 h |
 
+!!! info "El teu progrés"
+    Quan arribes al final d'una secció, al menú de l'esquerra hi surt una
+    **✓**; si a més marques totes les caselles de l'exercici, en surten
+    dues. Al costat de cada mòdul hi veuràs quantes seccions en duus.
+
+    Es guarda en aquest navegador: si canvies d'ordinador o de navegador, no
+    hi serà.
+
+    <button type="button" class="md-button" data-progres-reinicia="mig">Reinicia el progrés</button>
+
 ## Requisits
 
 Haver fet el [curs bàsic](../basic/index.md) o moure's amb solvència pel visor
