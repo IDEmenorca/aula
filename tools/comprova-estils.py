@@ -42,14 +42,12 @@ SITE = ARREL / "site"
 # servir un estil és una bona notícia, no un error que hagi d'aturar la
 # publicació. Només cal recordar-se de treure'l d'aquí.
 PREVISTOS_BUITS: dict[str, str] = {
-    # Els contenidors .iframe-wrap ja s'usen al mòdul 1.
-    #
-    # El blau dels cartells «info» es declara també per a la variant plegable
-    # (`??? info`), que encara no es fa servir enlloc. Es deixa escrit perquè
-    # el dia que se'n posi un no surti amb el cian del tema.
-    ".md-typeset details.info": "variant plegable de l'info, encara sense usar",
-    ".md-typeset .info > summary": "variant plegable de l'info, encara sense usar",
-    ".md-typeset .info > summary::before": "variant plegable de l'info, encara sense usar",
+    # Els elements del progrés de lectura no són a l'HTML: els crea
+    # javascripts/progres.js quan la pàgina ja és oberta al navegador.
+    ".progres-marca": "el crea progres.js en temps d'execució",
+    ".progres-comptador": "el crea progres.js en temps d'execució",
+    ".progres-comptador--complet": "el crea progres.js en temps d'execució",
+    ".progres-sentinella": "el crea progres.js en temps d'execució",
 }
 
 # Pseudoclasses d'estat: no es poden comprovar sobre HTML estàtic, es treuen
