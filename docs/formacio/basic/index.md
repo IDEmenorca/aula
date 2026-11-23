@@ -15,7 +15,7 @@ treballar amb el cadastre i imprimir el resultat.
 |---|---|---|
 | 1 | [Conceptes bàsics sobre sistemes de coordenades](modul-1-cartografia/index.md) | 1 h |
 | 2 | [Conceptes bàsics sobre mapes i cartografia](modul-2-mapes/index.md) | 1 h |
-| 3 | [Característiques de l'IDE Menorca](modul-3-ide-menorca.md) | 1 h |
+| 3 | [Les infraestructures de dades espacials](modul-3-ide/index.md) | 1 h |
 | 4 | [Visor genèric de l'IDE Menorca](modul-4-visor/index.md) | 6 h |
 | 5 | [Prova escrita d'avaluació](modul-5-avaluacio.md) | 1 h |
 
@@ -34,7 +34,7 @@ segueixes.
     descriuen el visor eina per eina sense itinerari. El curs explica el
     perquè; el manual, el com.
 
-Plantilla per als exercicis dels mòduls 1, 2 i 3: https://docs.google.com/document/d/109EhYMpNN3S0RPkYKT2_i7_jY2Vtx97f/edit?usp=sharing&ouid=106598373942552689213&rtpof=true&sd=true
+[Plantilla per als exercicis dels mòduls 1, 2 i 3](https://docs.google.com/document/d/109EhYMpNN3S0RPkYKT2_i7_jY2Vtx97f/edit?usp=sharing&ouid=106598373942552689213&rtpof=true&sd=true)
 
 ## Continua
 

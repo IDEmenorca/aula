@@ -168,7 +168,11 @@ nav:
               - "2.2. Els elements d'un mapa": formacio/basic/modul-2-mapes/02-elements-dun-mapa.md
               - "2.3. Mapes topogràfics i cartografia de referència": formacio/basic/modul-2-mapes/03-cartografia-de-referencia.md
               - "2.4. Mapes temàtics i sistemes d'informació geogràfica": formacio/basic/modul-2-mapes/04-mapes-tematics.md
-          - "Mòdul 3. Característiques de l'IDE Menorca": formacio/basic/modul-3-ide-menorca.md
+          - "Mòdul 3. Les infraestructures de dades espacials":
+              - Presentació del mòdul 3: formacio/basic/modul-3-ide/index.md
+              - "3.1. Conceptes bàsics sobre les IDE": formacio/basic/modul-3-ide/01-conceptes-basics.md
+              - "3.2. Marc legal a Espanya": formacio/basic/modul-3-ide/02-marc-legal.md
+              - "3.3. Les IDE vistes des de Menorca": formacio/basic/modul-3-ide/03-ide-des-de-menorca.md
           - "Mòdul 4. Visor genèric de l'IDE Menorca":
               - Presentació del mòdul 4: formacio/basic/modul-4-visor/index.md
               - "4.1. Eines de navegació sobre el mapa": formacio/basic/modul-4-visor/01-navegacio.md
