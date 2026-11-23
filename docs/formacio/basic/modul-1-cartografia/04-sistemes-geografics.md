@@ -76,6 +76,11 @@ I entre ells hi ha una relació molt senzilla: un grau són 60 minuts, i un minu
   i segons, i a l'inrevés?
 - [ ] Pots fer servir la calculadora o un full de càlcul.
 
+!!! question "Necessites un cop de mà?"
+    Si ho has intentat i no te'n surts, **no t'amoïnis**: hem preparat un full de càlcul perquè puguis veure com es fa i comprovar els teus resultats.
+
+    [:material-table: Obre el full de càlcul per convertir coordenades](https://docs.google.com/document/d/109EhYMpNN3S0RPkYKT2_i7_jY2Vtx97f/edit?usp=sharing){ .md-button .md-button--primary target="_blank" } 
+
 !!! tip "No t'espantis"
     Veuràs que és molt fàcil. I si hi vols donar més voltes, l'IGN té una
     [activitat sobre coordenades geogràfiques](https://educativo.ign.es/atlas-didactico/cartografia-eso/actividad_coordenadas_geogrficas.html)
