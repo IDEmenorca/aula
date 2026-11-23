@@ -73,9 +73,7 @@ les coordenades, la longitud i la superfície sense fer cap càlcul.
     | Fletxa avall | Descarrega el dibuix en un fitxer, amb les elevacions si les vols |
     | Paperera | Esborra tot el dibuix, amb confirmació prèvia |
 
-## Exercici pràctic
-
-**Quants pavellons de bàsquet caben dins d'un poblat talaiòtic?**
+## Exercici: quants pavellons de bàsquet caben dins d'un poblat talaiòtic?
 
 - [ ] Escriu **Pavelló Menorca** al cercador de dalt i posa de fons l'**ortofoto
   de 2024** ([4.2](02-mapes-de-fons.md)).

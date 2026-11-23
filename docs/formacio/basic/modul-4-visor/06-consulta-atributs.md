@@ -43,9 +43,7 @@ seus **atributs**.
 6. **Netejar la selecció.** La **paperera** de la fila **Selecció per** treu del
    mapa tot el que hi hagis seleccionat.
 
-## Exercici pràctic
-
-**Quants tipus de zona té la Reserva de la Biosfera?**
+## Exercici: quants tipus de zona té la Reserva de la Biosfera?
 
 - [ ] Carrega la **Zonificació de la Reserva de la Biosfera**
   ([4.5](05-capes-tematiques.md)).

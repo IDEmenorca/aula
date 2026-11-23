@@ -42,9 +42,7 @@ vista inicial quan et perdis.
 !!! tip "Si l'obres a la tauleta"
     Arrossega amb un dit i fes el zoom amb la pinça. La resta funciona igual.
 
-## Exercici pràctic
-
-**De l'illa sencera als carrers de Ferreries, i tornar.**
+## Exercici: de l'illa sencera als carrers de Ferreries, i tornar
 
 - [ ] Prem la **casa**: parteixes de tota Menorca a la pantalla.
 - [ ] Amb la **rodeta**, allunya't fins que deixis de veure els noms dels vuit municipis.

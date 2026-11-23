@@ -11,7 +11,8 @@ que vulguis, des d'on vulguis.
 ## En acabar el mòdul
 
 Podràs consultar amb quatre clics l'enllumenat d'un carrer, els plans
-d'ordenació del territori o els béns d'interès cultural d'un municipi, entre moltes altres funcions.
+d'ordenació del territori o els béns d'interès cultural d'un municipi, entre
+moltes altres coses.
 
 Pel camí hauràs après a moure't pel mapa, a triar què hi vols veure, a mesurar
 sobre el terreny, a consultar la informació de qualsevol element, a treballar
@@ -30,10 +31,10 @@ i cada secció del mòdul treballa en una o dues.
 | | Zona | Què hi trobaràs | On es treballa |
 |---|---|---|---|
 | **1** | **Capçalera** | El quadre de cerca | [4.4](04-localitzar-coordenades.md), [4.7](07-cadastre.md) |
-| **2** | **Columna esquerra** | Zoom, extensió inicial, pantalla completa, panell d'eines, Street View, vista d'ocell, llegenda i mapa de situació. | [4.1](01-navegacio.md), [4.3](03-mesurar-dibuixar.md), [4.8](08-imprimir.md) |
+| **2** | **Columna esquerra** | Zoom, extensió inicial, pantalla completa, panell d'eines, Street View, vista d'ocell, llegenda i mapa de situació | [4.1](01-navegacio.md), [4.3](03-mesurar-dibuixar.md), [4.8](08-imprimir.md) |
 | **3** | **El mapa** | Tota la superfície central | A totes |
-| **4** | **Panell de la dreta** | Mapes de fons, capes carregades, capes disponibles i «Afegir mapes». Dalt de tot també tenim ajuda i canvi d'idioma. | [4.2](02-mapes-de-fons.md), [4.5](05-capes-tematiques.md), [4.6](06-consulta-atributs.md), [4.9](09-fitxers-propis.md) |
-| **5** | **Barra inferior** | Coordenades del cursor, atribucions i escala | [4.4](04-localitzar-coordenades.md) |
+| **4** | **Panell de la dreta** | Mapes de fons, capes carregades, capes disponibles i «Afegir mapes»; dalt de tot, l'ajuda i el canvi d'idioma | [4.2](02-mapes-de-fons.md), [4.5](05-capes-tematiques.md), [4.6](06-consulta-atributs.md), [4.9](09-fitxers-propis.md) |
+| **5** | **Barra inferior** | Sistema de referència, coordenades del cursor, atribucions i escala | [4.4](04-localitzar-coordenades.md) |
 
 !!! tip "La llista completa és al manual"
     Per seguir el curs, amb les cinc zones n'hi ha prou. Si en vols el detall

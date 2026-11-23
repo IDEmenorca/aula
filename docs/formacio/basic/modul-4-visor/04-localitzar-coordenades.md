@@ -54,9 +54,7 @@ de qualsevol punt del mapa.
     el mateix punt s'escriu en **graus** —la latitud i la longitud de tota la
     vida—, que és el que entenen les aplicacions de mapes del telèfon.
 
-## Exercici pràctic
-
-**Quant puja un carrer de Ferreries?**
+## Exercici: quant puja un carrer de Ferreries?
 
 - [ ] Cerca un **carrer de Ferreries** al quadre de cerca i tria'l de la llista.
 - [ ] Fes **clic a un extrem** del carrer i apunta'n les coordenades i

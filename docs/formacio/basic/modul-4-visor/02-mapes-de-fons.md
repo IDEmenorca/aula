@@ -36,9 +36,7 @@ mateix lloc amb el control de transparència.
    màquina del temps: quan es va construir una cosa, com era la costa, què hi
    havia en un solar.
 
-## Exercici pràctic
-
-**Cala Galdana, de 1956 a avui.**
+## Exercici: Cala Galdana, de 1956 a avui
 
 - [ ] Apropa't a **Cala Galdana** i desplega la secció **Mapes de fons**.
 - [ ] Mou el **control de transparència** d'un extrem a l'altre: el mapa que

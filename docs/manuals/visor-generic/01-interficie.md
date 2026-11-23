@@ -20,7 +20,7 @@ l'illa. Aquest apartat descriu què hi ha a la pantalla i com moure-s'hi.
 | 6 | Pantalla completa | Columna esquerra |
 | 7 | Panell d'eines | Columna esquerra |
 | 8 | Street View | Columna esquerra |
-| 9 | BirdEye | Columna esquerra |
+| 9 | Vista d'ocell (BirdEye) | Columna esquerra |
 | 10 | Llegenda | Columna esquerra |
 | 11 | Mapa de situació | Columna esquerra, a baix |
 | 12 | Indicador del sistema de coordenades i coordenades del cursor | Cantó inferior esquerre |
@@ -29,7 +29,7 @@ l'illa. Aquest apartat descriu què hi ha a la pantalla i com moure-s'hi.
 | 15 | Escala numèrica i mida de pantalla | Cantó inferior dret |
 
 !!! note "Pendent de redactar"
-    El document original no descriu els elements **9 (BirdEye)**, **10 (Llegenda)**,
+    El document original no descriu els elements **9 (Vista d'ocell)**, **10 (Llegenda)**,
     **11 (Mapa de situació)** ni **13 (Atribucions)**. Cal documentar-los.
 
 ## 1.2. Moure's pel mapa

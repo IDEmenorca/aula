@@ -87,9 +87,7 @@ o les parcel·les del cadastre.
       <figcaption>A dalt, les eines d'una capa. A baix, la fila de selecció, que actua sobre totes les capes carregades.</figcaption>
     </figure>
 
-## Exercici pràctic
-
-**La Reserva de la Biosfera, damunt del teu poble.**
+## Exercici: la Reserva de la Biosfera, damunt del teu poble
 
 - [ ] Carrega la **Zonificació de la Reserva de la Biosfera**, del tema **Medi
   ambient, agricultura i caça**.

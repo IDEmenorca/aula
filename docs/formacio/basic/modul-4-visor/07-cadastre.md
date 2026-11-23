@@ -47,9 +47,7 @@ qualsevol tràmit i el que el Cadastre entén.
     al requadre de consulta: on les capes pròpies hi tenen els botons de
     descarregar i compartir, aquesta només hi deixa imprimir.
 
-## Exercici pràctic
-
-**De quin edifici és aquesta referència?**
+## Exercici: de quin edifici és aquesta referència?
 
 - [ ] Carrega la cartografia cadastral.
 - [ ] Cerca la referència **`7552201FE0175S`** al quadre de dalt.

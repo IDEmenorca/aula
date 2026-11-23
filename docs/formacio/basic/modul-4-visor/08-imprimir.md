@@ -36,7 +36,7 @@ l'escala i la llegenda de les capes carregades.
 5. **Descarregar el PDF.** Amb el botó de descàrrega del marge superior dret.
    La creu del costat tanca la previsualització sense generar res.
 
-## Exercici pràctic
+## Exercici: de l'ordinador al paper, del paper al mòbil
 
 - [ ] Carrega la **Zonificació de la Reserva de la Biosfera**
   ([4.5](05-capes-tematiques.md)).

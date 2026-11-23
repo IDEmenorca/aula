@@ -57,7 +57,7 @@ els atributs i tornar-lo a descarregar en un altre format.
       amb les capes del catàleg. Si hi vas amb un fitxer teu carregat, et dirà
       que no hi ha capes carregades.
 
-## Exercici pràctic
+## Exercici: de GeoJSON a Shapefile
 
 Aquest exercici tanca el cercle: treure dades del visor i tornar-les-hi a
 posar.
