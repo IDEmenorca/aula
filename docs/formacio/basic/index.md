@@ -14,7 +14,7 @@ treballar amb el cadastre i imprimir el resultat.
 | Mòdul | Títol | Durada |
 |---|---|---|
 | 1 | [Conceptes bàsics sobre sistemes de coordenades](modul-1-cartografia/index.md) | 1 h |
-| 2 | [Introducció a les Infraestructures de Dades Espacials](modul-2-ide.md) | 1 h |
+| 2 | [Conceptes bàsics sobre mapes i cartografia](modul-2-mapes/index.md) | 1 h |
 | 3 | [Característiques de l'IDE Menorca](modul-3-ide-menorca.md) | 1 h |
 | 4 | [Visor genèric de l'IDE Menorca](modul-4-visor/index.md) | 6 h |
 | 5 | [Prova escrita d'avaluació](modul-5-avaluacio.md) | 1 h |
