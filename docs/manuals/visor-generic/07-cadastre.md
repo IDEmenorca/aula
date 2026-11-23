@@ -17,27 +17,17 @@ territori i cadastre → Cadastre**.
 </figure>
 
 La capa **`Catastro`** dibuixa la cartografia cadastral sencera: és la que es
-carrega habitualment. El grup en conté unes quantes més, amb el nom que els dona
-el servei del Cadastre:
+carrega habitualment. Les altres del grup són les capes individuals que
+`Catastro` reuneix, amb el nom que els dona el servei del Cadastre:
 
 `CONSTRU`, `TXTCONSTRU`, `SUBPARCE`, `TXTSUBPARCE`, `PARCELA`, `TXTPARCELA`,
-`MASA`, `TXTMASA`, `EJES`, `LIMITES`.
-
-!!! warning "A verificar: què dibuixa cadascuna"
-    Els noms suggereixen que són les peces soltes de la cartografia —parcel·les,
-    construccions, subparcel·les, masses, eixos i límits— i que les `TXT` en són
-    les etiquetes de text, però **no s'ha comprovat al visor**. Tampoc no s'ha
-    comprovat si la llista s'acaba a `LIMITES`: a la captura el desplegable
-    continua més avall.
-
-    Cal carregar-les una per una i descriure-les, o decidir que al manual només
-    hi ha de sortir `Catastro` i la resta queden com a noms del servei.
+`MASA`, `TXTMASA`, `EJES`, `LIMITES`, `TEXTOS` i `ELEMLIN`.
 
 ## 7.2. Trobar una parcel·la per la seva referència
 
-El quadre de cerca de la capçalera, el mateix que troba municipis, carrers i
-equipaments, accepta també **referències cadastrals**. En escriure'n una, el
-visor s'hi situa.
+El quadre de cerca de la capçalera, el mateix que troba municipis, nuclis,
+carrers, camins i topònims, accepta també **referències cadastrals**. En
+escriure'n una, el visor s'hi situa.
 
 ## 7.3. Consultar una parcel·la
 
@@ -58,10 +48,6 @@ dades d'aquella parcel·la. El visor es queda obert a la pestanya d'abans.
 !!! note "Només s'hi pot imprimir"
     Aquest requadre no porta els botons de descarregar ni de compartir que tenen
     les capes pròpies: només el d'imprimir.
-
-!!! warning "A verificar: les altres capes del grup"
-    Només s'ha provat la consulta sobre `Catastro`. No se sap si les altres
-    capes del grup retornen el mateix enllaç, una taula d'atributs o res.
 
 ## 7.4. Què certifica cada cosa
 

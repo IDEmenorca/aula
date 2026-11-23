@@ -13,7 +13,8 @@ qualsevol tràmit i el que el Cadastre entén.
    **Ordenació del territori i cadastre → Cadastre**
    ([4.5](05-capes-tematiques.md)). Carrega-hi **`Catastro`**: és la que dibuixa
    la cartografia cadastral sencera. Les altres del grup —`PARCELA`, `CONSTRU`,
-   `MASA`…— són peces soltes, per a usos més concrets.
+   `MASA`…— són les capes individuals que `Catastro` reuneix, per si només
+   en vols una.
 
     <figure markdown>
       ![El desplegable del cadastre amb la capa Catastro emmarcada, i les parcel·les dibuixades sobre el mapa](img/47-capa-cadastre.png){ .captura }
