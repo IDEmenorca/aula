@@ -10,6 +10,16 @@ molt senzills:
 3. I voilà! Les coordenades són angles respecte del meridià —les **longituds**— i
    de l'equador de referència —les **latituds**.
 
+!!! info "I el datum, què dimonis és?"
+    Els dos primers punts, junts, són el que s'anomena **datum**: **un el·lipsoide** (la seva forma i mida) **més la seva posició i orientació respecte a la Terra real** (el centre de l'el·lipsoide i el punt fonamental).
+
+    Per això el punt 3 només té sentit si se sap de quin datum es parla: les latituds i les longituds són angles **respecte d'aquell el·lipsoide concret**. Si canvia el datum, el mateix lloc de la Terra passa a tenir unes altres coordenades, i les mateixes coordenades apunten a llocs diferents, amb diferències de desenes o centenars de metres.
+
+    - **Datums locals** (com l'ED50): l'el·lipsoide s'ajusta bé a una regió i se subjecta a un punt fonamental.
+    - **Datums globals o geocèntrics** (com l'ETRS89 o el WGS84): el centre de l'el·lipsoide coincideix amb el centre de la Terra i es defineixen amb satèl·lits.
+
+    Unes coordenades geogràfiques sense datum són com una adreça sense ciutat.
+
 <figure markdown>
   ![Esquema de la Terra amb l'el·lipsoide de referència en groc al damunt, el geocentre, el centre de l'el·lipsoide, el punt fonamental i les zones de bon ajust i mal ajust](img/06-sistema-geografic-datum.jpg){ .captura }
   <figcaption>L'el·lipsoide s'ajusta bé allà on hi ha el punt fonamental, i pitjor a l'altra banda del món.</figcaption>
