@@ -34,7 +34,9 @@ segueixes.
     descriuen el visor eina per eina sense itinerari. El curs explica el
     perquè; el manual, el com.
 
+Plantilla per als exercicis dels mòduls 1, 2 i 3: https://docs.google.com/document/d/109EhYMpNN3S0RPkYKT2_i7_jY2Vtx97f/edit?usp=sharing&ouid=106598373942552689213&rtpof=true&sd=true
+
 ## Continua
 
-En acabar aquest curs, el [curs mig](../mig/index.md) entra en la part de
+En acabar aquest curs, el [curs mitjà](../mig/index.md) entra en la part de
 consultes, metadades i el visor restringit.
