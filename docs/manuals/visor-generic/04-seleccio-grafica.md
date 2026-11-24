@@ -9,19 +9,12 @@ selecció **espacial** sobre el mapa: per punt, per línia o per recinte.
     carregada, els botons **per línia** i **per recinte** apareixen apagats i no
     es poden fer servir. En carregar-ne una, s'activen.
 
-!!! warning "A verificar: de què depèn exactament"
-    El manual d'IDENA, del visor de Navarra fet amb la mateixa API, diu que els
-    botons de línia i recinte només s'habiliten si hi ha capes *«cargadas y
-    activas con WFS asociado»*.
-
-    S'ha provat amb dues capes i totes dues els activen, però **cap de les dues
-    descarta la condició del WFS**: la Zonificació de la Reserva de la Biosfera
-    és de la pròpia IDE Menorca, i la del Domini Públic Maritimoterrestre del
-    MITECO, carregada per WMS, té un WFS equivalent al mateix camí.
-
-    Per saber-ho del cert caldria provar-ho amb **una capa que només tingui
-    WMS**. Mentrestant, la regla segura per a l'usuari és la de dalt: sense
-    capes carregades, apagats.
+!!! note "Capes que només tenen WMS"
+    Amb una capa que només es publica per WMS, sense WFS —per exemple, una d'un
+    altre organisme afegida amb
+    [Afegir un servei WMS](08-fitxers-propis.md#85-afegir-un-servei-wms)—, els
+    botons **per línia** i **per recinte** s'activen igualment, però no
+    seleccionen res. Amb aquestes capes només funciona **per punt**.
 
 <figure markdown>
   ![Barra de selecció amb els botons per punt, per línia i per recinte al final de la llista de capes carregades](img/60-barra-seleccio.png){ .captura }
@@ -87,13 +80,9 @@ alhora, es desactiven els botons verds i n'apareixen dos de nous:
 | Lupa | **Centrar el mapa a tots els resultats**, a la major escala on hi càpiguen |
 | Paperera | **Eliminar tots els resultats** del mapa i tancar el requadre |
 
-La descàrrega admet KML, GML, GeoJSON, WKT, Shapefile i GeoPackage, i permet incorporar
-dades d'elevació procedents del Model Digital del Terreny (MDT).
-
-!!! warning "A verificar: quins formats hi ha realment"
-    Aquest apartat n'enumera sis; [dibuixar i mesurar](03-eines/01-dibuixar-mesurar.md)
-    en llista set i [descàrrega vectorial](03-eines/03-descarregar.md) diu que «són
-    quatre». Cal comprovar-ho al visor i unificar els tres apartats.
+La descàrrega admet KML, GML, GeoJSON, WKT, GPX, Shapefile i GeoPackage, i permet
+incorporar dades d'elevació procedents del Model Digital del Terreny (MDT). El GPX no hi
+surt si tot el que descarregues són polígons.
 
 ## 4.4. Accions sobre una entitat
 

@@ -100,12 +100,6 @@ vèrtexs.
 Els formats oferts en aquest diàleg són: KML, GML, GeoJSON, WKT, GPX, Shapefile i
 GeoPackage.
 
-!!! warning "A verificar: quins formats hi ha realment"
-    El manual original no és coherent en aquest punt. Aquí en llista set; a
-    [descàrrega vectorial](03-descarregar.md) diu que «són quatre»; a
-    [selecció gràfica](../04-seleccio-grafica.md) n'enumera sis. Cal comprovar al visor
-    quins formats ofereix cada eina i corregir els tres apartats.
-
 !!! tip "El dibuix no es descarrega amb les capes"
     L'eina de [descàrrega vectorial](03-descarregar.md) **no** inclou el que hagis
     dibuixat. Per obtenir el dibuix has de fer servir el botó de descàrrega d'aquesta

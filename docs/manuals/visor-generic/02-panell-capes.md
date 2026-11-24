@@ -241,7 +241,7 @@ A sota, les eines, en l'ordre en què apareixen:
 | Icona | Nom | Què fa |
 |---|---|---|
 | Casella | **Visibilitat** | Activa o desactiva la visualització de la capa o grup |
-| **i** | **Informació de la capa** | Obre les metadades: identificador, URL del servei, descripció de la capa i del servei, persona de contacte i altres dades |
+| **i** | **Informació de la capa** | Obre la fitxa de la capa: identificador, URL del servei, descripció de la capa i del servei, contacte, limitació d'ús i restriccions d'accés (la llicència). En les capes de l'IDE Menorca, al peu hi ha dos botons: el de **descarregar la capa sencera** (un ZIP amb Shapefile, GeoPackage, GeoJSON, KML, DWG, DGN i l'estil SLD) i el de les **metadades completes** al catàleg |
 | Marc amb fletxa | **Zoom a l'extensió de la capa** | Ajusta el mapa a l'extensió màxima de la capa |
 | Lupa | **Consultes** | Obre les [cerques alfanumèriques i gràfiques](05-consultes.md) |
 | Barra lliscant | **Control de transparència** | Arrossega cap a l'esquerra per augmentar la transparència i cap a la dreta per reduir-la. Les capes es carreguen sense transparència |

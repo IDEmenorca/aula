@@ -56,11 +56,6 @@ Descarrega les entitats que intersequen amb l'àrea que estàs visualitzant.
 | **KML** | Dades espacials en tres dimensions, en XML. Obre's amb Google Earth |
 | **Shapefile** | Format d'ESRI molt estès. Es descarrega un ZIP amb els fitxers `.shp`, `.shx`, `.dbf` i `.prj`, més un `.cst` amb la codificació de caràcters |
 
-!!! warning "A verificar: quins formats hi ha realment"
-    El manual original diu que en aquesta eina «són quatre», però a
-    [dibuixar i mesurar](01-dibuixar-mesurar.md) n'enumera set i a
-    [selecció gràfica](../04-seleccio-grafica.md) sis. Cal comprovar-ho al visor.
-
 Un cop triat el format, prem **Descarregar**. Es genera un fitxer ZIP o KMZ amb la
 informació, agrupada per servei.
 

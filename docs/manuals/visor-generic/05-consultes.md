@@ -101,8 +101,8 @@ Si la consulta no troba res, apareix el missatge «No hi ha resultats».
     quedaran només els elements trobats.
 
 Els resultats es poden descarregar com a taula o en format geogràfic: KML, GML, GeoJSON,
-WKT, Shapefile, GeoPackage o GPX. Aquest darrer només està disponible si la capa és de
-tipus lineal.
+WKT, Shapefile, GeoPackage o GPX. El GPX no hi surt si tot el que descarregues són
+polígons.
 
 ## 5.4. Afegir un filtre espacial
 

@@ -31,6 +31,15 @@ carregades, objectes seleccionats, dibuixos, cerques i fitxers afegits.
 
     La solució és reduir el que hi ha carregat abans de compartir.
 
+## Obrir el visor en un punt o en una parcel·la
+
+El visor es pot obrir ja situat en un lloc afegint un paràmetre a l'adreça:
+
+| Adreça | El visor s'obre... |
+|---|---|
+| `https://ide.cime.es/visor?x=607446&y=4415030` | Centrat en aquestes coordenades. Han d'anar en ETRS89 UTM 31N (EPSG:25831), el sistema de referència del visor |
+| `https://ide.cime.es/visor?refcad=7552201FE0175S` | A la parcel·la d'aquesta referència cadastral, ressaltada en vermell. Si la referència té 20 caràcters, en fa servir els 14 primers |
+
 ## Insertar mapa
 
 La pestanya **Insertar mapa** genera el codi HTML d'una etiqueta `<iframe>` per
