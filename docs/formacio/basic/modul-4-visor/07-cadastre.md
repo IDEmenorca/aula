@@ -45,7 +45,7 @@ tràmit i la que el Cadastre entén.
         Cadastre**, no d'aquí.
 
 !!! warning "La cartografia cadastral ve de fora"
-    No és de l'IDE Menorca: la serveix la Direcció General del Cadastre. Es nota
+    No és de l'IDE Menorca: la serveix la **Direcció General del Cadastre**. Es nota
     al requadre de consulta: on les capes pròpies tenen els botons de
     descarregar i compartir, aquesta només hi deixa imprimir.
 
