@@ -1,0 +1,578 @@
+<!doctype html><html lang="ca"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Test Curs Bàsic IDE Menorca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+  /* Layout: una columna estreta, una pregunta per pantalla, com un full d'examen amb marge de plànol. */
+  :root {
+    --bg: #eef3f5;
+    --surface: #ffffff;
+    --ink: #12303b;
+    --muted: #546f7a;
+    --line: #c9d9df;
+    --accent: #0b6e8a;
+    --accent-ink: #ffffff;
+    --accent-soft: #dcedf2;
+    --good: #1c7a4b;
+    --good-soft: #e0f1e8;
+    --bad: #b03a2a;
+    --bad-soft: #f8e5e1;
+    --face: #f7c948;
+    --face-line: #3b2a10;
+    --font-display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1a20;
+      --surface: #14262e;
+      --ink: #e3eef2;
+      --muted: #8da6b0;
+      --line: #28414b;
+      --accent: #4cc0dd;
+      --accent-ink: #052029;
+      --accent-soft: #17343f;
+      --good: #5fcb94;
+      --good-soft: #163527;
+      --bad: #f2917f;
+      --bad-soft: #3b1f1a;
+      --face: #f2c444;
+      --face-line: #2a1d08;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1a20;
+    --surface: #14262e;
+    --ink: #e3eef2;
+    --muted: #8da6b0;
+    --line: #28414b;
+    --accent: #4cc0dd;
+    --accent-ink: #052029;
+    --accent-soft: #17343f;
+    --good: #5fcb94;
+    --good-soft: #163527;
+    --bad: #f2917f;
+    --bad-soft: #3b1f1a;
+    --face: #f2c444;
+    --face-line: #2a1d08;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.55;
+    padding-block: 28px 56px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .wrap { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+  .head { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; }
+  .plate { background: #ffffff; border: 1px solid var(--line); border-radius: 10px; padding: 10px 18px; max-width: 100%; }
+  /* Provisional: el logotip de l'original anava incrustat al fitxer; mentrestant, el de l'Aula. */
+  .logo { display: block; width: 72px; height: auto; }
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0;
+  }
+  h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; line-height: 1.2; }
+  h1 { font-size: clamp(1.7rem, 5vw, 2.3rem); font-weight: 700; }
+  h2 { font-size: clamp(1.2rem, 3.6vw, 1.45rem); font-weight: 500; }
+  p { margin: 0; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .lead { color: var(--muted); max-width: 60ch; }
+
+  label.field { display: flex; flex-direction: column; gap: 6px; font-weight: 500; }
+  input[type="text"] {
+    font: inherit;
+    color: var(--ink);
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 11px 12px;
+    width: 100%;
+  }
+  button {
+    font: inherit;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 11px 18px;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: var(--accent-ink);
+    cursor: pointer;
+  }
+  button.ghost { background: transparent; color: var(--accent); }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  button:focus-visible, input:focus-visible, .opt:has(input:focus-visible), summary:focus-visible, textarea:focus-visible, h2:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+  }
+  h2:focus { outline: none; }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .row.end { justify-content: space-between; }
+
+  .progress { display: flex; flex-direction: column; gap: 8px; }
+  .progress-top { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; background: var(--accent); transition: width 0.25s ease; }
+
+  fieldset { border: 0; padding: 0; margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+  legend { padding: 0; margin-bottom: 14px; }
+  .opt {
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 12px;
+    align-items: start;
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--bg);
+    cursor: pointer;
+    min-width: 0;
+  }
+  .opt:hover { border-color: var(--accent); }
+  .opt input { position: absolute; opacity: 0; pointer-events: none; }
+  .opt .mark {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 600;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    display: grid; place-items: center;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    background: var(--surface);
+  }
+  .opt .txt { overflow-wrap: anywhere; padding-top: 2px; }
+  .opt:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+  .opt:has(input:checked) .mark { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+  .result { align-items: flex-start; }
+  .score-row { display: flex; gap: 22px; align-items: center; flex-wrap: wrap; }
+  .face { width: 120px; height: 120px; flex: none; }
+  .face.happy { animation: hop 0.9s ease-in-out 3; transform-origin: 50% 90%; }
+  @keyframes hop { 0%, 100% { transform: translateY(0) rotate(0); } 30% { transform: translateY(-14px) rotate(-5deg); } 60% { transform: translateY(0) rotate(4deg); } }
+  @media (prefers-reduced-motion: reduce) { .face.happy { animation: none; } .bar > span { transition: none; } }
+  .pct { font-family: var(--font-display); font-size: clamp(2.8rem, 12vw, 4.2rem); font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+  .pct.ok { color: var(--good); }
+  .pct.ko { color: var(--bad); }
+  .count { color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  textarea {
+    width: 100%;
+    font: 13px/1.5 var(--font-mono);
+    color: var(--ink);
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px;
+    resize: none;
+  }
+  .status { min-height: 1.4em; color: var(--good); font-weight: 500; }
+
+  details { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+  summary { cursor: pointer; padding: 12px 16px; font-weight: 600; }
+  .review { display: flex; flex-direction: column; gap: 0; padding: 0 16px 8px; }
+  .rev-item { padding: 14px 0; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .rev-item p { overflow-wrap: anywhere; }
+  .tag { font-family: var(--font-mono); font-size: 12px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+  .tag.ok { color: var(--good); }
+  .tag.ko { color: var(--bad); }
+  .ans-ok { background: var(--good-soft); border-radius: 6px; padding: 6px 10px; }
+  .ans-ko { background: var(--bad-soft); border-radius: 6px; padding: 6px 10px; }
+  .small { font-size: 14px; color: var(--muted); }
+</style>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+
+<script>
+(function () {
+  var LOGO = "../../assets/logo.png";
+  var MODULS = [
+    "Mòdul 1 · Sistemes de referència espacial",
+    "Mòdul 2 · Mapes i cartografia",
+    "Mòdul 3 · Infraestructures de dades espacials",
+    "Mòdul 4 · Referència cadastral i cadastre"
+  ];
+
+  // m: índex del mòdul, o: opcions, c: índex de l'opció correcta dins "o"
+  var Q = [
+    { m: 0, q: "Quina diferència bàsica hi ha entre un sistema de coordenades geogràfic i un de projectat?", c: 0, o: [
+      "El geogràfic expressa la posició en angles (graus de latitud i longitud) i el projectat en unitats de distància (metres sobre un pla).",
+      "El geogràfic només serveix per a vaixells de pesca i el projectat per a cotxes elèctrics.",
+      "El sistema geogràfic és quadrat i el projectat és una esfera perfecta de vidre.",
+      "El sistema geogràfic va ser dissenyat per alienígenes i el projectat per l'associació de veïns de Ciutadella."
+    ]},
+    { m: 0, q: "Què passa quan intentem representar la Terra corba sobre un mapa pla mitjançant una projecció cartogràfica?", c: 1, o: [
+      "Que mai hi ha cap mena d'error ni deformació, queda 100% idèntica a la realitat.",
+      "Que sempre s'introdueix alguna deformació (en les àrees, les formes o les distàncies).",
+      "Que el paper del mapa s'arruga i s'empapa si plou.",
+      "Que la Terra s'aplana de veritat durant uns segons i els terraplanistes diuen “ho veus, jo ja ho deia”."
+    ]},
+    { m: 0, q: "En la projecció Web Mercator (molt utilitzada a Google Maps o OpenStreetMap), per què Groenlàndia sembla tan gran com l'Àfrica?", c: 1, o: [
+      "Perquè Groenlàndia és realment 14 vegades més gran que el continent africà.",
+      "Perquè és una projecció conforme que manté les formes locals però deforma exageradament les àrees a mesura que ens acostem als pols.",
+      "Perquè fa tant de fred als pols que el gel dilata el mapa.",
+      "Perquè els ossos polars van subornar els programadors per tenir més territori al mapa."
+    ]},
+    { m: 0, q: "Quin és el sistema de referència oficial a Espanya per a la península i les Illes Balears des del Reial Decret 1071/2007?", c: 1, o: [
+      "WGS84 directe de satèl·lits de la NASA.",
+      "ETRS89 (i la projecció UTM fus 31N per a Menorca i Catalunya).",
+      "ED50 (European Datum 1950) sense cap canvi.",
+      "Les coordenades astronòmiques basades en la posició en el moment del primer toc del centre de la creu del cavall del caixer senyor de Sant Joan."
+    ]},
+    { m: 0, q: "D'on prové la sigla dels famosos codis EPSG (com l'EPSG:25831)?", c: 0, o: [
+      "De l'European Petroleum Survey Group, creat per empreses petrolieres per evitar errors de posició derivats dels múltiples sistemes cartogràfics utilitzats pels diferents països.",
+      "De l'Escola Primària Superior de Geògrafs.",
+      "De l'Estat Major Permanent de Satèl·lits Geològics.",
+      "D'un grup de música tecno dels anys 90 que feia rimes amb latituds i longituds."
+    ]},
+    { m: 1, q: "Com es defineix l'escala d'un mapa?", c: 1, o: [
+      "Com el pes exacte en grams del mapa dividit pel seu gruix.",
+      "Com la relació numèrica o gràfica entre una distància mesurada sobre el mapa i la distància real sobre el terreny.",
+      "Com l'alçada de l'escala de fusta que necessites per penjar el mapa a la paret.",
+      "L'escala no és un concepte cartogràfic."
+    ]},
+    { m: 1, q: "Si comparem una escala 1:1.000 i una escala 1:100.000, quina és l'escala “més gran”?", c: 2, o: [
+      "L'escala 1:100.000, perquè el número cent mil és molt més gros.",
+      "Són exactament iguals perquè totes dues tenen un número 1 al numerador.",
+      "L'escala 1:1.000, perquè la fracció 1/1.000 és més gran (representa un territori més petit amb molt més detall).",
+      "Cap de les dues: l'escala més gran és la que té el marc daurat més ample."
+    ]},
+    { m: 1, q: "Si un objecte mesura 0,2 mm sobre un mapa a escala 1:25.000, quant mesura en la realitat sobre el terreny?", c: 0, o: [
+      "5 metres (que correspon al límit de percepció visual o error gràfic a aquesta escala).",
+      "500 quilòmetres.",
+      "2 centímetres exactes.",
+      "Una distància microscòpica que només poden mesurar els fiets o els adults amb molt bona vista."
+    ]},
+    { m: 1, q: "Què és una ortofoto o ortofotografia?", c: 1, o: [
+      "Una fotografia artística feta des d'un dron amb filtre vintage de color sèpia.",
+      "Una imatge aèria o de satèl·lit corregida geomètricament perquè tingui una escala uniforme i s'hi puguin mesurar distàncies i àrees directament.",
+      "Un mapa dibuixat a mà sense cap mena de fotografia de suport.",
+      "Una foto del forat del c**, segons els argentins."
+    ]},
+    { m: 1, q: "Què és un DATUM?", c: 0, o: [
+      "És el conjunt de valors matemàtics que defineixen les característiques de l'el·lipsoide que s'està emprant com a referència i la seva posició respecte a la Terra.",
+      "És una marca de iogurts.",
+      "És un dels tres germans que perseguia Lucky Luke.",
+      "És com es coneix les dues coordenades, la x i la y."
+    ]},
+    { m: 1, q: "Què diferencia principalment un mapa temàtic d'un mapa topogràfic de referència?", c: 0, o: [
+      "El mapa temàtic representa la distribució espacial d'un fenomen concret (població, patrimoni, geologia, vegetació), mentre que el topogràfic mostra els elements generals del territori i el relleu.",
+      "El mapa temàtic només es pot mirar si portes ulleres 3D.",
+      "El mapa topogràfic no conté cap carretera ni cap camí.",
+      "El mapa temàtic inclou música de fons segons la cançó de l'estiu."
+    ]},
+    { m: 2, q: "Què és una Infraestructura de Dades Espacials (IDE)?", c: 0, o: [
+      "Una biblioteca virtual i conjunt de serveis i estàndards que permet compartir i consultar informació geogràfica interoperable a la xarxa sense duplicar dades.",
+      "Un programa que hi ha a la web molt més guai que Google Maps.",
+      "Un programa secret exclusiu per a serveis d'espionatge militar.",
+      "Un club exclusiu on els geògrafs es reuneixen a menjar formatge de Maó mentre miren brúixoles."
+    ]},
+    { m: 2, q: "Quina diferència bàsica hi ha entre un servei WMS (Web Map Service) i un servei WFS (Web Feature Service)?", c: 0, o: [
+      "El WMS serveix una imatge del mapa (com una foto del plat), mentre que el WFS proporciona les dades vectorials mateixes (punts, línies, polígons i atributs descarregables i editables).",
+      "El WMS és només per a l'hivern i el WFS per a l'estiu.",
+      "El WMS és gratuït i el WFS et cobra un euro cada vegada que fas clic.",
+      "El WMS et mostra el mapa i el WFS et demana una pizza a domicili si et perds."
+    ]},
+    { m: 2, q: "A què equival l'analogia d'un servei WMTS respecte d'un WMS?", c: 0, o: [
+      "A una imatge en mosaics o tessel·les ja preparades i guardades prèviament per a una càrrega molt més ràpida com a fons de mapa.",
+      "A un arxiu de música en streaming.",
+      "A una connexió lentíssima mitjançant mòdem de telèfon fix.",
+      "A un àlbum de cromos que has d'anar enganxant tu mateix a la pantalla amb pega líquida."
+    ]},
+    { m: 2, q: "Quina directiva europea de 2007 estableix les regles per crear una infraestructura de dades espacials a Europa?", c: 1, o: [
+      "Directiva MATRIX.",
+      "Directiva INSPIRE (transposada a Espanya per la Llei 14/2010 LISIGE).",
+      "Reglament GALILEO de navegació fluvial.",
+      "Directiva SUPER-MAPA que obliga tothom a orientar el llit cap al nord magnètic."
+    ]},
+    { m: 2, q: "Quin és el gran avantatge per a un ciutadà o tècnic que utilitza el visualitzador de la IDE Menorca?", c: 1, o: [
+      "Que ha d'anar personalment a cada ajuntament a demanar les capes en un llapis de memòria USB.",
+      "Que pot visualitzar i superposar en una sola aplicació capes oficials de múltiples administracions, sempre connectades a la dada original i actualitzada.",
+      "Que el mapa només funciona els dies que fa tramuntana.",
+      "Que el visor et prediu la sort del dia segons la parcel·la on fas clic."
+    ]},
+    { m: 3, q: "Quants caràcters alfanumèrics té la referència cadastral oficial d'un immoble a Espanya?", c: 0, o: [
+      "Exactament 20 caràcters.",
+      "8 caràcters (com una matrícula de cotxe antiga).",
+      "Més de 1.000 caràcters.",
+      "Els que vulgui el propietari segons la quantitat de lletres del seu cognom."
+    ]},
+    { m: 3, q: "En quants blocs principals es divideix una referència cadastral de 20 caràcters?", c: 1, o: [
+      "En dos blocs: un per al carrer i un per al codi postal.",
+      "En tres blocs: 1-14 (la parcel·la/finca), 15-18 (el càrrec o immoble dins la parcel·la) i 19-20 (caràcters de control).",
+      "En un sol bloc continu sense cap estructura lògica.",
+      "En quatre blocs: terra, aire, foc i aigua."
+    ]},
+    { m: 3, q: "Com podem distingir a simple vista una referència cadastral urbana d'una de rústica?", c: 0, o: [
+      "La rústica comença per 2 dígits de província + 3 de municipi + lletra de sector (polígon/parcel·la), mentre que la urbana comença per 7 caràcters de mançana i parcel·la.",
+      "La urbana té dibuixat un gratacels i la rústica una vaca.",
+      "Les rústiques s'escriuen en lletra lligada i les urbanes en majúscules d'impremta.",
+      "La rústica fa olor de camp quan obres el document en format PDF."
+    ]},
+    { m: 3, q: "En un edifici de pisos i locals sotmès a divisió horitzontal urbana, què tenen en comú tots els immobles?", c: 0, o: [
+      "Comparteixen els mateixos 14 primers caràcters (la mateixa parcel·la física) i només es diferencien pels 4 dígits de càrrec i els 2 caràcters de control.",
+      "Tenen exactament la mateixa referència de 20 dígits idèntica de dalt a baix.",
+      "No tenen referència cadastral fins que no es ven l'últim pis.",
+      "Que tots els veïns han de compartir la mateixa clau de la porta del portal."
+    ]}
+  ];
+
+  var TOTAL = Q.length;
+  var PASS_ABOVE = 50; // s'ha de superar el 50 %
+  var app = document.getElementById("app");
+  var state = null;
+  var savedName = "";
+
+  function shuffle(a) {
+    var r = a.slice();
+    for (var i = r.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = r[i]; r[i] = r[j]; r[j] = t;
+    }
+    return r;
+  }
+
+  function el(tag, attrs, kids) {
+    var n = document.createElement(tag);
+    if (attrs) {
+      Object.keys(attrs).forEach(function (k) {
+        if (k === "class") n.className = attrs[k];
+        else if (k === "text") n.textContent = attrs[k];
+        else if (k.slice(0, 2) === "on") n.addEventListener(k.slice(2), attrs[k]);
+        else n.setAttribute(k, attrs[k]);
+      });
+    }
+    (kids || []).forEach(function (c) {
+      if (c == null) return;
+      n.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    });
+    return n;
+  }
+
+  function clear() { while (app.firstChild) app.removeChild(app.firstChild); }
+
+  function header() {
+    return el("header", { class: "head" }, [
+      el("div", { class: "plate" }, [
+        el("img", { class: "logo", src: LOGO, alt: "IDE Menorca. Infraestructura de dades espacials", width: "114", height: "111" })
+      ]),
+      el("p", { class: "eyebrow", text: "ETRS89 · UTM 31N · EPSG:25831" }),
+      el("h1", { text: "Test del curs bàsic IDE Menorca" })
+    ]);
+  }
+
+  function renderStart() {
+    clear();
+    var input = el("input", { type: "text", id: "nom", autocomplete: "name", maxlength: "80", placeholder: "Nom i cognoms", value: savedName });
+    var btn = el("button", { type: "button", text: "Comença el test" });
+    function sync() { btn.disabled = input.value.trim().length < 2; }
+    input.addEventListener("input", sync);
+    input.addEventListener("keydown", function (e) { if (e.key === "Enter" && !btn.disabled) go(); });
+    function go() {
+      savedName = input.value.trim();
+      state = {
+        name: savedName,
+        i: 0,
+        order: Q.map(function (q) { return shuffle(q.o.map(function (_, k) { return k; })); }),
+        ans: Q.map(function () { return null; })
+      };
+      renderQuestion(true);
+    }
+    btn.addEventListener("click", go);
+    sync();
+    app.appendChild(header());
+    app.appendChild(el("section", { class: "card" }, [
+      el("p", { class: "lead", text: TOTAL + " preguntes de resposta única sobre els quatre mòduls del curs. Pots anar enrere i canviar una resposta abans de finalitzar. En acabar veuràs el percentatge d'encerts i podràs copiar el resultat per enviar-lo al tutor." }),
+      el("label", { class: "field", for: "nom" }, ["El teu nom", input]),
+      el("div", { class: "row" }, [btn])
+    ]));
+  }
+
+  function renderQuestion(focusHeading) {
+    clear();
+    var i = state.i, q = Q[i], order = state.order[i];
+    var pct = Math.round((i / TOTAL) * 100);
+
+    var legend = el("h2", { tabindex: "-1", id: "enunciat", text: (i + 1) + ". " + q.q });
+    var group = el("fieldset", { "aria-labelledby": "enunciat" });
+    var next;
+
+    order.forEach(function (orig, pos) {
+      var id = "q" + i + "o" + orig;
+      var input = el("input", { type: "radio", name: "q" + i, id: id, value: String(orig) });
+      if (state.ans[i] === orig) input.checked = true;
+      input.addEventListener("change", function () {
+        state.ans[i] = orig;
+        next.disabled = false;
+      });
+      group.appendChild(el("label", { class: "opt", for: id }, [
+        input,
+        el("span", { class: "mark", "aria-hidden": "true", text: String.fromCharCode(65 + pos) }),
+        el("span", { class: "txt", text: q.o[orig] })
+      ]));
+    });
+
+    var prev = el("button", { type: "button", class: "ghost", text: "Anterior", onclick: function () { state.i--; renderQuestion(true); } });
+    prev.disabled = i === 0;
+    var last = i === TOTAL - 1;
+    next = el("button", { type: "button", text: last ? "Finalitza" : "Següent", onclick: function () { if (last) renderResult(); else { state.i++; renderQuestion(true); } } });
+    next.disabled = state.ans[i] === null;
+
+    app.appendChild(header());
+    app.appendChild(el("section", { class: "progress", "aria-label": "Progrés" }, [
+      el("div", { class: "progress-top" }, [
+        el("span", { class: "small", text: "Pregunta " + (i + 1) + " de " + TOTAL }),
+        el("span", { class: "small", text: MODULS[q.m] })
+      ]),
+      el("div", { class: "bar", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": "100", "aria-valuenow": String(pct) }, [
+        el("span", { style: "width:" + pct + "%" })
+      ])
+    ]));
+    app.appendChild(el("section", { class: "card" }, [
+      legend,
+      group,
+      el("div", { class: "row end" }, [prev, next])
+    ]));
+    window.scrollTo(0, 0);
+    if (focusHeading) legend.focus({ preventScroll: true });
+  }
+
+  function faceSvg(happy) {
+    var ns = "http://www.w3.org/2000/svg";
+    var s = document.createElementNS(ns, "svg");
+    s.setAttribute("viewBox", "0 0 120 120");
+    s.setAttribute("class", "face" + (happy ? " happy" : ""));
+    s.setAttribute("role", "img");
+    s.setAttribute("aria-label", happy ? "Careta rient" : "Careta trista");
+    var body = happy
+      ? '<circle cx="60" cy="60" r="54" fill="var(--face)" stroke="var(--face-line)" stroke-width="4"/>' +
+        '<path d="M31 52 Q42 36 53 52" fill="none" stroke="var(--face-line)" stroke-width="5" stroke-linecap="round"/>' +
+        '<path d="M67 52 Q78 36 89 52" fill="none" stroke="var(--face-line)" stroke-width="5" stroke-linecap="round"/>' +
+        '<path d="M28 66 Q60 70 92 66 Q90 102 60 102 Q30 102 28 66 Z" fill="var(--face-line)"/>' +
+        '<path d="M43 94 Q60 80 77 94 Q70 101 60 101 Q50 101 43 94 Z" fill="#e8667a"/>' +
+        '<path d="M22 58 Q17 68 22 72 Q27 68 22 58 Z" fill="#5bb8e8"/>' +
+        '<path d="M98 58 Q93 68 98 72 Q103 68 98 58 Z" fill="#5bb8e8"/>'
+      : '<circle cx="60" cy="60" r="54" fill="var(--face)" stroke="var(--face-line)" stroke-width="4"/>' +
+        '<circle cx="42" cy="50" r="6" fill="var(--face-line)"/>' +
+        '<circle cx="78" cy="50" r="6" fill="var(--face-line)"/>' +
+        '<path d="M38 92 Q60 70 82 92" fill="none" stroke="var(--face-line)" stroke-width="5" stroke-linecap="round"/>' +
+        '<path d="M80 60 Q76 68 80 72 Q85 68 80 60 Z" fill="#5bb8e8"/>';
+    s.innerHTML = body;
+    return s;
+  }
+
+  function renderResult() {
+    clear();
+    var correct = 0;
+    Q.forEach(function (q, i) { if (state.ans[i] === q.c) correct++; });
+    var pct = Math.round((correct / TOTAL) * 100);
+    var pass = pct > PASS_ABOVE;
+
+    var when;
+    try { when = new Date().toLocaleString("ca-ES", { dateStyle: "short", timeStyle: "short" }); }
+    catch (e) { when = new Date().toISOString().slice(0, 16).replace("T", " "); }
+    var summary = [
+      "Test del curs bàsic IDE Menorca",
+      "Alumne: " + state.name,
+      "Encerts: " + correct + " de " + TOTAL,
+      "Percentatge: " + pct + " %",
+      "Data: " + when
+    ].join("\n");
+
+    var ta = el("textarea", { id: "resum", readonly: "readonly", rows: "5", "aria-label": "Resultat per enviar" });
+    ta.value = summary;
+    var status = el("p", { class: "status", role: "status" });
+    var copyBtn = el("button", { type: "button", text: "Copia el resultat", onclick: function () {
+      function fallback() {
+        ta.focus(); ta.select();
+        status.textContent = "Selecciona el text i copia'l manualment.";
+      }
+      try {
+        navigator.clipboard.writeText(summary).then(function () {
+          status.textContent = "Resultat copiat. Ara enganxa'l al missatge per al tutor.";
+        }, fallback);
+      } catch (e) { fallback(); }
+    }});
+    var again = el("button", { type: "button", class: "ghost", text: "Repeteix el test", onclick: function () { renderStart(); window.scrollTo(0, 0); } });
+
+    var review = el("div", { class: "review" });
+    Q.forEach(function (q, i) {
+      var ok = state.ans[i] === q.c;
+      var item = el("div", { class: "rev-item" }, [
+        el("span", { class: "tag " + (ok ? "ok" : "ko"), text: (ok ? "Correcta" : "Errònia") + " · pregunta " + (i + 1) }),
+        el("p", { text: q.q }),
+        el("p", { class: ok ? "ans-ok" : "ans-ko", text: "La teva resposta: " + q.o[state.ans[i]] })
+      ]);
+      if (!ok) item.appendChild(el("p", { class: "ans-ok", text: "Resposta correcta: " + q.o[q.c] }));
+      review.appendChild(item);
+    });
+
+    app.appendChild(header());
+    app.appendChild(el("section", { class: "card result" }, [
+      el("div", { class: "score-row" }, [
+        faceSvg(pass),
+        el("div", null, [
+          el("div", { class: "pct " + (pass ? "ok" : "ko"), text: pct + " %" }),
+          el("p", { class: "count", text: correct + " encerts de " + TOTAL })
+        ])
+      ]),
+      el("h2", { tabindex: "-1", id: "titol-resultat", text: pass ? "Molt bé, has superat el test!" : "Encara no arribes al 50 %. Repassa els mòduls i torna-ho a provar." }),
+      el("p", { class: "lead", text: "Envia aquest resultat al tutor del curs:" }),
+      ta,
+      el("div", { class: "row" }, [copyBtn, again]),
+      status
+    ]));
+    app.appendChild(el("details", null, [
+      el("summary", { text: "Revisa les respostes" }),
+      review
+    ]));
+    window.scrollTo(0, 0);
+    document.getElementById("titol-resultat").focus({ preventScroll: true });
+  }
+
+  renderStart();
+})();
+</script>
+
+<script>
+/* Aula IDE Menorca: quan el test va dins la pàgina del mòdul 5 (en un iframe),
+   avisa la pàgina de l'alçada que necessita, perquè no surti cap barra de
+   desplaçament, i li demana que pugi fins a dalt del test quan es canvia de
+   pregunta. Ho rep docs/javascripts/test-avaluacio.js. Si el test s'obre sol,
+   aquest bloc no fa res. */
+(function () {
+  if (window.parent === window) return;
+  function envia(m) {
+    m.font = "aula-test";
+    try { window.parent.postMessage(m, window.location.origin); } catch (e) { /* res */ }
+  }
+  function alcada() { envia({ alcada: Math.ceil(document.body.getBoundingClientRect().height) }); }
+  if ("ResizeObserver" in window) new ResizeObserver(alcada).observe(document.body);
+  window.addEventListener("load", alcada);
+  alcada();
+  window.scrollTo = function () { envia({ amunt: true }); };
+})();
+</script>
+
+</body></html>

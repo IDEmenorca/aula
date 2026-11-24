@@ -79,6 +79,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/progres.js
+  - javascripts/test-avaluacio.js
 
 extra:
   social:
