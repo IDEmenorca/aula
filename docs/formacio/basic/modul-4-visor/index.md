@@ -30,7 +30,7 @@ i cada secció del mòdul treballa en una o dues.
 
 | | Zona | Què hi trobaràs | On es treballa |
 |---|---|---|---|
-| **1** | **Capçalera** | El quadre de cerca | [4.4](04-localitzar-coordenades.md), [4.7](07-cadastre.md) |
+| **1** | **Capçalera** | El quadre de cerca | [4.4](04-localitzar-coordenades.md), [4.7.2](07-cadastre.md) |
 | **2** | **Columna esquerra** | Zoom, extensió inicial, pantalla completa, panell d'eines, Street View, vista d'ocell, llegenda i mapa de situació | [4.1](01-navegacio.md), [4.3](03-mesurar-dibuixar.md), [4.8](08-imprimir.md) |
 | **3** | **El mapa** | Tota la superfície central | A totes |
 | **4** | **Panell de la dreta** | Mapes de fons, capes carregades, capes disponibles i «Afegir mapes»; dalt de tot, l'ajuda i el canvi d'idioma | [4.2](02-mapes-de-fons.md), [4.5](05-capes-tematiques.md), [4.6](06-consulta-atributs.md), [4.9](09-fitxers-propis.md) |
@@ -51,7 +51,8 @@ i cada secció del mòdul treballa en una o dues.
 | 4.4 | [Cercar un lloc i obtenir coordenades](04-localitzar-coordenades.md) | Trobar un lloc pel nom i obtenir les coordenades de qualsevol punt |
 | 4.5 | [Cercar i carregar capes temàtiques](05-capes-tematiques.md) | Trobar una capa d'informació, carregar-la al mapa i ajustar com es veu |
 | 4.6 | [Consulta dels atributs de les capes carregades](06-consulta-atributs.md) | Seleccionar elements i llegir la informació que porten associada |
-| 4.7 | [Treballar amb el cadastre](07-cadastre.md) | Localitzar una parcel·la cadastral i obrir-ne la fitxa oficial |
+| 4.7.1 | [La referència cadastral](07-referencia-cadastral.md) | Com és el codi que identifica cada immoble i què vol dir cada part |
+| 4.7.2 | [Treballar amb el cadastre](07-cadastre.md) | Localitzar una parcel·la cadastral i obrir-ne la fitxa oficial |
 | 4.8 | [Imprimir](08-imprimir.md) | Generar un PDF del mapa amb el títol, l'escala i la llegenda |
 | 4.9 | [Visualitzar fitxers de cartografia](09-fitxers-propis.md) | Carregar un fitxer teu, consultar-ne els atributs i descarregar-lo |
 

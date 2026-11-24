@@ -116,20 +116,32 @@
       });
     });
 
-    // Comptador als mòduls: les seccions que pengen directament del grup.
+    // Comptador als mòduls i als subgrups (com la 4.7, amb la 4.7.1 i la
+    // 4.7.2): el porta tot grup que tingui alguna secció penjada directament,
+    // i compta totes les seccions de dins, també les dels subgrups. El grup del
+    // curs no en porta, perquè dins només hi té mòduls.
     var grups = document.querySelectorAll(".md-sidebar--primary li.md-nav__item--nested");
     grups.forEach(function (grup) {
       var etiqueta = grup.querySelector(":scope > label.md-nav__link, :scope > a.md-nav__link");
       var llista = grup.querySelector(":scope > nav > ul.md-nav__list");
       if (!etiqueta || !llista) return;
 
-      var total = 0, fetes = 0;
+      var directa = false;
       llista.querySelectorAll(":scope > li.md-nav__item").forEach(function (li) {
         var cami = li.dataset.progresCami;
-        if (!cami || !esDeCurs(cami) || !esSeccio(cami)) return;
-        total++;
-        if (dades.llegides[cami] || exerciciFet(dades, cami)) fetes++;
+        if (cami && esDeCurs(cami) && esSeccio(cami)) directa = true;
       });
+
+      var total = 0, fetes = 0;
+      if (directa) {
+        llista.querySelectorAll("li.md-nav__item").forEach(function (li) {
+          if (li.closest(".md-nav--secondary")) return;
+          var cami = li.dataset.progresCami;
+          if (!cami || !esDeCurs(cami) || !esSeccio(cami)) return;
+          total++;
+          if (dades.llegides[cami] || exerciciFet(dades, cami)) fetes++;
+        });
+      }
 
       var vell = etiqueta.querySelector(":scope > .progres-comptador");
       if (vell) vell.remove();

@@ -1,11 +1,12 @@
-# 4.7. Treballar amb el cadastre
+# 4.7.2. Treballar amb el cadastre
 
 ## Objectiu
 
 En acabar sabràs anar de la referència cadastral al mapa i del mapa a la
-referència, i obrir la fitxa oficial d'una parcel·la. La **referència
-cadastral** és el codi que identifica cada parcel·la: és el que demana
-qualsevol tràmit i el que el Cadastre entén.
+referència, i obrir la fitxa oficial d'una parcel·la. En aquesta secció
+faràs servir la **referència cadastral** de 14 caràcters, la que identifica la
+parcel·la ([4.7.1](07-referencia-cadastral.md)). És la que demana qualsevol
+tràmit i la que el Cadastre entén.
 
 ## Passos
 

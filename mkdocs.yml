@@ -187,7 +187,9 @@ nav:
               - "4.4. Cercar un lloc i obtenir coordenades": formacio/basic/modul-4-visor/04-localitzar-coordenades.md
               - "4.5. Cercar i carregar capes temàtiques": formacio/basic/modul-4-visor/05-capes-tematiques.md
               - "4.6. Consulta dels atributs de les capes carregades": formacio/basic/modul-4-visor/06-consulta-atributs.md
-              - "4.7. Treballar amb el cadastre": formacio/basic/modul-4-visor/07-cadastre.md
+              - "4.7. Cadastre":
+                  - "4.7.1. La referència cadastral": formacio/basic/modul-4-visor/07-referencia-cadastral.md
+                  - "4.7.2. Treballar amb el cadastre": formacio/basic/modul-4-visor/07-cadastre.md
               - "4.8. Imprimir": formacio/basic/modul-4-visor/08-imprimir.md
               - "4.9. Visualitzar fitxers de cartografia": formacio/basic/modul-4-visor/09-fitxers-propis.md
           - "Mòdul 5. Prova escrita d'avaluació": formacio/basic/modul-5-avaluacio.md
