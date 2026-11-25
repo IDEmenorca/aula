@@ -31,8 +31,7 @@ visor restringit, al qual només hi accedeix el personal autoritzat.
 
 ## Requisits
 
-Haver fet el [curs bàsic](../basic/index.md) o moure's amb solvència pel visor
-genèric.
+Haver fet el [curs bàsic](../basic/index.md).
 
 Per al mòdul 4 cal, a més, tenir accés al visor restringit. Si no en tens,
 la part pràctica no es pot seguir.
