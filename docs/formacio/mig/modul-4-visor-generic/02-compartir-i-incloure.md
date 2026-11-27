@@ -24,13 +24,9 @@ una pàgina web.
       marcadors.
 
     <figure markdown>
-      ![Panell Compartir amb les icones de correu, QR, Facebook, X i marcador, i les pestanyes Compartir enllaç i Insertar mapa](../../../manuals/visor-generic/03-eines/img/50-compartir-panell.png){ .captura }
+      ![El visor amb el panell Compartir obert a l'esquerra: les icones de correu, QR, Facebook, Twitter i marcador, la pestanya Compartir enllaç triada, l'adreça i els botons Escurçar i Copiar](img/02-compartir-panell.png){ .captura }
       <figcaption>L'enllaç generat conserva l'estat sencer del visor.</figcaption>
     </figure>
-
-    !!! note "Captura pendent — `img/02-compartir-panell.png`"
-        El panell Compartir, amb la pestanya Compartir enllaç. De moment hi ha
-        la del manual.
 
     !!! warning "Si no el pot escurçar"
         Com més coses hi ha carregades, més llarg és l'enllaç. Si l'escurçador
@@ -52,22 +48,22 @@ una pàgina web.
         primers.
 
 4. **Incrusta el visor en una pàgina web.** A la pestanya **Insertar mapa**
-   surt el codi HTML (una etiqueta `<iframe>`) per enganxar a la pàgina, amb la
-   mida que indiquis.
+   surt el codi HTML (una etiqueta `<iframe>`) per enganxar a la pàgina, amb una
+   mida fixa, que pots canviar al codi abans d'enganxar-lo.
 
     <figure markdown>
-      ![Pestanya Insertar mapa amb el codi de l'etiqueta iframe i el botó de copiar](../../../manuals/visor-generic/03-eines/img/51-insertar-mapa.png){ .captura }
+      ![El visor amb el panell Compartir obert a l'esquerra i la pestanya Insertar mapa triada: el codi de l'etiqueta iframe, que comença amb una amplada de 600 píxels, i el botó Copiar](img/02-insertar-mapa.png){ .captura }
       <figcaption>El codi surt amb una amplada i una alçada fixes.</figcaption>
     </figure>
-
-    !!! note "Captura pendent — `img/02-insertar-mapa.png`"
-        La pestanya Insertar mapa, amb el codi a punt de copiar. De moment hi ha
-        la del manual.
 
     !!! warning "Abans d'enganxar-lo"
         - La mida és fixa en píxels: en una pantalla petita es pot desmuntar.
         - L'adreça ha de començar per `https://`. Si la pàgina és segura, el
           navegador bloqueja els mapes que arriben per `http://`.
+
+!!! note "Captures per refer"
+    Quan el visor digui «Dibuixar i mesurar» en lloc de «Dibuixar i medir»,
+    s'hauran de tornar a fer les dues captures d'aquesta secció.
 
 ## Exercici: un mapa per enviar
 
