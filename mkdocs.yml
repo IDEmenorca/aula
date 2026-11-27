@@ -196,7 +196,10 @@ nav:
           - "Mòdul 5. Prova escrita d'avaluació": formacio/basic/modul-5-avaluacio.md
       - Curs mitjà:
           - Presentació del curs mitjà: formacio/mig/index.md
-          - "Mòdul 1. Repàs dels continguts bàsics": formacio/mig/modul-1-repas.md
+          - "Mòdul 1. Refrescant conceptes clau":
+              - Presentació del mòdul 1: formacio/mig/modul-1-conceptes-clau/index.md
+              - "1.1. Sistemes de referència: què passa quan tocam l'EPSG del visor?": formacio/mig/modul-1-conceptes-clau/01-sistemes-de-referencia.md
+              - "1.2. Els elements d'un mapa: l'escala de representació": formacio/mig/modul-1-conceptes-clau/02-escala.md
           - "Mòdul 2. Les IDE a fons": formacio/mig/modul-2-ide-a-fons.md
           - "Mòdul 3. Les eines del projecte IDE Menorca": formacio/mig/modul-3-eines-projecte.md
           - "Mòdul 4. Visor genèric IDE Menorca":

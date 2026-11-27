@@ -13,7 +13,7 @@ visor restringit, al qual només hi accedeix el personal autoritzat.
 
 | Mòdul | Títol | Durada |
 |---|---|---|
-| 1 | [Repàs dels continguts bàsics](modul-1-repas.md) | per decidir |
+| 1 | [Refrescant conceptes clau](modul-1-conceptes-clau/index.md) | per decidir |
 | 2 | [Les IDE a fons](modul-2-ide-a-fons.md) | per decidir |
 | 3 | [Les eines del projecte IDE Menorca](modul-3-eines-projecte.md) | 1 h |
 | 4 | [Visor genèric IDE Menorca](modul-4-visor-generic/index.md) | 5 h |

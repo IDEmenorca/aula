@@ -28,6 +28,10 @@ una pàgina web.
       <figcaption>L'enllaç generat conserva l'estat sencer del visor.</figcaption>
     </figure>
 
+    !!! note "Captura pendent — `img/02-compartir-panell.png`"
+        El panell Compartir, amb la pestanya Compartir enllaç. De moment hi ha
+        la del manual.
+
     !!! warning "Si no el pot escurçar"
         Com més coses hi ha carregades, més llarg és l'enllaç. Si l'escurçador
         diu que l'URL és massa llarga, treu alguna capa, dibuix o resultat de
@@ -56,13 +60,14 @@ una pàgina web.
       <figcaption>El codi surt amb una amplada i una alçada fixes.</figcaption>
     </figure>
 
+    !!! note "Captura pendent — `img/02-insertar-mapa.png`"
+        La pestanya Insertar mapa, amb el codi a punt de copiar. De moment hi ha
+        la del manual.
+
     !!! warning "Abans d'enganxar-lo"
         - La mida és fixa en píxels: en una pantalla petita es pot desmuntar.
         - L'adreça ha de començar per `https://`. Si la pàgina és segura, el
           navegador bloqueja els mapes que arriben per `http://`.
-
-!!! note "Captures pendents"
-    Se'n faran de noves per al curs. De moment hi ha les del manual.
 
 ## Exercici: un mapa per enviar
 

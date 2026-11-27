@@ -53,6 +53,10 @@ vedats de caça i la resta.
 </figure>
 </div>
 
+!!! note "Captures per refer"
+    Quan el visor digui «Dibuixar i mesurar» en lloc de «Dibuixar i medir»,
+    s'hauran de tornar a fer les sis captures d'aquesta secció.
+
 !!! tip "No cal escriure els zeros"
     A **Pol. Par.**, el visor completa els zeros: pots escriure «2» en lloc de
     «002».

@@ -29,6 +29,10 @@ d'un immoble a partir de la seva referència cadastral.
 4. **Llegeix l'informe.** S'obre en una pestanya nova. El de categories RPTI
    porta un mapa de la parcel·la per a cada tema.
 
+!!! note "Captures per refer"
+    Quan el visor digui «Dibuixar i mesurar» en lloc de «Dibuixar i medir»,
+    s'hauran de tornar a fer la captura d'aquesta secció.
+
 !!! warning "No és un document oficial"
     L'informe té només valor informatiu: es genera automàticament amb les dades
     de l'IDE Menorca. No substitueix l'informe que pugui fer l'administració
