@@ -25,8 +25,10 @@ Aquí aprendràs què pots fer amb el que has seleccionat.
 4. **Comparteix-los.** El botó **Compartir** del requadre fa un enllaç que torna
    a obrir aquesta mateixa selecció.
 
-!!! note "Captura pendent — `img/04-seleccio-tots-resultats.png`"
-    El requadre de resultats amb «Mostrar tots els resultats al mapa» activat.
+<figure markdown>
+  ![Requadre de resultats amb tres sobreeixidors seleccionats per recinte, la columna de botons del requadre ressaltada i, al mapa, els tres elements dins el recinte dibuixat també ressaltats](img/04-seleccio-tots-resultats.png){ .captura }
+  <figcaption>Amb el botó de la quadrícula activat, al mapa surten tots els elements seleccionats.</figcaption>
+</figure>
 
 ## Selecció alfanumèrica: les consultes
 
@@ -48,8 +50,10 @@ Ara no cerques **on és** una cosa, sinó **quines** compleixen una condició.
     Amaga la capa al panell de capes carregades: al mapa només hi quedaran els
     elements trobats.
 
-!!! note "Captura pendent — `img/04-consulta-dialeg.png`"
-    El diàleg de consulta amb dos criteris encadenats amb «i».
+<figure markdown>
+  ![Diàleg de consulta alfanumèrica de la capa Sobreeixidors amb els botons Afegir i Cercar ressaltats, i la llista amb dos criteris: dsestat igual que «Bo» i dsmun igual que «Es Castell»](img/04-consulta-dialeg.png){ .captura }
+  <figcaption>Cada criteri s'afegeix a la llista amb Afegir. Quan hi són tots, Cercar.</figcaption>
+</figure>
 
 ## Combinar-ho: el filtre espacial
 
