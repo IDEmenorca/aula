@@ -1,4 +1,4 @@
-# Mòdul 4. Visor restringit IDE Menorca
+# Mòdul 5. Visor restringit IDE Menorca
 
 Els visualitzadors restringits donen accés a informació que no és pública,
 destinada al personal tècnic de les administracions de Menorca.

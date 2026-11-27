@@ -1,8 +1,9 @@
-# 4.4. Accés als expedients des del visor restringit
+# 5.3. Eines bàsiques
 
 ## Objectiu
 
-En acabar aquesta secció sabràs obrir un expedient des del visor restringit.
+En acabar aquesta secció sabràs fer servir les eines bàsiques del visor
+restringit.
 
 ## Passos
 
@@ -11,7 +12,7 @@ En acabar aquesta secció sabràs obrir un expedient des del visor restringit.
     2. ...
     3. ...
 
-!!! note "Captura pendent — `img/04-expedients.png`"
+!!! note "Captura pendent — `img/03-eines-basiques.png`"
     Pendent de decidir què ha de mostrar. No pot ensenyar dades que no
     siguin públiques.
 

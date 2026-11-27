@@ -1,9 +1,9 @@
-# 4.3. Eines bàsiques
+# 5.2. Control de capes i mapes de fons
 
 ## Objectiu
 
-En acabar aquesta secció sabràs fer servir les eines bàsiques del visor
-restringit.
+En acabar aquesta secció sabràs carregar capes i canviar el mapa de fons al
+visor restringit.
 
 ## Passos
 
@@ -12,7 +12,7 @@ restringit.
     2. ...
     3. ...
 
-!!! note "Captura pendent — `img/03-eines-basiques.png`"
+!!! note "Captura pendent — `img/02-capes-i-mapes-de-fons.png`"
     Pendent de decidir què ha de mostrar. No pot ensenyar dades que no
     siguin públiques.
 

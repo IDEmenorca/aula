@@ -1,4 +1,4 @@
-# 4.1. Introducció als visualitzadors restringits
+# 5.1. Introducció als visualitzadors restringits
 
 ## Objectiu
 

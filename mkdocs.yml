@@ -196,23 +196,24 @@ nav:
           - "Mòdul 5. Prova escrita d'avaluació": formacio/basic/modul-5-avaluacio.md
       - Curs mitjà:
           - Presentació del curs mitjà: formacio/mig/index.md
-          - "Mòdul 1. Context de les Infraestructures de Dades Espacials": formacio/mig/modul-1-context-ide.md
-          - "Mòdul 2. Les eines del projecte IDE Menorca": formacio/mig/modul-2-eines-projecte.md
-          - "Mòdul 3. Visor genèric IDE Menorca":
-              - Presentació del mòdul 3: formacio/mig/modul-3-visor-generic/index.md
-              - "3.1. Revisió dels continguts i capes disponibles": formacio/mig/modul-3-visor-generic/01-continguts-i-capes.md
-              - "3.2. Compartir el mapa o incloure'l en una pàgina web": formacio/mig/modul-3-visor-generic/02-compartir-i-incloure.md
-              - "3.3. Metadades de la informació": formacio/mig/modul-3-visor-generic/03-metadades.md
-              - "3.4. Selecció espacial i alfanumèrica de dades espacials": formacio/mig/modul-3-visor-generic/04-seleccio-espacial-alfanumerica.md
-              - "3.5. Consultes dinàmiques": formacio/mig/modul-3-visor-generic/05-consultes-dinamiques.md
-              - "3.6. Localitzadors específics": formacio/mig/modul-3-visor-generic/06-localitzadors.md
-          - "Mòdul 4. Visor restringit IDE Menorca":
-              - Presentació del mòdul 4: formacio/mig/modul-4-visor-restringit/index.md
-              - "4.1. Introducció als visualitzadors restringits": formacio/mig/modul-4-visor-restringit/01-introduccio.md
-              - "4.2. Control de capes i mapes de fons": formacio/mig/modul-4-visor-restringit/02-capes-i-mapes-de-fons.md
-              - "4.3. Eines bàsiques": formacio/mig/modul-4-visor-restringit/03-eines-basiques.md
-              - "4.4. Accés als expedients des del visor restringit": formacio/mig/modul-4-visor-restringit/04-expedients.md
-          - "Mòdul 5. Prova escrita d'avaluació": formacio/mig/modul-5-avaluacio.md
+          - "Mòdul 1. Repàs dels continguts bàsics": formacio/mig/modul-1-repas.md
+          - "Mòdul 2. Les IDE a fons": formacio/mig/modul-2-ide-a-fons.md
+          - "Mòdul 3. Les eines del projecte IDE Menorca": formacio/mig/modul-3-eines-projecte.md
+          - "Mòdul 4. Visor genèric IDE Menorca":
+              - Presentació del mòdul 4: formacio/mig/modul-4-visor-generic/index.md
+              - "4.1. Revisió dels continguts i capes disponibles": formacio/mig/modul-4-visor-generic/01-continguts-i-capes.md
+              - "4.2. Compartir el mapa o incloure'l en una pàgina web": formacio/mig/modul-4-visor-generic/02-compartir-i-incloure.md
+              - "4.3. Metadades de la informació": formacio/mig/modul-4-visor-generic/03-metadades.md
+              - "4.4. Selecció espacial i alfanumèrica de dades espacials": formacio/mig/modul-4-visor-generic/04-seleccio-espacial-alfanumerica.md
+              - "4.5. Consultes dinàmiques": formacio/mig/modul-4-visor-generic/05-consultes-dinamiques.md
+              - "4.6. Localitzadors específics": formacio/mig/modul-4-visor-generic/06-localitzadors.md
+          - "Mòdul 5. Visor restringit IDE Menorca":
+              - Presentació del mòdul 5: formacio/mig/modul-5-visor-restringit/index.md
+              - "5.1. Introducció als visualitzadors restringits": formacio/mig/modul-5-visor-restringit/01-introduccio.md
+              - "5.2. Control de capes i mapes de fons": formacio/mig/modul-5-visor-restringit/02-capes-i-mapes-de-fons.md
+              - "5.3. Eines bàsiques": formacio/mig/modul-5-visor-restringit/03-eines-basiques.md
+              - "5.4. Accés als expedients des del visor restringit": formacio/mig/modul-5-visor-restringit/04-expedients.md
+          - "Mòdul 6. Prova escrita d'avaluació": formacio/mig/modul-6-avaluacio.md
   - Manuals d'usuari:
       - Presentació dels manuals: manuals/index.md
       - Manual del visor genèric:

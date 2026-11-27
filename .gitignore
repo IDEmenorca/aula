@@ -35,3 +35,10 @@ desktop.ini
 # Documents interns de treball. Vegeu _origen/README.md.
 _origen/*
 !_origen/README.md
+
+# --- Entorn de pràctiques (scripts d'operació — no publicar) ---
+/sql/
+/sql_pro/
+/geoserver_pro/
+/backup_geoserver/
+/reset_aula.bat

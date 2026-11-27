@@ -1,9 +1,8 @@
-# 4.2. Control de capes i mapes de fons
+# 5.4. Accés als expedients des del visor restringit
 
 ## Objectiu
 
-En acabar aquesta secció sabràs carregar capes i canviar el mapa de fons al
-visor restringit.
+En acabar aquesta secció sabràs obrir un expedient des del visor restringit.
 
 ## Passos
 
@@ -12,7 +11,7 @@ visor restringit.
     2. ...
     3. ...
 
-!!! note "Captura pendent — `img/02-capes-i-mapes-de-fons.png`"
+!!! note "Captura pendent — `img/04-expedients.png`"
     Pendent de decidir què ha de mostrar. No pot ensenyar dades que no
     siguin públiques.
 

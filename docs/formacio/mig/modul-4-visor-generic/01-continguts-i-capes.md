@@ -1,4 +1,4 @@
-# 3.1. Revisió dels continguts i capes disponibles
+# 4.1. Revisió dels continguts i capes disponibles
 
 ## Objectiu
 

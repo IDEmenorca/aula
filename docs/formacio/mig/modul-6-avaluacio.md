@@ -1,4 +1,4 @@
-# Mòdul 5. Prova escrita d'avaluació
+# Mòdul 6. Prova escrita d'avaluació
 
 Prova final del curs mitjà. Una hora.
 
