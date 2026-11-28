@@ -2,8 +2,9 @@
 
 ## Objectiu
 
-En acabar aquesta secció sabràs fer servir els localitzadors especialitzats: punts quilomètrics,
-vedats de caça i la resta.
+En acabar aquesta secció sabràs fer servir els localitzadors especialitzats:
+carrerer, fites del Camí de Cavalls, punts quilomètrics, vedats de caça,
+coordenades i polígon i parcel·la.
 
 ## Passos
 
@@ -58,7 +59,7 @@ vedats de caça i la resta.
     «002».
 
 !!! info "Tres sistemes de referència"
-    A **Coordenades** pots triar WGS84 Web Mercator, ETRS89 UTM 31N o WGS84. Si
+    A **Coordenades** pots triar WGS84 Web Mercator, ETRS89 31N o WGS84. Si
     les coordenades no et cauen on toca, comprova que has triat el sistema
     correcte.
 
@@ -68,6 +69,7 @@ vedats de caça i la resta.
 - [ ] **Fites**: troba la fita **03-003** del tram 3 del Camí de Cavalls.
 - [ ] **PK**: troba el punt quilomètric 1 de la **Me-13**.
 - [ ] **Vedats**: escriu **00001**. De quina finca és el vedat?
-- [ ] **Coordenades**: amb **WGS84 Web Mercator**, ves a X 474924, Y 4848903.
+- [ ] **Coordenades**: amb **WGS84 Web Mercator**, ves a X 474972, Y 4865531.
+  Quin far hi trobes?
 - [ ] **Pol. Par.**: troba una parcel·la del teu municipi.
 - [ ] Neteja-ho tot amb **Esborrar**.
