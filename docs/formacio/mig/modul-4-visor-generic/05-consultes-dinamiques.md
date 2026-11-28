@@ -20,18 +20,19 @@ d'un immoble a partir de la seva referència cadastral.
     [4.7.1 del curs bàsic](../../basic/modul-4-visor/07-referencia-cadastral.md).
 
     <figure markdown>
-      ![Panell Consultes dinàmiques amb el desplegable obert i les dues consultes: dades de l'immoble amb referència cadastral de 20 dígits i categories RPTI](img/05-consultes-dinamiques.png){ .captura }
+      ![Panell Consultes dinàmiques amb el desplegable obert i ressaltat, amb les dues consultes: dades de l'immoble amb referència cadastral de 20 dígits i categories RPTI](img/05-consultes-dinamiques.png){ .captura }
       <figcaption>Les dues consultes que hi ha ara mateix.</figcaption>
     </figure>
 
 3. **Escriu la referència cadastral** i prem **Executa**.
 
+    <figure markdown>
+      ![Panell Consultes dinàmiques amb la casella Referència Cadastral i el botó Executa ressaltats](img/05-consultes-referencia.png){ .captura }
+      <figcaption>La referència s'escriu a la casella de sota la llista.</figcaption>
+    </figure>
+
 4. **Llegeix l'informe.** S'obre en una pestanya nova. El de categories RPTI
    porta un mapa de la parcel·la per a cada tema.
-
-!!! note "Captures per refer"
-    Quan el visor digui «Dibuixar i mesurar» en lloc de «Dibuixar i medir»,
-    s'hauran de tornar a fer la captura d'aquesta secció.
 
 !!! warning "No és un document oficial"
     L'informe té només valor informatiu: es genera automàticament amb les dades

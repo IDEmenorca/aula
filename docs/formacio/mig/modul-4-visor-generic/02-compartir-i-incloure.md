@@ -61,10 +61,6 @@ una pàgina web.
         - L'adreça ha de començar per `https://`. Si la pàgina és segura, el
           navegador bloqueja els mapes que arriben per `http://`.
 
-!!! note "Captures per refer"
-    Quan el visor digui «Dibuixar i mesurar» en lloc de «Dibuixar i medir»,
-    s'hauran de tornar a fer les dues captures d'aquesta secció.
-
 ## Exercici: un mapa per enviar
 
 - [ ] Carrega una capa temàtica i fes zoom a una zona que coneguis.
