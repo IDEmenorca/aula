@@ -34,7 +34,7 @@ parts i trobar un lloc amb les eines del menú **Localitzar**.
 1. **A dalt a l'esquerra:** els menús **Localitzar** i **Eines**, i el quadre
    **On vols anar?**, que és un cercador general.
 2. **A dalt a la dreta:** el menú **Capes de Fons**.
-3. **A la dreta:** l'arbre de capes, amb les pestanyes **Abre**, **Afegir
+3. **A la dreta:** l'arbre de capes, amb les pestanyes **Arbre**, **Afegir
    capes** i **Llegenda**.
 4. **A baix:** la barra d'eines i l'escala.
 
