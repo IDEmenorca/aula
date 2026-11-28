@@ -6,8 +6,9 @@ destinada al personal tècnic de les administracions de Menorca.
 **Durada: 2 hores**
 
 !!! warning "Cal tenir-hi accés"
-    La part pràctica d'aquest mòdul no es pot seguir sense accés concedit. Si
-    encara no en tens, demana'l amb prou antelació.
+    La part pràctica d'aquest mòdul no es pot seguir sense accés. Al curs hi
+    entrareu amb un usuari de demostració: l'usuari i la contrasenya te'ls
+    donarem a classe.
 
 ## Seccions
 
