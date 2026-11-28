@@ -4,7 +4,7 @@ El gruix del curs mitjà. Es torna al visor genèric, però ara per treure'n el 
 el curs bàsic no toca: consultes, seleccions, metadades i localitzadors
 especialitzats.
 
-**Durada: 5 hores**
+**Durada: 4 hores**
 
 ## Seccions
 
