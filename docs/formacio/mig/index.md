@@ -34,9 +34,6 @@ visor restringit, al qual només hi accedeix el personal autoritzat.
 
 Haver fet el [curs bàsic](../basic/index.md).
 
-Per al mòdul 5 cal, a més, tenir accés al visor restringit. Si no en tens,
-la part pràctica no es pot seguir.
-
-!!! note "Pendent de redactar"
-    Com se sol·licita l'accés al visor restringit i amb quanta antelació, per
-    poder-ho dir als alumnes abans que comenci el curs.
+Per al mòdul 5 cal, a més, tenir accés al visor restringit. Als alumnes del
+curs se'ls donarà accés. Si no, el pots sol·licitar a
+[cartografia@cime.es](mailto:cartografia@cime.es).
